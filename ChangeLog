@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Dec 13 12:35:39 PST 2002
+Gleam/src/systests/ACDTop
+
+Modified Files:
+	RUN_mcDep_linux RUN_mcDep_Windows 
+Log Message:
+fix up scripts
+    *
+------------------------------------------------------------
 User: heather  Fri Dec 13 12:27:35 PST 2002
 Gleam/src/systests
 
