@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.38 2003/03/11 06:50:21 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.39 2003/04/03 21:05:40 chehtman Exp $
 
 // primary DLLs, including auditor 
 
@@ -103,12 +103,9 @@ TriggerAlg.mask = -1; // all bits on by default
 //
 
 ApplicationMgr.ExtSvc += { "GlastPropagatorSvc" };
-// the following sets the Gismo Propagator
-//GlastPropagatorSvc.PropagatorType = "gismo";
 
 ApplicationMgr.DLLs +={ 
-	"CalibSvc",
-    "Recon",
+    "CalibSvc",
     "CalRecon", "CalUtil", "TkrUtil",
     "TkrRecon"
     };

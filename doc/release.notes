@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.72 2003/04/03 21:12:18 chehtman Exp $
+ * $Id: release.notes,v 1.73 2003/06/12 21:17:39 burnett Exp $
 
+* v5r2   THB 04-jul-03   Remove Recon (with gismo remnant); add DetDisplay
 * v5r1p3 THB 15-jun-03   Have merit write out tuple in test_Gleam   
 * v5r1p2 AC  03-apr-03   Add CalibSvc to basicOptions for CalRecon   
 * v5r1p1 LSR 10-mar-03   Add GlastPropagatorSvc to basicOptions for new TkrRecon, AnalysisNtuple
