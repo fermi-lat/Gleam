@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: als  Fri May  3 16:09:25 PDT 2002
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+follow release conventions re: tabbing over new packages and updating
+release.notes
+
+
+    *
+------------------------------------------------------------
+User: als  Fri May  3 16:09:25 PDT 2002
 Gleam/cmt
 
 Modified Files:
