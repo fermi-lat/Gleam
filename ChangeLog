@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: als  Fri Nov  1 17:51:27 PST 2002
+Gleam/src/systests/AllGamma
+
+Added Files:
+	RUN_Windows systest_AllGamma.bat 
+Log Message:
+translation of Karl's systest scripts and macros to windows environment
+    *
+------------------------------------------------------------
 User: burnett  Fri Nov  1 16:52:27 PST 2002
 Gleam/cmt
 
