@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: als  Fri Nov  1 17:51:29 PST 2002
+Gleam/src/systests/VerticalProton1GeV
+
+Added Files:
+	RUN_Windows systest_VerticalProton1GeV.bat 
+Log Message:
+translation of Karl's systest scripts and macros to windows environment
+    *
+------------------------------------------------------------
+User: als  Fri Nov  1 17:51:29 PST 2002
 Gleam/src/systests/VerticalMuon1GeV
 
 Added Files:
