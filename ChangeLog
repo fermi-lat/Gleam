@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Wed Sep  4 15:04:15 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+idents, AcdDigi, AcdRecon -- fix to tile id problem
+    *
+------------------------------------------------------------
 User: burnett  Wed Sep  4 11:31:53 PDT 2002
 Gleam/src/test
 
