@@ -1,4 +1,23 @@
 ------------------------------------------------------------
+User: heather  Tue Dec 17 14:39:01 PST 2002
+Gleam/src/systests/ACDDigi
+
+Added Files:
+	TrgFragment.cxx systest_Gleam.cxx systest_ACDDigi.bat 
+	systest_ACDDigi RUN_Windows RUN_noise_Windows RUN_noise_linux 
+	RUN_linux RootTreeAnalysis.h ReconCalFragment.cxx 
+	ReconAcdFragment.cxx noiseTest.bat 
+	gamma_100MeV_miss_0stddev.txt gamma_100MeV_miss_0.1stddev.txt 
+	gamma_100MeV_miss_0.04stddev.txt 
+	gamma_100MeV_miss_0.02stddev.txt 
+	gamma_100MeV_miss_0.01stddev.txt DigiCalFragment.cxx 
+	DigiAcdFragment.cxx acdDigi_0stddev.xml acdDigi_0.1stddev.xml 
+	acdDigi_0.04stddev.xml acdDigi_0.02stddev.xml 
+	acdDigi_0.01stddev.xml 
+Log Message:
+add new ACD digi test
+    *
+------------------------------------------------------------
 User: heather  Tue Dec 17 14:27:28 PST 2002
 Gleam/src/systests/ACDDigi
 
