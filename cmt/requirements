@@ -1,8 +1,8 @@
 package Gleam
 
-version  v2r1p12
+version  v2r1p13
 # This is a checkout package
-# $Id: requirements,v 1.87 2002/06/11 00:59:36 burnett Exp $
+# $Id: requirements,v 1.88 2002/06/11 16:58:47 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
@@ -60,11 +60,11 @@ use AcdDigi     v1r1
 use Trigger     v3r3p3
 use Recon       v2r2p3
 
-use TkrRecon    v6r3p3
+use TkrRecon              v6r3p4
 use CalRecon    v5r5p2       
 
 #ROOT persistence: RootIo specifies the data packages
-use RootIo                v4r4p1
+use RootIo                v4r5
 
 #diagnostic and summary of bottom line
 use merit       v5r4
