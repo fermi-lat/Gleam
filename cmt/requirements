@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r2p1
 # This is a checkout package
-# $Id: requirements,v 1.94 2002/06/18 22:49:02 burnett Exp $
+# $Id: requirements,v 1.95 2002/06/20 00:04:06 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
@@ -47,7 +47,7 @@ use GlastSvc    v8r1p2
 
 use FluxSvc     v5r7
 use FluxDisplay v2r0p1
-use G4Generator         v4r1p5
+use G4Generator         v4r1p6
 
 #digitization
 use CalDigi     v1r0p1
