@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Jan 26 12:43:24 PST 2003
+Gleam/src
+
+Modified Files:
+	basicOptions.txt default.txt 
+Log Message:
+fix inconsistency with declaring root output
+    *
+------------------------------------------------------------
 User: kyoung  Tue Jan 21 11:19:20 PST 2003
 Gleam/src/systests/VerticalProton1GeV
 
