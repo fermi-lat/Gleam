@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.15 2003/01/26 20:50:27 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.16 2003/01/26 21:15:32 burnett Exp $
 
 // just run the "default" job with mods below
 #include "$GLEAMROOT/src/default.txt"
@@ -21,7 +21,7 @@ ApplicationMgr.EvtMax = 1000;
 MeritAlg.generated = 1000; // for estimation of Aeff--must be the same
 
 // set root output from merit with following
-//MeritAlg.RootFilename="merit.root"; 
+MeritAlg.RootFilename="merit.root"; 
 //==============================================================
 //
 // End of job options file
