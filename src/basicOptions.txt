@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.12 2002/06/01 17:32:07 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.13 2002/06/03 01:14:11 burnett Exp $
 
 // primary DLLs
 
@@ -14,8 +14,11 @@ ApplicationMgr.ExtSvc = {
     "GlastEventSelector/EventSelector" , 
     "EventCnvSvc"
     };
+
 EventPersistencySvc.CnvServices = {"EventCnvSvc"};
 EventSelector.Input = "NONE";
+
+ApplicationMgr.ExtSvc += {"ChronoStatSvc"};
 
 
 // ----------------------------
