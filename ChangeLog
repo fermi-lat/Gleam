@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Wed Mar  2 07:31:55 PST 2005
+Gleam/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+Cal-specific lines removed from test joboptions
+    *
+------------------------------------------------------------
+User: burnett  Wed Mar  2 07:31:55 PST 2005
 Gleam/src
 
 Modified Files:
