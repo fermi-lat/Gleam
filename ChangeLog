@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Sep 28 20:00:35 PDT 2003
+Gleam/src
+
+Modified Files:
+	default.txt jobOptions.txt 
+Log Message:
+fix to use ExposureAlg
+    *
+------------------------------------------------------------
 User: burnett  Tue Sep  2 16:39:14 PDT 2003
 Gleam/doc
 
