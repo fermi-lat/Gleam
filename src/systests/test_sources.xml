@@ -1,7 +1,7 @@
 
 <source_library>
    <!--
-       $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/systests/test_sources.xml,v 1.5 2002/11/19 23:12:04 heather Exp $
+       $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/systests/test_sources.xml,v 1.6 2002/11/20 20:22:19 heather Exp $
        Some simple test flux definitions for debugging
     -->
 
@@ -291,7 +291,7 @@
        </spectrum>
      </source>
 
-    <source name="muon_pencil_300MeV_center_acdtop">
+    <source name="muon_patch_300MeV_centerTile0022_acdtop">
        <spectrum escale="MeV">
          <particle name="mu+"><energy e="300"/> </particle>
            <solid_angle mincos="0.25" maxcos="1.0" />
