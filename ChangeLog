@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Sun Sep  1 20:29:50 PDT 2002
+Gleam/src/systests/CALSingleCrystal
+
+Added Files:
+	systest_Gleam.cxx McFragment.cxx DigiCalFragment.cxx 
+Log Message:
+Root macros for test
+    *
+------------------------------------------------------------
 User: richard  Sun Sep  1 20:28:06 PDT 2002
 Gleam/src/systests/CALSingleCrystal
 
