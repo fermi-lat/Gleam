@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: kyoung  Tue Sep 10 18:20:47 PDT 2002
+Gleam/src/systests/VerticalProton1GeV
+
+Modified Files:
+	systest_Gleam.cxx 
+Added Files:
+	ReconTkrFragment.cxx 
+Log Message:
+Add Tracy's ReconTkrFragment.cxx to systests
+    *
+------------------------------------------------------------
+User: kyoung  Tue Sep 10 18:20:47 PDT 2002
 Gleam/src/systests/VerticalMuon1GeV
 
 Modified Files:
