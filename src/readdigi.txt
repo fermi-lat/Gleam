@@ -2,7 +2,7 @@
 //
 // Job options file for Gleam job to read default digi root file
 
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.5 2003/06/12 21:17:40 burnett Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.6 2004/08/10 20:58:08 heather Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
@@ -17,7 +17,7 @@ Generator.Members = {} ; // turn off generation
 
 Digitization.Members = {"digiRootReaderAlg"}; // replace digi algs.
 
-digiRootReaderAlg.digiRootFile="digi.root";
+digiRootReaderAlg.digiRootFile="$(ROOTTESTDATAROOT)/data/default/digi.root";
 
 Output.Members = {}; // turn off root output 
 
