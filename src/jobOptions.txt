@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header:$
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.1 2002/05/02 14:32:08 burnett Exp $
 
 ApplicationMgr.DLLs   = { 
     "GlastSvc", 
@@ -23,7 +23,7 @@ EventSelector.Input = "NONE";
 
 
 ApplicationMgr.TopAlg = {
-    "FluxAlg", "FluxDisplay",
+    "FluxAlg", 
     "G4Generator",
     "HitDisplay"    
     };
