@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: srobinsn  Wed Oct 29 13:04:15 PST 2003
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+exposureAlg moved into generator sequence
+
+    *
+------------------------------------------------------------
 User: burnett  Mon Oct 20 17:50:55 PDT 2003
 Gleam/doc
 
