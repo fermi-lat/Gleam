@@ -1,8 +1,8 @@
 package Gleam
 
-version  v5r2p4
+version  v5r3
 
-# $Id: requirements,v 1.207 2003/08/14 23:52:05 burnett Exp $
+# $Id: requirements,v 1.209 2003/08/15 13:01:19 burnett Exp $
 
 use GuiSvc      v*
 
@@ -30,6 +30,10 @@ use DetDisplay  v*
 use TkrRecon    v*
 use CalRecon    v* 
 use AcdRecon    v*       
+
+#level 1 filter
+use EbfWriter   v*
+use OnboardFilter v*
 
 #ROOT persistence: RootIo specifies the data packages
 use RootIo      v*
