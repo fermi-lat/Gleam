@@ -1,8 +1,10 @@
 /** @file release.notes
  * @brief package Gleam <pre>
  * package manager:T.Burnett
- * $Id: release.notes,v 1.66 2002/11/19 22:15:19 heather Exp $
+ * $Id: release.notes,v 1.67 2002/11/21 21:51:46 burnett Exp $
 
+* v4r1   THB 28-nov-02     
+     use Event             v9r5p1
 * v4   THB 21-nov-02     
      use Event             v9r5
      use TkrRecon          v8r5p1
