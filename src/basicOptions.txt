@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.21 2002/08/29 20:37:46 srobinsn Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.22 2002/08/31 14:01:27 burnett Exp $
 
 // primary DLLs
 
@@ -63,7 +63,6 @@ GlastDetSvc.visitorMode="recon";
 //
 ApplicationMgr.DLLs +={ "G4Generator"};
 Generator.Members = {"FluxAlg", "G4Generator"};
-Generator.BranchMembers = {"FluxAlg","ExposureAlg"};
 #include "$FLUXSVCROOT/src/defaultOptions.txt"
 
 // Append (or replace) the list of source library documents
