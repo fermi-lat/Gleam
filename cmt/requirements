@@ -3,13 +3,13 @@ package Gleam
 version v1r1
 
 # This is a checkout package
-# $Id: requirements,v 1.33 2002/05/03 23:09:25 als Exp $
+# $Id: requirements,v 1.34 2002/05/07 16:32:25 als Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
 
 # ROOT add-on
-use ROOT        	v3r2p8
+use ROOT        	v3r2p9
 use RootHistCnv v5r0p1
 
 # basic Glast packages
