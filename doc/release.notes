@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.83 2003/10/21 00:50:55 burnett Exp $
+ * $Id: release.notes,v 1.84 2003/11/15 16:08:31 burnett Exp $
 
+* v6r6   THB 29-jan-03   Turning on the Tracker Iterative Recon (Tracy)
 * v5r5p1 THB 15-nov-03   put stopping alg into the gui options 
 * v5r4   THB 20-oct-03   move merit and OnboardFilter into default 
 * v5r4   THB 28-sep-03   new merit, ExposureAlg 
