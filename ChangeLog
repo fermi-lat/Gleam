@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: als  Thu May  2 14:54:42 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+use GaudiSys v9r0p6
+use mcRootData v2r1p1
+use FluxSvc v5r5p1
+
+
+    *
+------------------------------------------------------------
 User: burnett  Thu May  2 07:43:24 PDT 2002
 Gleam/src
 
