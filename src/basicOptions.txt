@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.46 2003/10/21 00:49:26 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.47 2003/10/29 21:04:14 srobinsn Exp $
 
 // primary DLLs, including auditor 
 
@@ -116,6 +116,7 @@ Reconstruction.Members={
       "Sequencer/Cal1", 
       "Sequencer/Tkr",
       "Sequencer/Cal2",
+      "Sequencer/TkrIter",
       "Sequencer/Acd"
       };
          
@@ -147,10 +148,13 @@ Cal1.Members = {
       "CalClustersAlg/first"
       };
 Tkr.Members = {
-      "TkrReconAlg"
+      "TkrReconAlg/FirstPass"
       };
 Cal2.Members = {
       "CalClustersAlg/second"
+      };
+TkrIter.Members = {
+      "TkrReconAlg/Iteration"
       };
 second.OutputLevel=5;  // since this guy generates INFO lines
 // ----------------------------
