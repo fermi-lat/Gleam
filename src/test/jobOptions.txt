@@ -1,14 +1,10 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.4 2002/05/16 13:07:40 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.1 2002/05/16 20:44:55 burnett Exp $
 
-#include "$GLEAMROOT/src/basicOptions.txt"
-#include "$GLEAMROOT/src/guiOptions.txt"
-
-FluxAlg.source_name="muon_pencil_angle";
-ApplicationMgr.EvtMax  = "10";	
-MessageSvc.OutputLevel = 2;
+// just run the "default" job
+#include "$GLEAMROOT/src/default.txt"
 
 //==============================================================
 //
