@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: heather  Tue Nov 19 15:12:36 PST 2002
+Gleam/src/systests/ACDTop
+
+Added Files:
+	DigiAcdFragment.cxx DigiCalFragment.cxx McFragment.cxx 
+	RUN_Windows RUN_linux ReconAcdFragment.cxx 
+	ReconCalFragment.cxx ReconTkrFragment.cxx RootTreeAnalysis.h 
+	TrgFragment.cxx basicOptionsOnlyACD.txt jobOptions.txt 
+	systest_ACDTop systest_ACDTop.bat systest_Gleam.cxx 
+Log Message:
+first test for ACD
+    *
+------------------------------------------------------------
 User: heather  Tue Nov 19 15:12:04 PST 2002
 Gleam/src/systests
 
