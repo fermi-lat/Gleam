@@ -2,7 +2,7 @@
 //
 // Job options file for Gleam job to run detault source for 10K events
 
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/default.txt,v 1.9 2002/09/08 03:50:51 burnett Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/default.txt,v 1.10 2003/01/26 20:43:24 burnett Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
@@ -12,6 +12,9 @@
 
 FluxAlg.source_name="default";
 
+// setup onboard filter analysis
+ApplicationMgr.DLLs += {"EbfWriter", "OnboardFilter"};
+Triggered.Members += {"EbfWriter", "OnboardFilter"};
 
 // setup up merit to monitor the output
 ApplicationMgr.DLLs   += {"merit"};
