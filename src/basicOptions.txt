@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.47 2003/10/29 21:04:14 srobinsn Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.48 2004/01/29 19:42:02 usher Exp $
 
 // primary DLLs, including auditor 
 
@@ -83,7 +83,7 @@ FluxSvc.source_lib += {
 //
 ApplicationMgr.DLLs +={ "TkrDigi", "CalDigi", "AcdDigi"  };
 Digitization.Members = { 
-    "TkrSimpleDigiAlg", 
+    "TkrDigiAlg", 
     "CalDigiAlg", 
     "AcdDigiAlg"};
 
