@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Apr  3 18:41:06 PDT 2005
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+restore 1000 events
+    *
+------------------------------------------------------------
 TAG
 Tag name: v5r12p1, operation: add
 Package: Gleam
