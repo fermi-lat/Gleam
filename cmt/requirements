@@ -1,9 +1,9 @@
 package Gleam
 
-version  v2r2
+version  v2r1p1
 
 # This is a checkout package
-# $Id: requirements,v 1.52 2002/05/16 16:09:41 burnett Exp $
+# $Id: requirements,v 1.53 2002/05/16 20:05:54 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
@@ -62,7 +62,7 @@ use CalRecon    v5r1
 
 
 #ROOT persistence
-use mcRootData  v2r1p3
+use mcRootData          v2r2
 use RootIo      v2r0p1
 
 
