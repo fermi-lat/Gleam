@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Mon Jul 22 07:46:07 PDT 2002
+Gleam/src
+
+Modified Files:
+	guiOptions.txt 
+Log Message:
+
+tagging v2r2p5 -- see release.notes; also GuiSvc about new IRunable interface 
+    *
+------------------------------------------------------------
 User: burnett  Mon Jul 22 07:46:06 PDT 2002
 Gleam/doc
 
