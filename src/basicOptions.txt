@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.11 2002/05/29 03:44:53 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.12 2002/06/01 17:32:07 burnett Exp $
 
 // primary DLLs
 
@@ -108,7 +108,7 @@ TkrInitSvc.TrackerReconType = 0;    // = 0 for Link and Tree, = 1 for Combo
 
 Cal1.Members = { 
       "CalXtalRecAlg", 
-      "CalClustersAlg/first",
+      "CalClustersAlg/first"
       };
 Tkr.Members = {
       "TkrClusterAlg", 
