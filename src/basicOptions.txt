@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.57 2005/02/16 01:19:08 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.58 2005/02/16 05:07:55 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -139,8 +139,9 @@ ApplicationMgr.ExtSvc   += { "TkrInitSvc"};
 // -------------------------------------------
 // Calorimeter services
 //
-ApplicationMgr.DLLs += {"CalXtalResponse"};
-ApplicationMgr.ExtSvc += {"CalCalibSvc"};
+// comment out since backed off
+//ApplicationMgr.DLLs += {"CalXtalResponse"};
+//ApplicationMgr.ExtSvc += {"CalCalibSvc"};
 
 
 // Start up a CalibDataSvc 
