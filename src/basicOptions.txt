@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.29 2002/10/20 22:07:45 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.30 2002/12/18 22:44:13 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -102,7 +102,7 @@ TriggerAlg.mask = -1; // all bits on by default
 //
 ApplicationMgr.DLLs +={ 
     "Recon",
-    "CalRecon",
+    "CalRecon", "CalUtil",
     "TkrRecon"
     };
 Reconstruction.Members={ 
