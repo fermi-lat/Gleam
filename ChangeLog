@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Fri Dec 13 12:27:00 PST 2002
+Gleam/src/systests/ACDTop
+
+Added Files:
+	muon_300MeV_patch_run1.txt muon_300MeV_patch_run2.txt 
+	muon_300MeV_patch_run3.txt muon_300MeV_patch_run4.txt 
+	muon_300MeV_patch_run5.txt 
+Log Message:
+MIP patch test
+    *
+------------------------------------------------------------
 User: heather  Fri Dec 13 12:25:53 PST 2002
 Gleam/src/systests/ACDTop
 
