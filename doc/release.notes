@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.86 2004/02/28 19:11:44 burnett Exp $
+ * $Id: release.notes,v 1.87 2004/04/29 20:52:34 cohen Exp $
 
+* v5r7   THB 12-may-04   GRB not loaded by Gaudi anymore -- finish the job 
 * v5r6p2 JCT 29-apr-04   GRB not loaded by Gaudi anymore 
 * v5r6p1 THB 28-feb-04   Switch to TrkDigiAlg
 * vrr6   THB 29-jan-04   Turning on the Tracker Iterative Recon (Tracy)
