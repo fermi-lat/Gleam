@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: burnett  Mon Sep  2 16:20:13 PDT 2002
+Gleam/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+
+restore test joboptions; ready for new tag, v2r2p10
+    *
+------------------------------------------------------------
+User: burnett  Mon Sep  2 16:20:13 PDT 2002
 Gleam/doc
 
 Modified Files:
