@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Mon Oct 14 08:26:37 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+updating GuiSvc, FluxSvc, TkrDigi, TrkRecon, CalDigi
+    *
+------------------------------------------------------------
 User: kyoung  Thu Oct 10 18:21:46 PDT 2002
 Gleam/src/systests/CALSingleCrystal
 
