@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: kyoung  Wed Sep 18 15:21:28 PDT 2002
+Gleam/src/systests/VerticalGamma100MeV
+
+Modified Files:
+	ReconCalFragment.cxx RootTreeAnalysis.h systest_Gleam.cxx 
+Added Files:
+	DigiAcdFragment.cxx ReconAcdFragment.cxx TrgFragment.cxx 
+	systest_VerticalGamma100MeV 
+Log Message:
+Added ACD, Trigger sections plus some cleanup
+    *
+------------------------------------------------------------
 User: kyoung  Wed Sep 18 15:21:19 PDT 2002
 Gleam/src/systests/CALSingleCrystal
 
