@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Sat May 11 16:41:50 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+remove CalRecon and TkrRecon since are not yet compatible, so rest of package can be tested
+    *
+------------------------------------------------------------
 User: burnett  Sat May 11 16:02:04 PDT 2002
 Gleam/src
 
