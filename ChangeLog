@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: kyoung  Wed Sep 18 15:20:38 PDT 2002
+Gleam/src/systests/AllGamma
+
+Modified Files:
+	ReconCalFragment.cxx RootTreeAnalysis.h systest_Gleam.cxx 
+Added Files:
+	DigiAcdFragment.cxx ReconAcdFragment.cxx TrgFragment.cxx 
+Log Message:
+Added ACD, Trigger sections plus some cleanup
+    *
+------------------------------------------------------------
 User: burnett  Wed Sep 18 12:13:49 PDT 2002
 Gleam/cmt
 
