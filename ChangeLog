@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Wed Aug 28 11:59:35 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+RootIo which now gets RootPolicy
+    *
+------------------------------------------------------------
 User: burnett  Tue Aug 27 12:42:13 PDT 2002
 Gleam/cmt
 
