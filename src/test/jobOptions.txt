@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.16 2003/01/26 21:15:32 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.17 2003/06/12 21:09:49 burnett Exp $
 
 // just run the "default" job with mods below
 #include "$GLEAMROOT/src/default.txt"
@@ -20,8 +20,13 @@ Output.Members={}; // turn off any root ouptut
 ApplicationMgr.EvtMax = 1000;
 MeritAlg.generated = 1000; // for estimation of Aeff--must be the same
 
-// set root output from merit with following
+ApplicationMgr.DLLs += {"ntupleWriterSvc"};
+ApplicationMgr.ExtSvc += {"RootTupleSvc"};
+
+// set root output from merit with following (first is now only a flag to create a tuple)
 MeritAlg.RootFilename="merit.root"; 
+RootTupleSvc.filename="merit.root";
+RootTupleSvc.TreeName="MeritTuple";
 //==============================================================
 //
 // End of job options file
