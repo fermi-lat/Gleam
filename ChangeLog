@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kyoung  Mon Nov  4 17:38:10 PST 2002
+Gleam/src/systests/VerticalProton1GeV
+
+Modified Files:
+	systest_Gleam.cxx 
+Log Message:
+Fix single crystal test; turn off Root output
+    *
+------------------------------------------------------------
 User: kyoung  Mon Nov  4 17:38:09 PST 2002
 Gleam/src/systests/VerticalMuon1GeV
 
