@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kyoung  Mon Nov  4 17:38:09 PST 2002
+Gleam/src/systests/VerticalGamma100MeV
+
+Modified Files:
+	systest_Gleam.cxx 
+Log Message:
+Fix single crystal test; turn off Root output
+    *
+------------------------------------------------------------
 User: kyoung  Mon Nov  4 17:38:08 PST 2002
 Gleam/src/systests/CALSingleCrystal
 
