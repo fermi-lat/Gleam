@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/systests/BackGndAvg/jobOptions.txt,v 1.1 2002/09/10 02:48:28 kyoung Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/systests/BackGndAvg/jobOptions.txt,v 1.2 2002/10/15 22:59:44 kyoung Exp $
 //##############################################################
 //
 // Job options file for user algorithm development
@@ -35,7 +35,7 @@ reconRootWriterAlg.reconRootFile = "recon.root";
 
 FluxSvc.source_lib = {"$(GLEAMROOT)/src/systests/test_sources.xml"};
 FluxAlg.source_name="backgndavg";
-ApplicationMgr.EvtMax = 5000;
+ApplicationMgr.EvtMax = 50000;
 
 GlastRandomSvc.RunNumber = 50;
 GlastRandomSvc.InitialSequenceNumber = 0;
