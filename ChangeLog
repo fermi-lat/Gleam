@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: burnett  Wed Dec 18 14:44:13 PST 2002
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Added Files:
+	tuple.txt 
+Log Message:
+Add new example joboptions file for summary tuple output.
+    *
+------------------------------------------------------------
 User: heather  Tue Dec 17 14:39:01 PST 2002
 Gleam/src/systests/ACDDigi
 
