@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.18 2003/08/25 23:44:05 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.19 2003/09/29 03:00:35 burnett Exp $
 
 // just run the "default" job with mods below
 #include "$GLEAMROOT/src/default.txt"
@@ -19,9 +19,6 @@ Output.Members={}; // turn off any root ouptut
 // Number of events to process
 ApplicationMgr.EvtMax = 1000;
 MeritAlg.generated = 1000; // for estimation of Aeff--must be the same
-
-ApplicationMgr.DLLs += {"ntupleWriterSvc"};
-ApplicationMgr.ExtSvc += {"RootTupleSvc"};
 
 
 //==============================================================
