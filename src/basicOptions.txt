@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.13 2002/06/03 01:14:11 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.14 2002/06/07 04:02:12 burnett Exp $
 
 // primary DLLs
 
@@ -123,6 +123,11 @@ Cal2.Members = {
       "CalClustersAlg/second"
       };
 
+// ----------------------------
+//   ACD recon
+//
+ApplicationMgr.DLLs += {"AcdRecon"};
+Reconstruction.Members += {"AcdReconAlg"};
 
 // ----------------------------
 //   Output
