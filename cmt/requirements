@@ -2,7 +2,7 @@ package Gleam
 
 version  v5r0p6
 
-# $Id: requirements,v 1.199 2003/02/03 20:04:16 burnett Exp $
+# $Id: requirements,v 1.200 2003/02/20 17:27:10 usher Exp $
 
 use GuiSvc      v*
 
@@ -34,6 +34,7 @@ use RootIo      v*
 
 #diagnostic and summary of bottom line
 use merit       v*
+use AnalysisNtuple v*
 
 ### define a simple executable wth GUI
 
