@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Mon Oct 20 17:49:26 PDT 2003
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+move filter and merit into default.
+    *
+------------------------------------------------------------
 User: burnett  Mon Oct 20 04:58:37 PDT 2003
 Gleam/src/test
 
