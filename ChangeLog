@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Sun Sep  1 13:43:41 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+introduce new Geant4Runtime, used in G4Generator, so a new tag for it.
+    *
+------------------------------------------------------------
 User: burnett  Sat Aug 31 08:24:24 PDT 2002
 Gleam/src
 
