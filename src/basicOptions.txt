@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.7 2002/05/23 21:19:17 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.8 2002/05/25 03:21:59 burnett Exp $
 
 // primary DLLs
 
@@ -120,7 +120,8 @@ CalReco.Members = {
 ApplicationMgr.DLLs +={ 
     "RootIo"
 }; 
-//Output.Members += {"   "};
+Output.Members += {"mcRootWriterAlg", "digiRootWriterAlg", "reconRootWriterAlg"};
+
 
 // Set output level threshold (2=DEBUG, 3=INFO, 4=WARNING, 5=ERROR, 6=FATAL )
 MessageSvc.OutputLevel = 2;
