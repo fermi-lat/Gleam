@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Jan  6 09:40:34 PST 2005
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+disable IM, change to basicOptions
+    *
+------------------------------------------------------------
 User: burnett  Thu Jan  6 09:35:17 PST 2005
 Gleam/src/test
 
