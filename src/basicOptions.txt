@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.26 2002/09/18 02:12:29 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.27 2002/10/08 22:09:06 kyoung Exp $
 
 // primary DLLs, including auditor 
 
@@ -56,19 +56,22 @@ GlastDetSvc.topVolume="LAT";
 //GlastDetSvc.topVolume="trayReg";
 //GlastDetSvc.topVolume="trayBot";
 
+
+GlastDetSvc.xmlfile="$(XMLGEODBSROOT)/xml/flight/flightSegVols.xml";
+GlastDetSvc.visitorMode="recon";
+
 // ----------------------------
 //  Randoms definition
 //
 ApplicationMgr.ExtSvc += { "GlastRandomSvc"};
-
-GlastDetSvc.xmlfile="$(XMLGEODBSROOT)/xml/flight/flightSegVols.xml";
-GlastDetSvc.visitorMode="recon";
 
 // ----------------------------
 //  Generation or input
 //
 ApplicationMgr.DLLs +={ "G4Generator"};
 Generator.Members = {"FluxAlg", "G4Generator"};
+G4Generator.defaultCutValue=0.7; // instead of 0.1 default
+
 #include "$FLUXSVCROOT/src/defaultOptions.txt"
 
 // Append (or replace) the list of source library documents
