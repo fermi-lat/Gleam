@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: burnett  Wed Mar 27 14:43:00 PST 2002
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+
+tag v0r5, now a real checkout package
+    *
+------------------------------------------------------------
+User: burnett  Wed Mar 27 14:43:00 PST 2002
 Gleam/cmt
 
 Modified Files:
