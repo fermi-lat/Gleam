@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: srobinsn  Thu Aug 29 13:37:46 PDT 2002
+Gleam/src
+
+Modified Files:
+	basicOptions.txt default.txt 
+Log Message:
+Top sequence loop added, to utilize branching structure.
+
+    *
+------------------------------------------------------------
+User: srobinsn  Thu Aug 29 13:37:46 PDT 2002
 Gleam/cmt
 
 Modified Files:
