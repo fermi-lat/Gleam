@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: srobinsn  Mon Oct 14 12:48:06 PDT 2002
+Gleam/src/test
+
+Added Files:
+	userOptions.txt 
+Log Message:
+userOptions.txt added as an optional input file - defaults to using the exposureAlg/timetick infrastructure.
+
+    *
+------------------------------------------------------------
 User: burnett  Mon Oct 14 08:26:37 PDT 2002
 Gleam/cmt
 
