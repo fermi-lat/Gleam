@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.3 2002/05/16 20:43:44 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.4 2002/05/16 22:25:23 burnett Exp $
 
 // primary DLLs
 
@@ -107,7 +107,7 @@ TkrReco.Members = {
 Reconstruction.Members += {"Sequencer/CalReco"};
 CalReco.Members = {
     "CalXtalRecAlg", 
-    "CalClusterAlg"};
+    "CalClustersAlg"};
 
 
 // ----------------------------
