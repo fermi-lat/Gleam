@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Wed Sep 11 22:48:23 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+last try to get this right, Gleam now checks out and builds correctly on Windows
+
+    *
+------------------------------------------------------------
 User: lsrea  Wed Sep 11 21:28:56 PDT 2002
 Gleam/cmt
 
