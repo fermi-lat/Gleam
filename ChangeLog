@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: kyoung  Mon Sep  9 19:19:38 PDT 2002
+Gleam/src/systests/VerticalGamma1GeV
+
+Removed Files:
+	RUN 
+Log Message:
+
+renamed RUN file to OS specific RUN_linux
+    *
+------------------------------------------------------------
 User: kyoung  Mon Sep  9 19:18:31 PDT 2002
 Gleam/src/systests/CALSingleCrystal
 
