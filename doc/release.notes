@@ -1,7 +1,17 @@
 /** @file release.notes
  * package Gleam
  * package manager:T.Burnett
- * $Id: release.notes,v 1.50 2002/09/18 02:32:43 burnett Exp $
+ * $Id: release.notes,v 1.51 2002/09/26 14:14:02 burnett Exp $
+
+* v2r3p2 THB 03-oct-02
+
+       use xmlGeoDbs     v1r7p3
+       use Event         v9r3
+       use AcdDigi       v1r4p0
+       use TkrRecon      v8r2
+       use AcdRecon      v1r4       
+       use RootIo        v4r17
+       use merit         v5r11
 
 * v2r3p1 THB 27-sep-02
       use facilities      v2r6
