@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: kyoung  Mon Sep  9 19:48:28 PDT 2002
+Gleam/src/systests/BackGndAvg
+
+Added Files:
+	DigiCalFragment.cxx McFragment.cxx RUN_linux 
+	ReconCalFragment.cxx RootTreeAnalysis.h jobOptions.txt 
+	systest_BackGndAvg systest_Gleam.cxx 
+Log Message:
+Add files for tests
+    *
+------------------------------------------------------------
+User: kyoung  Mon Sep  9 19:48:28 PDT 2002
 Gleam/src/systests/AllGamma
 
 Added Files:
