@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: burnett  Sat May 25 21:04:44 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+set the default job to create a merit output summary of the PSF and Aeff.
+
+    *
+------------------------------------------------------------
 User: burnett  Fri May 24 20:22:00 PDT 2002
 Gleam/src
 
