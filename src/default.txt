@@ -2,7 +2,7 @@
 //
 // Job options file for Gleam job to run detault source for 10K events
 
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/default.txt,v 1.5 2002/06/03 03:00:09 burnett Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/default.txt,v 1.6 2002/07/27 08:48:10 burnett Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
@@ -13,7 +13,7 @@
 // make sure we have the default 100 MeV gamma source
 FluxSvc.source_lib = {"$(FLUXSVCROOT)/xml/source_library.xml"};
 FluxAlg.source_name="default";
-
+//ExposureAlg.source_name="d2tester";
 
 Output.Members += {"mcRootWriterAlg", "digiRootWriterAlg", "reconRootWriterAlg"};
 //Output.Members = {}; // turn off root for this
