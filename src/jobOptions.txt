@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for GUI (gui or FRED) Gleam job
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.12 2005/01/07 15:53:14 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.13 2005/02/25 21:18:21 heather Exp $
 
 #include "$GLEAMROOT/src/basicOptions.txt"
 
@@ -9,10 +9,9 @@
 // choose one or the other below for standard Gui or FRED
 //#include "$GLEAMROOT/src/guiOptions.txt" 
 #include "$GLEAMROOT/src/fredOptions.txt" 
-// for FRED, the FRED program must be running, and should be launched from
-// your working directory
-// the file hepeventserver.ior will be generated and appear in your working
-// directory 
+// for FRED, the Fred program is expected to be in the path given by
+// the enviornment variable Fred_DIR, which is set by default in the
+// interface package IExternal/Fred
 
 FluxAlg.source_name="muon_pencil_angle";
 ApplicationMgr.EvtMax  = 1000;
