@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.78 2003/08/15 13:01:19 burnett Exp $
+ * $Id: release.notes,v 1.79 2003/08/17 18:51:59 burnett Exp $
 
+* v5r3p1 THB 25-aug-03   mod to write out merit tuple with ntupleWriteSvc in test 
 * v5r3   THB 17-aug-03   add filter stuff (EbfWriter and OnboardFilter)
 * v5r2p4 THB 15-aug-03   fix spelling (grin)
 * v5r2p3 THB 14-aug-03   fix spelling (grin)
