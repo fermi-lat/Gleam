@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r2p11
 # This is a checkout package
-# $Id: requirements,v 1.139 2002/09/04 15:20:46 burnett Exp $
+# $Id: requirements,v 1.140 2002/09/04 16:50:12 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use EXTLIB      v2r4p3
@@ -65,7 +65,7 @@ use AcdDigi     v1r3p1
 use Trigger     v3r3p3
 use Recon       v2r3p2
 
-use TkrRecon    v6r4p4
+use TkrRecon            v6r5p3
 use CalRecon    v5r7p2  
 use AcdRecon    v0r5p1       
 
