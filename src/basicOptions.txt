@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.58 2005/02/16 05:07:55 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.59 2005/02/22 06:37:20 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -128,7 +128,19 @@ Reconstruction.Members={
     "Sequencer/TkrIter",
     "Sequencer/Acd"
     };
-         
+Cal1.Members = { 
+    "CalXtalRecAlg", 
+    "CalClustersAlg/first"
+    };
+Tkr.Members = {
+    "TkrReconAlg/FirstPass"
+    };
+Cal2.Members = {
+    "CalClustersAlg/second"
+    };
+TkrIter.Members = {
+    "TkrReconAlg/Iteration"
+    };
 
 // -------------------------------------------
 //          tracker services
@@ -139,12 +151,13 @@ ApplicationMgr.ExtSvc   += { "TkrInitSvc"};
 // -------------------------------------------
 // Calorimeter services
 //
-// comment out since backed off
-//ApplicationMgr.DLLs += {"CalXtalResponse"};
-//ApplicationMgr.ExtSvc += {"CalCalibSvc"};
+ApplicationMgr.Dlls += {"CalXtalResponse"};
+#include "$CALXTALRESPONSEROOT/src/defaultOptions.txt"
 
 
-// Start up a CalibDataSvc 
+// -------------------------------------------
+//  Calibration sevices
+//
 ApplicationMgr.ExtSvc += {"CalibDataSvc"};
 
 ApplicationMgr.ExtSvc += {"CalibMySQLCnvSvc", "CalibXmlCnvSvc" };
@@ -160,20 +173,8 @@ CalibDataSvc.CalibRootName = "Calib";
 CalibDataSvc.CalibFlavorList = {"ideal"};
 
 
-Cal1.Members = { 
-    "CalXtalRecAlg", 
-    "CalClustersAlg/first"
-    };
-Tkr.Members = {
-    "TkrReconAlg/FirstPass"
-    };
-Cal2.Members = {
-    "CalClustersAlg/second"
-    };
-TkrIter.Members = {
-    "TkrReconAlg/Iteration"
-    };
-second.OutputLevel=5;  // since this guy generates INFO lines
+
+
 // ----------------------------
 //   ACD recon
 //
