@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.73 2003/06/12 21:17:39 burnett Exp $
+ * $Id: release.notes,v 1.74 2003/07/04 22:40:25 burnett Exp $
 
+* v5r2p1 THB 20-jul-03   Take TkrDisplayAlg out of guiOptions. (it is a sub-alg)
 * v5r2   THB 04-jul-03   Remove Recon (with gismo remnant); add DetDisplay
 * v5r1p3 THB 15-jun-03   Have merit write out tuple in test_Gleam   
 * v5r1p2 AC  03-apr-03   Add CalibSvc to basicOptions for CalRecon   
