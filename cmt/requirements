@@ -2,7 +2,7 @@ package Gleam
 
 version  v5r6p1
 
-# $Id: requirements,v 1.217 2004/01/29 21:36:20 burnett Exp $
+# $Id: requirements,v 1.218 2004/02/28 19:11:44 burnett Exp $
 
 use GuiSvc      v*
 
@@ -37,6 +37,7 @@ use OnboardFilter v*
 
 #ROOT persistence: RootIo specifies the data packages
 use RootIo      v*
+use RootDisplay v*
 
 #diagnostic and summary of bottom line
 use merit       v*
