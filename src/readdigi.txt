@@ -2,12 +2,16 @@
 //
 // Job options file for Gleam job to read default digi root file
 
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.4 2002/06/07 04:02:12 burnett Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.5 2003/06/12 21:17:40 burnett Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
 
 ApplicationMgr.ExtSvc +={"RootIoSvc"};  // allow termination at end of root file
+
+// Allow RootIoSvc to control the event loop
+// If using the GUI - comment the following line out
+ApplicationMgr.Runable= "RootIoSvc";
 
 Generator.Members = {} ; // turn off generation
 
@@ -19,7 +23,6 @@ Output.Members = {}; // turn off root output
 
 // setup up merit to monitor the output
 ApplicationMgr.DLLs   += {"merit"};
-Triggered.Members += {"meritAlg"};
 MeritAlg.generated = 10000; // for estimation of Aeff
 
 // Set output level threshold (2=DEBUG, 3=INFO, 4=WARNING, 5=ERROR, 6=FATAL )
