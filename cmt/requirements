@@ -3,7 +3,7 @@ package Gleam
 version v0r7
 
 # This is a G4 development check-out package, that does not yet define an executable 
-# $Id: requirements,v 1.13 2002/04/08 20:05:12 burnett Exp $
+# $Id: requirements,v 1.14 2002/04/09 15:06:39 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p4
@@ -16,9 +16,10 @@ use RootHistCnv v5r0p1
 
 use XMLEXT      v2r2 
 use GlastPolicy v4r3 
+use facilities  v2r2p1 
 use xml              v4r1p3 
 use xmlUtil          v2r8p1
-use facilities  v2r2p1 
+
 use geometry    v3
 
 # low-level graphics
