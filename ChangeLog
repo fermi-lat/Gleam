@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sat Aug 31 08:24:24 PDT 2002
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+remove ExposeAlg: it was overriding the particle soruce
+    *
+------------------------------------------------------------
 User: burnett  Sat Aug 31 07:01:27 PDT 2002
 Gleam/src
 
