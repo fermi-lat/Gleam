@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r5p2
 # This is a checkout package
-# $Id: requirements,v 1.176 2002/10/16 04:10:42 burnett Exp $
+# $Id: requirements,v 1.177 2002/10/17 14:13:15 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use EXTLIB      v2r4p3
@@ -44,10 +44,10 @@ use Geant4Runtime v1r0
 
 # Gaudi component packages follow
 
-use GuiSvc                v3r3
+use GuiSvc      v3r3
 
 use Event       v9r4
-use GlastSvc              v9r3p1
+use GlastSvc    v9r3p1
 
 # simulation
 
@@ -56,8 +56,8 @@ use FluxDisplay v2r3
 use G4Generator v4r4
 
 #digitization
-use CalDigi               v1r2p8
-use TkrDigi               v1r7p1
+use CalDigi     v1r2p8
+use TkrDigi     v1r7p1
 use AcdDigi     v1r4p0
 
 
@@ -71,10 +71,10 @@ use CalRecon    v5r7p5
 use AcdRecon    v1r4p1       
 
 #ROOT persistence: RootIo specifies the data packages
-use RootIo                v4r20
+use RootIo      v4r20
 
 #diagnostic and summary of bottom line
-use merit                 v5r12
+use merit       v5r12
 
 ### define a simple executable with GUI
 
