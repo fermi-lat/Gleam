@@ -3,7 +3,7 @@ package Gleam
 version  v2r1
 
 # This is a checkout package
-# $Id: requirements,v 1.44 2002/05/10 22:24:55 burnett Exp $
+# $Id: requirements,v 1.45 2002/05/11 23:02:03 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
@@ -54,8 +54,10 @@ use GlastDigi            v4r0
 #reconstruction
 use Trigger              v3r0
 use Recon                v2r1
-use TkrRecon    v6r0
-use CalRecon    v5r0       
+
+# commented out temporarily
+#use TkrRecon    v6r0
+#use CalRecon    v5r0       
 
 
 #ROOT persistence
