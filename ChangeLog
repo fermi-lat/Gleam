@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Fri Nov  1 16:52:27 PST 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+first patch. gui to catch clicking on the X, FluxSvc bug in rootplots, restore chime
+    *
+------------------------------------------------------------
 User: burnett  Thu Oct 31 06:39:18 PST 2002
 Gleam/doc
 
