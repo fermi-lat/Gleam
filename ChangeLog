@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Mar 22 09:32:21 PST 2002
+Gleam/cmt
+
+Removed Files:
+	cleanup.bat setup.bat 
+Log Message:
+remove .bat files
+    *
+------------------------------------------------------------
 User: burnett  Fri Mar 22 09:25:44 PST 2002
 Gleam/doc
 
