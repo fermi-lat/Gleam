@@ -1,8 +1,8 @@
 package Gleam
 
-version  v2r3p0
+version  v2r3p1
 # This is a checkout package
-# $Id: requirements,v 1.158 2002/09/26 05:33:19 burnett Exp $
+# $Id: requirements,v 1.159 2002/09/26 14:07:31 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use EXTLIB      v2r4p3
