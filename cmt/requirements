@@ -3,7 +3,7 @@ package Gleam
 version v0r1
 
 # This is a G4 development check-out package, that does not yet define an executable 
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/cmt/requirements,v 1.3 2002/03/22 15:39:06 burnett Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/cmt/requirements,v 1.4 2002/03/22 17:25:44 burnett Exp $
 
 # gaudi system files: check this out yourself!
 use GaudiSys    v9*
@@ -14,7 +14,7 @@ use XMLEXT      v2r2
 use GlastPolicy v4r3 
 use xml         v4r1p2 
 use xmlUtil     v2r8
-use facilities  v2r1 
+use facilities        v2r2p1 
 use geometry    v3
 
 # low-level graphics
