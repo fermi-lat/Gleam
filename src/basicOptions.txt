@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.28 2002/10/10 10:44:43 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.29 2002/10/20 22:07:45 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -129,6 +129,7 @@ Tkr.Members = {
 Cal2.Members = {
       "CalClustersAlg/second"
       };
+second.OutputLevel=5;  // since this guy generates INFO lines
 
 // ----------------------------
 //   ACD recon
@@ -136,7 +137,7 @@ Cal2.Members = {
 ApplicationMgr.DLLs += {"AcdRecon"};
 Acd.Members = {"AcdReconAlg"};
 
-// ----------------------------
+// ---------------------------- 
 //   Output
 //
 ApplicationMgr.DLLs +={ 
