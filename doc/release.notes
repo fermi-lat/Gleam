@@ -1,7 +1,11 @@
 /** @file release.notes
  * package Gleam
  * package manager:T.Burnett
- * $Id: release.notes,v 1.56 2002/10/15 05:27:00 burnett Exp $
+ * $Id: release.notes,v 1.57 2002/10/17 15:17:36 burnett Exp $
+
+* v2r5p2 THB 20-oct-02
+       use FluxSvc        v5r14p2
+       use FluxDisplay    v2r5
 
 * v2r5p2 THB 17-oct-02
       use FluxSvc         v5r14p1
