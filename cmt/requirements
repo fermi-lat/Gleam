@@ -1,9 +1,9 @@
 package Gleam
 
-version  v1r3
+version  v2r0
 
 # This is a checkout package
-# $Id: requirements,v 1.40 2002/05/09 16:39:34 burnett Exp $
+# $Id: requirements,v 1.41 2002/05/09 21:47:51 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
@@ -38,17 +38,17 @@ use Geant4      v1r1p0
 # Gaudi component packages follow
 
 use GuiSvc      v3
-use GlastEvent  v7r3
-#--->coming  use Event             v8
-use GlastSvc            v7r3
+
+use Event                v8r1
+use GlastSvc    v7r3
 
 # simulation
 
-use FluxSvc     v5r5p1
+use FluxSvc              v5r6
 use G4Generator v3r5
 
 #digitization
-use GlastDigi            v2r7
+use GlastDigi   v2r7
 
 #reconstruction
 use Recon       v1r3
