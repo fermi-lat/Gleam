@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r1p5
 # This is a checkout package
-# $Id: requirements,v 1.65 2002/05/29 03:44:52 burnett Exp $
+# $Id: requirements,v 1.66 2002/05/30 02:00:12 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
@@ -76,7 +76,7 @@ use merit                 v5p1
 
 set JOBOPTIONS "${GLEAMROOT}/src/jobOptions.txt"
 
-macro jobOpts "" WIN32 "*.txt"  
+macro jobOpts "" WIN32 "*.txt *.h"  
 application Gleam $(GlastMain) $(Win32Resource) $(jobOpts) 
 
 macro Gleamlinkopts  "  $(GuiSvc_lib) $(guiapp_linkopts) $(gui_linkopts) -u GuiSvc_loadRef  -ldl "\
