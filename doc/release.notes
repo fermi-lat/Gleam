@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.75 2003/07/20 16:33:56 burnett Exp $
+ * $Id: release.notes,v 1.76 2003/08/14 23:52:05 burnett Exp $
 
+* v5r2p3 THB 14-aug-03   fix spelling (grin)
 * v5r2p2 THB 14-aug-03   Add GRB and CRflux
 * v5r2p1 THB 20-jul-03   Take TkrDisplayAlg out of guiOptions. (it is a sub-alg)
 * v5r2   THB 04-jul-03   Remove Recon (with gismo remnant); add DetDisplay
