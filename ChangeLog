@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: burnett  Sun Oct 20 15:07:45 PDT 2002
+Gleam/src
+
+Modified Files:
+	basicOptions.txt guiOptions.txt 
+Log Message:
+
+implement FluxDisplay celestial options
+    *
+------------------------------------------------------------
+User: burnett  Sun Oct 20 15:07:45 PDT 2002
 Gleam/cmt
 
 Modified Files:
