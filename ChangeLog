@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Wed Aug 14 18:54:27 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+update GuiSvc and FluxSvc to eliminate ToolSvc error messages.
+
+    *
+------------------------------------------------------------
 User: burnett  Fri Aug  9 07:28:44 PDT 2002
 Gleam/cmt
 
