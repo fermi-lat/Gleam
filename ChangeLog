@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: als  Wed Nov  6 13:10:55 PST 2002
+Gleam/src/systests/BackGndAvg
+
+Modified Files:
+	RUN_Windows 
+Log Message:
+fix dll names in windows macro
+    *
+------------------------------------------------------------
+User: als  Wed Nov  6 13:10:55 PST 2002
 Gleam/src/systests/AllGamma
 
 Modified Files:
