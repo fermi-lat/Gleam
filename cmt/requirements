@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r3p0
 # This is a checkout package
-# $Id: requirements,v 1.156 2002/09/24 00:41:27 burnett Exp $
+# $Id: requirements,v 1.157 2002/09/25 03:27:34 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use EXTLIB      v2r4p3
@@ -46,7 +46,7 @@ use Geant4Runtime v1r0
 
 use GuiSvc      v3r1p3
 
-use Event       v9r1
+use Event                  v9r2
 use GlastSvc               v9r2p1
 
 # simulation
