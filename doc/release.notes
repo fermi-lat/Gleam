@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.82 2003/09/29 03:02:39 burnett Exp $
+ * $Id: release.notes,v 1.83 2003/10/21 00:50:55 burnett Exp $
 
+* v5r5p1 THB 15-nov-03   put stopping alg into the gui options 
 * v5r4   THB 20-oct-03   move merit and OnboardFilter into default 
 * v5r4   THB 28-sep-03   new merit, ExposureAlg 
 * v5r3p2 THB 02-sep-03   explicit G4 cut value sets 
