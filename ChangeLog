@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Sep  1 14:02:07 PDT 2002
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+don't need to suppress CalDigi now
+    *
+------------------------------------------------------------
 User: burnett  Sun Sep  1 13:43:41 PDT 2002
 Gleam/src/test
 
