@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed May 12 07:45:50 PDT 2004
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+moved GRB into FluxSvc; tagging
+    *
+------------------------------------------------------------
 User: cohen  Thu Apr 29 13:52:34 PDT 2004
 Gleam/src
 
