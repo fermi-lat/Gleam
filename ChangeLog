@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Mar 25 08:57:55 PST 2003
+Gleam/src/systests/ACDTop
+
+Modified Files:
+	basicOptionsOnlyACD.txt 
+Log Message:
+fix up basicOptions to get rid of unnecessary services
+    *
+------------------------------------------------------------
 User: lsrea  Mon Mar 10 23:02:14 PST 2003
 Gleam/src
 
