@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: kyoung  Mon Sep  9 19:34:56 PDT 2002
+Gleam/src/systests/VerticalGamma1GeV
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+modified system test scripts and added AllGamma BackGndAvg VerticalMuon1GeV VerticalProton1GeV tests
+    *
+------------------------------------------------------------
+User: kyoung  Mon Sep  9 19:34:56 PDT 2002
 Gleam/src/systests/CALSingleCrystal
 
 Modified Files:
