@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: als  Fri Nov  1 17:51:28 PST 2002
+Gleam/src/systests/VerticalGamma100MeV
+
+Added Files:
+	RUN_Windows systest_VerticalGamma100MeV.bat 
+Log Message:
+translation of Karl's systest scripts and macros to windows environment
+    *
+------------------------------------------------------------
+User: als  Fri Nov  1 17:51:28 PST 2002
 Gleam/src/systests/CALSingleCrystal
 
 Added Files:
