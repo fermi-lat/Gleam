@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: usher  Thu Feb 20 09:27:10 PST 2003
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Needed to include the G4Propagator package
+
+    *
+------------------------------------------------------------
 User: usher  Wed Feb 19 15:10:58 PST 2003
 Gleam/src
 
