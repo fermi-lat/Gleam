@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: als  Wed Nov  6 13:10:55 PST 2002
+Gleam/src/systests/AllGamma
+
+Modified Files:
+	RUN_Windows 
+Log Message:
+fix dll names in windows macro
+    *
+------------------------------------------------------------
 User: burnett  Tue Nov  5 07:55:53 PST 2002
 Gleam/cmt
 
