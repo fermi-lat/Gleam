@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.98 2005/03/02 15:31:55 burnett Exp $
+ * $Id: release.notes,v 1.99 2005/03/11 19:06:09 burnett Exp $
 
+* v5r12  THB 17-mar-05   Put all simulation on FluxAlg sequence, branch to ExposureAlg                
 * v5r11  THB 11-mar-05   Support automatic Fred startup in Gleam application
 * v5r10  THB 2-mar-05    Cal fixed up
 * v5r9p3 THB 20-FEB-05   further support for the Cal calib stuff in test_Gleam

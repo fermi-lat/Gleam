@@ -2,15 +2,18 @@
 //
 // Job options file for Gleam job to run detault source for 10K events
 
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/default.txt,v 1.12 2003/09/29 03:00:35 burnett Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/default.txt,v 1.13 2003/10/20 11:58:37 burnett Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
 
 // following, if uncommented, will run the GUI
 //#include "$GLEAMROOT/src/guiOptions.txt"
+//#include "$GLEAMROOT/src/fredOptions.txt"
 
 FluxAlg.source_name="default";
+// DC2 start
+FluxSvc.StartDate = "2005-05-01 12:00:00";
 
 // set root output from merit with following
 MeritAlg.EventTreeName="MeritTuple";
