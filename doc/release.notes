@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.76 2003/08/14 23:52:05 burnett Exp $
+ * $Id: release.notes,v 1.77 2003/08/15 04:13:52 burnett Exp $
 
+* v5r2p4 THB 15-aug-03   fix spelling (grin)
 * v5r2p3 THB 14-aug-03   fix spelling (grin)
 * v5r2p2 THB 14-aug-03   Add GRB and CRflux
 * v5r2p1 THB 20-jul-03   Take TkrDisplayAlg out of guiOptions. (it is a sub-alg)
