@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r2p10
 # This is a checkout package
-# $Id: requirements,v 1.128 2002/08/29 15:52:54 burnett Exp $
+# $Id: requirements,v 1.129 2002/08/29 20:37:46 srobinsn Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use EXTLIB      v2r4p3
@@ -16,11 +16,12 @@ use RootHistCnv v5r0p1
 
 use XMLEXT      v2r2 
 use GlastPolicy v4r6 
-use facilities  v2r4p1
+use facilities           v2r5
 use xml         v4r1p4 
 use xmlUtil     v2r8p1
 
 use geometry    v3
+use astro                v0r1 
 
 # low-level graphics
 
