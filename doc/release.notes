@@ -1,8 +1,10 @@
 /** @file release.notes
  * @brief package Gleam <pre>
  * package manager:T.Burnett
- * $Id: release.notes,v 1.64 2002/11/19 16:13:46 burnett Exp $
+ * $Id: release.notes,v 1.65 2002/11/19 16:18:11 burnett Exp $
 
+* v3r4  HMK 19-Nov-02
+     use RootIo            v4r21
 * v3r3  THB 19-Nov-02
      use Trigger           v3r4
      use RootIo            v4r20p4
