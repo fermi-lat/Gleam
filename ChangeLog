@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Fri Sep 13 16:18:22 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+Event, GlastSVc,FluxSvc, RootIo, merit changed for MCEvent info.
+    *
+------------------------------------------------------------
 User: kyoung  Fri Sep 13 10:13:02 PDT 2002
 Gleam/src/systests/VerticalProton1GeV
 
