@@ -3,7 +3,7 @@ package Gleam
 version  v2r1
 
 # This is a checkout package
-# $Id: requirements,v 1.46 2002/05/11 23:41:50 burnett Exp $
+# $Id: requirements,v 1.47 2002/05/13 14:18:44 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
@@ -61,7 +61,7 @@ use TkrRecon             v6r1
 
 
 #ROOT persistence
-use mcRootData  v2r1p1
+use mcRootData          v2r1p3
 use RootIo      v2r0
 
 
