@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: srobinsn  Thu Aug 29 13:37:46 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Top sequence loop added, to utilize branching structure.
+
+    *
+------------------------------------------------------------
 User: burnett  Thu Aug 29 08:52:54 PDT 2002
 Gleam/cmt
 
