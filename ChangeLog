@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kyoung  Thu Oct 10 18:21:46 PDT 2002
+Gleam/src/systests/CALSingleCrystal
+
+Added Files:
+	RUN_linux 
+Log Message:
+Cleanup test_sources.xml,add RUN_linux to CALSingleCrystal
+    *
+------------------------------------------------------------
 User: kyoung  Thu Oct 10 18:21:45 PDT 2002
 Gleam/src/systests
 
