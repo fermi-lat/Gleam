@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Sun Sep  1 15:29:15 PDT 2002
+Gleam/src/systests/VerticalGamma1GeV
+
+Added Files:
+	RootTreeAnalysis.h systest_Gleam.cxx ReconCalFragment.cxx 
+	DigiCalFragment.cxx McFragment.cxx 
+Log Message:
+Root macro files for test
+    *
+------------------------------------------------------------
 User: richard  Sun Sep  1 15:26:21 PDT 2002
 Gleam/src/systests/VerticalGamma1GeV
 
