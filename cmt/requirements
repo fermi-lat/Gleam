@@ -2,7 +2,7 @@ package Gleam
 
 version  v3r1
 # This is a checkout package
-# $Id: requirements,v 1.184 2002/10/31 14:39:17 burnett Exp $
+# $Id: requirements,v 1.185 2002/11/02 00:52:27 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use EXTLIB      v2r4p3
@@ -40,7 +40,7 @@ use Geant4      v1r1p0
 
 public
 # this is the minimal G4 runtime only stuff
-use Geant4Runtime v1r0
+use Geant4Runtime          v1r1
 
 # Gaudi component packages follow
 
