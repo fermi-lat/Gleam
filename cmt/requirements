@@ -2,7 +2,7 @@ package Gleam
 
 version  v5r8p2
 
-# $Id: requirements,v 1.227 2005/01/31 21:24:22 burnett Exp $
+# $Id: requirements,v 1.228 2005/01/31 21:26:20 burnett Exp $
 
 use GuiSvc      v*
 
@@ -22,6 +22,7 @@ use G4Propagator v*
 use CalDigi     v*
 use TkrDigi     v*
 use AcdDigi     v*
+
 
 #reconstruction
 use Trigger     v*
