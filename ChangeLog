@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Feb 15 21:07:55 PST 2005
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add dll and service for Calorimeter
+    *
+------------------------------------------------------------
 TAG
 Tag name: v5r9, operation: add
 Package: Gleam
