@@ -1,7 +1,12 @@
 /** @file release.notes
  * @brief package Gleam <pre>
  * package manager:T.Burnett
- * $Id: release.notes,v 1.61 2002/11/06 21:57:31 burnett Exp $
+ * $Id: release.notes,v 1.62 2002/11/06 22:14:29 burnett Exp $
+
+* v3r2  HMK 17-nov-02
+     use idents            v2r9
+     use Recon             v2r3p7
+     use xmlGeoDbs         v1r9
 
 * v3r1  THB 06-nov-02
      use gui               v3r3p2
