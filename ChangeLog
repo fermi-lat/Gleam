@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Nov 13 16:10:17 PST 2003
+Gleam/src
+
+Modified Files:
+	guiOptions.txt 
+Log Message:
+add alg to allow skipping events
+    *
+------------------------------------------------------------
 User: srobinsn  Wed Oct 29 14:04:32 PST 2003
 Gleam/cmt
 
