@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/systests/CALSingleCrystal/jobOptions.txt,v 1.3 2002/10/15 22:59:44 kyoung Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/systests/CALSingleCrystal/jobOptions.txt,v 1.4 2002/11/05 01:38:08 kyoung Exp $
 //##############################################################
 //
 // primary DLLs, including auditor 
@@ -73,12 +73,12 @@ G4Generator.defaultCutValue=0.7; // instead of 0.1 default
 
 // Append (or replace) the list of source library documents
 FluxSvc.source_lib = {"$(GLEAMROOT)/src/systests/test_sources.xml"};
-FluxAlg.source_name="electron_patch_SingleCDE";
+FluxAlg.source_name="muon_patch_SingleCDE";
 
 // ----------------------------
 //  Digitization
 //
-ApplicationMgr.DLLs +={"CalDigi"};
+ApplicationMgr.DLLs +={"CalDigi", "CalUtil"};
 Digitization.Members = {"CalDigiAlg"};
 
 
