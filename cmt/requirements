@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r2p4
 # This is a checkout package
-# $Id: requirements,v 1.103 2002/07/05 03:10:36 burnett Exp $
+# $Id: requirements,v 1.104 2002/07/09 16:39:30 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use EXTLIB      v2r4p3
@@ -52,7 +52,7 @@ use G4Generator v4r1p6
 
 #digitization
 use CalDigi     v1r0p1
-use TkrDigi     v1r1
+use TkrDigi               v1r2
 use AcdDigi     v1r2
 
 
