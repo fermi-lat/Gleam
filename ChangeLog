@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Wed Aug  4 20:06:48 PDT 2004
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Oops FilterAlg belongs in Triggered.members. Also added FilterTracks. Tagging v5r7p2
+    *
+------------------------------------------------------------
 User: golpa  Wed Aug  4 18:14:22 PDT 2004
 Gleam/src
 
