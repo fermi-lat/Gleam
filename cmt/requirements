@@ -3,7 +3,7 @@ package Gleam
 version v1r1
 
 # This is a checkout package
-# $Id: requirements,v 1.34 2002/05/07 16:32:25 als Exp $
+# $Id: requirements,v 1.35 2002/05/07 16:43:40 als Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
@@ -16,7 +16,7 @@ use RootHistCnv v5r0p1
 
 use XMLEXT      v2r2 
 use GlastPolicy v4r3 
-use facilities  v2r4 
+use facilities          v2r4p1
 use xml         v4r1p3 
 use xmlUtil     v2r8p1
 
