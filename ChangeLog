@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Sun Nov 17 09:17:29 PST 2002
+Gleam/src/systests/CALSingleCrystal
+
+Modified Files:
+	jobOptions.txt DigiCalFragment.cxx ReconCalFragment.cxx 
+Log Message:
+switch to muon source; change energy scales and residual slope for linear taper
+    *
+------------------------------------------------------------
 User: heather  Thu Nov 14 05:19:26 PST 2002
 Gleam/cmt
 
