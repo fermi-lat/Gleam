@@ -2,7 +2,7 @@ package Gleam
 
 version  v3r1
 # This is a checkout package
-# $Id: requirements,v 1.187 2002/11/05 15:55:53 burnett Exp $
+# $Id: requirements,v 1.188 2002/11/06 21:57:31 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use EXTLIB      v2r4p3
@@ -30,7 +30,7 @@ use geomrep     v4r1
 
 # the geometry data base
 use idents      v2r8p4 
-use xmlGeoDbs              v1r8
+use xmlGeoDbs              v1r8p0
 use xmlUtil     v2r8p3
 use detModel    v2r13p0
 
