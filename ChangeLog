@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Tue Sep 17 19:12:29 PDT 2002
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+
+move chrono stuff to basic options.
+    *
+------------------------------------------------------------
 User: kyoung  Tue Sep 17 17:12:17 PDT 2002
 Gleam/src/systests/VerticalGamma100MeV
 
