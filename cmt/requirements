@@ -2,7 +2,7 @@ package Gleam
 
 version  v5r7p2
 
-# $Id: requirements,v 1.221 2004/08/05 01:14:21 golpa Exp $
+# $Id: requirements,v 1.222 2004/08/05 03:06:47 golpa Exp $
 
 use GuiSvc      v*
 
@@ -41,6 +41,11 @@ use RootDisplay v*
 #diagnostic and summary of bottom line
 use merit       v*
 use AnalysisNtuple v*
+
+# Allow FRED option -- start with fredOptions.txt
+use  HepRepSvc *
+use  HepRepXml *
+use  HepRepCorba *
 
 ### define a simple executable wth GUI
 
