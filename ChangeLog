@@ -1,5 +1,27 @@
 ------------------------------------------------------------
 User: burnett  Tue Apr  9 08:06:39 PDT 2002
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+
+Following updates:
+     use xml             v4r1p3 
+     use xmlUtil         v2r8p1
+     use gui             v3 
+     use idents          v2r5 
+     use detModel        v2r9
+     use xmlGeoDbs       v1r3
+     use GlastEvent      v6r3
+     use GlastSvc        v6r0
+     use G4Generator     v3r3p1
+     use GlastDigi       v2r3
+     use Recon           v0r8
+after this really tag v0r7!
+    *
+------------------------------------------------------------
+User: burnett  Tue Apr  9 08:06:39 PDT 2002
 Gleam/cmt
 
 Modified Files:
