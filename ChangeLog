@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Tue Sep  2 16:39:14 PDT 2003
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tagging v5r3p2 to get explicit sets for G4 cuts
+    *
+------------------------------------------------------------
+User: burnett  Tue Sep  2 16:39:14 PDT 2003
 Gleam/cmt
 
 Modified Files:
