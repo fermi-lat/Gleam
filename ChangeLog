@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Mon Aug 25 16:44:05 PDT 2003
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+test program will now use ntupleWriterSvc. tagging v5r3p1
+    *
+------------------------------------------------------------
 User: burnett  Sun Aug 17 11:51:59 PDT 2003
 Gleam/src
 
