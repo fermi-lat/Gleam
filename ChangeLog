@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Fri Dec 13 12:25:53 PST 2002
+Gleam/src/systests/ACDTop
+
+Removed Files:
+	muon_300MeV_0deg.txt muon_300MeV_15deg.txt 
+	muon_300MeV_30deg.txt muon_300MeV_45deg.txt 
+	muon_300MeV_60deg.txt muon_300MeV_75deg.txt 
+Log Message:
+removing old test and replacing with a patch
+    *
+------------------------------------------------------------
 User: heather  Wed Dec 11 11:40:24 PST 2002
 Gleam/src/systests/ACDTop
 
