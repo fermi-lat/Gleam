@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chehtman  Thu Apr  3 13:05:40 PST 2003
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+CalibSvc is used to get calibration data
+    *
+------------------------------------------------------------
 User: heather  Tue Mar 25 08:57:55 PST 2003
 Gleam/src/systests/ACDTop
 
