@@ -2,10 +2,12 @@
 //
 // Job options file for Gleam job to read default digi root file
 
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.3 2002/06/05 02:18:56 burnett Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.4 2002/06/07 04:02:12 burnett Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
+
+ApplicationMgr.ExtSvc +={"RootIoSvc"};  // allow termination at end of root file
 
 Generator.Members = {} ; // turn off generation
 

@@ -1,8 +1,8 @@
 package Gleam
 
-version  v5r1p1
+version  v5r1p3
 
-# $Id: requirements,v 1.202 2003/03/03 15:15:29 burnett Exp $
+# $Id: requirements,v 1.203 2003/03/11 07:02:13 lsrea Exp $
 
 use GuiSvc      v*
 
