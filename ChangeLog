@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kyoung  Tue Jan 21 11:19:20 PST 2003
+Gleam/src/systests/VerticalMuon1GeV
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+Changed number of events for systests to 50000
+    *
+------------------------------------------------------------
 User: kyoung  Tue Jan 21 11:19:19 PST 2003
 Gleam/src/systests/VerticalGamma1GeV
 
