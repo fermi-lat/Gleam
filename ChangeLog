@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: kyoung  Fri Sep 13 10:13:01 PDT 2002
+Gleam/src/systests/BackGndAvg
+
+Modified Files:
+	DigiCalFragment.cxx 
+Log Message:
+Fix setting of adcP and adcN in DigiCalFragment.cxx systest files
+    *
+------------------------------------------------------------
+User: kyoung  Fri Sep 13 10:13:01 PDT 2002
 Gleam/src/systests/AllGamma
 
 Modified Files:
