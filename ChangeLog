@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Tue Aug 26 14:34:38 PDT 2003
+Gleam/src
+
+Added Files:
+	convertFits.txt readEMDigi.txt 
+Log Message:
+2 new joOptions file to convert fits files, and to read back the reasulting digi root file (the latter uses the already existing readdigi.txt)
+    *
+------------------------------------------------------------
 User: burnett  Tue Aug 26 09:27:01 PDT 2003
 Gleam/src
 
