@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Tue Oct  8 23:26:55 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+FluxSvc, FluxDisplay, and GlastSvc -- mostly new KY stuff to handle randoms
+    *
+------------------------------------------------------------
 User: kyoung  Tue Oct  8 15:09:06 PDT 2002
 Gleam/src
 
