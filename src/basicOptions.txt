@@ -1,11 +1,13 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.24 2002/09/01 21:02:07 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.25 2002/09/04 17:49:38 burnett Exp $
 
-// primary DLLs
+// primary DLLs, including auditor 
 
-ApplicationMgr.DLLs+= { "GaudiAlg"};
+ApplicationMgr.DLLs+= { "GaudiAlg", "GaudiAud"};
+ApplicationMgr.ExtSvc += {"ChronoStatSvc"};
+AuditorSvc.Auditors = {"ChronoAuditor"};
 
 // ----------------------------
 // setup basic event loop stuff
@@ -18,7 +20,6 @@ ApplicationMgr.ExtSvc = {
 EventPersistencySvc.CnvServices = {"EventCnvSvc"};
 EventSelector.Input = "NONE";
 
-ApplicationMgr.ExtSvc += {"ChronoStatSvc"};
 
 // ----------------------------
 //  a structure for the topalg, using sequencer steps
@@ -143,6 +144,7 @@ MessageSvc.OutputLevel = 2;
 
 // for setting the run number
 TriggerAlg.run=100;
+
 
 //==============================================================
 //
