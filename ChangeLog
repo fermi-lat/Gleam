@@ -1,5 +1,34 @@
 ------------------------------------------------------------
 TAG
+Tag name: v5r9p3, operation: add
+Package: Gleam
+User: burnett  Sun Feb 20 10:43:42 2005
+Files:
+  Gleam/.cvsignore  1.2
+  Gleam/ChangeLog  1.575
+  Gleam/cmt/.cvsignore  1.2
+  Gleam/cmt/NMake  1.1.1.1
+  Gleam/cmt/requirements  1.232
+  Gleam/cmt/Makefile  1.1
+  Gleam/doc/release.notes  1.97
+  Gleam/src/basicOptions.txt  1.58
+  Gleam/src/readdigi.txt  1.7
+  Gleam/src/default.txt  1.13
+  Gleam/src/readAndDisplay.txt  1.1
+  Gleam/src/convertFits.txt  1.1
+  Gleam/src/tuple.txt  1.1
+  Gleam/src/gamma_1_gev_normal.txt  1.1
+  Gleam/src/mainpage.h  1.3
+  Gleam/src/fredOptions.txt  1.2
+  Gleam/src/jobOptions.txt  1.12
+  Gleam/src/readEMDigi.txt  1.1
+  Gleam/src/guiOptions.txt  1.10
+  Gleam/src/test/jobOptions.txt  1.23
+  Gleam/src/test/userOptions.txt  1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v5r8p3, operation: add
 Package: Gleam
 User: burnett  Sun Feb 20 09:43:32 2005
