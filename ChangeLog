@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Sat Jul 27 01:48:10 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+fix mistake in spec of MaxEvt; update to GuiSvc version.
+    *
+------------------------------------------------------------
 User: burnett  Fri Jul 26 03:51:05 PDT 2002
 Gleam/cmt
 
