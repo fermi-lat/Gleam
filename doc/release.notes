@@ -1,8 +1,8 @@
 /** @file release.notes
  * @brief package Gleam <pre>
  * package manager:T.Burnett
- * $Id: release.notes,v 1.68 2002/11/28 16:40:09 burnett Exp $
-
+ * $Id: release.notes,v 1.69 2003/02/03 20:04:16 burnett Exp $
+* v5r1 THB   03-mar-03   Provide AnalysisNtuple   
 * v5r0p6 THB 03-feb-03   Add G4GeometryScv.
 * v5r0p5 THB 26-jan-03   Clean up joboptions a bit.
 
