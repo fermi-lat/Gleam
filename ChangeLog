@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Mon Oct 20 04:58:37 PDT 2003
+Gleam/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+move merit and OnboardFilter to basicOptions.
+    *
+------------------------------------------------------------
+User: burnett  Mon Oct 20 04:58:37 PDT 2003
 Gleam/src
 
 Modified Files:
