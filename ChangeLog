@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lsrea  Mon Mar 10 22:50:21 PST 2003
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+add GlastPropagatorSvc, needed by latest TkrRecon, AnalysisNtuple
+    *
+------------------------------------------------------------
 User: burnett  Mon Mar  3 07:15:29 PST 2003
 Gleam/doc
 
