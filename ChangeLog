@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kyoung  Tue Sep 17 17:08:26 PDT 2002
+Gleam/src/systests/VerticalGamma1GeV
+
+Modified Files:
+	McFragment.cxx ReconTkrFragment.cxx systest_Gleam.cxx 
+Log Message:
+Add 100 MeV gamma test; modify histogram limits
+    *
+------------------------------------------------------------
 User: kyoung  Tue Sep 17 17:08:25 PDT 2002
 Gleam/src/systests/CALSingleCrystal
 
