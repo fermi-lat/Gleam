@@ -1,9 +1,17 @@
 /** @file release.notes
  * @brief package Gleam <pre>
  * package manager:T.Burnett
- * $Id: release.notes,v 1.59 2002/10/31 05:18:50 burnett Exp $
+ * $Id: release.notes,v 1.60 2002/10/31 14:39:18 burnett Exp $
 
-* v3      THB 31-oct-02
+* v3r1  THB 06-nov-02
+     use gui               v3r3p2
+     use xmlGeoDbs         v1r8
+     use Geant4Runtime     v1r1
+     use FluxSvc          v5r15p2
+     use G4Generator      v4r4p1
+     use GlastDigi        v4r5p2
+
+* v3    THB 31-oct-02
 
      use FluxSvc          v5r15
      use FluxDisplay      v2r6
