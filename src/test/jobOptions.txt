@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.4 2002/06/27 20:12:49 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.5 2002/07/04 16:23:08 burnett Exp $
 
 // just run the "default" job with mods below
 #include "$GLEAMROOT/src/default.txt"
@@ -13,6 +13,7 @@ MeritAlg.generated = 1000; // for estimation of Aeff
 // Set output level threshold (2=DEBUG, 3=INFO, 4=WARNING, 5=ERROR, 6=FATAL )
 second.OutputLevel=4; // too much info from second CalClustersAlg
 CalClustersAlg.OutputLevel=4; // too much info from second CalClustersAlg
+TkrVertexAlg.OutputLevel=4; // supress INFO message "Vertexing performed with: TkrComboVtxRecon(not a tool)"
 Output.Members={}; // turn off any root ouptut
 
 // Number of events to process
