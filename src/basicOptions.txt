@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.14 2002/06/07 04:02:12 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.15 2002/06/13 22:45:56 burnett Exp $
 
 // primary DLLs
 
@@ -95,7 +95,8 @@ ApplicationMgr.DLLs +={
 Reconstruction.Members={ 
       "Sequencer/Cal1", 
       "Sequencer/Tkr",
-      "Sequencer/Cal2"
+      "Sequencer/Cal2",
+      "Sequencer/Acd"
       };
          
 ApplicationMgr.ExtSvc += {"RecoSvc"};
@@ -127,7 +128,7 @@ Cal2.Members = {
 //   ACD recon
 //
 ApplicationMgr.DLLs += {"AcdRecon"};
-Reconstruction.Members += {"AcdReconAlg"};
+Acd.Members = {"AcdReconAlg"};
 
 // ----------------------------
 //   Output
