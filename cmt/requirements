@@ -3,7 +3,7 @@ package Gleam
 version v0r8
 
 # This is a G4 development check-out package, that does not yet define an executable 
-# $Id: requirements,v 1.16 2002/04/10 01:19:50 burnett Exp $
+# $Id: requirements,v 1.17 2002/04/10 19:44:22 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p4
@@ -38,12 +38,12 @@ use Geant4      v1r1
 # Gaudi component packages
 
 use GuiSvc      v3
-use GlastEvent  v6r3
+use GlastEvent        v7r0
 use FluxSvc     v5r2
 
 use GlastSvc    v6r0
-use G4Generator v3r3p1
-use GlastDigi         v2r3p1
+use G4Generator       v3r3p2
+use GlastDigi         v2r4
 
 use Recon       v0r8
 
