@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Jul  4 09:23:08 PDT 2002
+Gleam/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+suppress root output for this test.
+    *
+------------------------------------------------------------
 User: burnett  Wed Jul  3 07:37:39 PDT 2002
 Gleam/doc
 
