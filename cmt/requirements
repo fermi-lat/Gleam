@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r2p3
 # This is a checkout package
-# $Id: requirements,v 1.101 2002/07/01 21:13:57 burnett Exp $
+# $Id: requirements,v 1.102 2002/07/04 16:24:22 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use EXTLIB      v2r4p3
@@ -41,13 +41,13 @@ public
 
 use GuiSvc      v3
 
-use Event       v8r10
+use Event                  v8r11
 use GlastSvc    v8r1p2
 
 # simulation
 
-use FluxSvc     v5r7p1
-use FluxDisplay v2r0p1
+use FluxSvc                v5r8
+use FluxDisplay            v2r0p2
 use G4Generator v4r1p6
 
 #digitization
