@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Mon Jan 31 13:24:22 PST 2005
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove a few ^M's that Tracy missed.
+    *
+------------------------------------------------------------
 User: burnett  Mon Jan 31 13:18:46 PST 2005
 Gleam/src/systests
 
