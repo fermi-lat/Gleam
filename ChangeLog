@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: als  Thu Jan  9 13:32:35 PST 2003
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+sandbox merge
+
+remove specific version numbers
+change version to v5
+
+    *
+------------------------------------------------------------
 User: burnett  Wed Dec 18 14:44:13 PST 2002
 Gleam/src
 
