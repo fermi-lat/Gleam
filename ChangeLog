@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Sun Apr  3 18:41:06 PDT 2005
-Gleam/src/test
-
-Modified Files:
-	jobOptions.txt 
-Log Message:
-restore 1000 events
-    *
-------------------------------------------------------------
-User: burnett  Sun Apr  3 18:41:06 PDT 2005
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-restore 1000 events
-    *
-------------------------------------------------------------
-User: burnett  Sun Apr  3 18:41:06 PDT 2005
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-restore 1000 events
-    *
-------------------------------------------------------------
 TAG
 Tag name: v5r12p1, operation: add
 Package: Gleam
