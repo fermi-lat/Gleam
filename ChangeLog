@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Mon Jul 22 07:46:06 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+tagging v2r2p5 -- see release.notes; also GuiSvc about new IRunable interface 
+    *
+------------------------------------------------------------
 User: burnett  Fri Jul 19 09:02:08 PDT 2002
 Gleam/cmt
 
