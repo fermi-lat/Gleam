@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: als  Thu Jan 16 11:15:42 PST 2003
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+
+add TkrUtil to ApplicationMgr.DLLs 
+
+
+
+
+    *
+------------------------------------------------------------
 User: burnett  Sat Jan 11 09:52:17 PST 2003
 Gleam/src
 
