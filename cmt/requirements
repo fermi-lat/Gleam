@@ -1,8 +1,8 @@
 package Gleam
 
-version  v2r1p7
+version  v2r1p8
 # This is a checkout package
-# $Id: requirements,v 1.73 2002/06/05 21:47:14 burnett Exp $
+# $Id: requirements,v 1.74 2002/06/06 02:11:45 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
