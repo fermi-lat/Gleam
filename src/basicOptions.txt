@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.59 2005/02/22 06:37:20 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.60 2005/03/02 15:31:55 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -29,13 +29,19 @@ ApplicationMgr.TopAlg = {
 
 //the top sequence loop
 Top.Members={
-    "Sequencer/Generator",
+    "Sequencer/Generator"};
+
+Generator.Members = {"FluxAlg", 
+    "G4Generator",
     "Sequencer/CalibrationUpdate",
     "Sequencer/Digitization",
     "Sequencer/EventDisplay",
     "Sequencer/Triggered" };
+    
+// FluxAlg branch for "TimeTicks"
+Generator.BranchMembers = {"FluxAlg", "ExposureAlg"};
 
-// the sequence that is triggered
+// the sequence that is triggered with data
 Triggered.Members={
     "Sequencer/Trigger",
     "Sequencer/Reconstruction",
@@ -61,7 +67,8 @@ ApplicationMgr.ExtSvc += { "GlastRandomSvc"};
 //
 ApplicationMgr.DLLs +={ "G4Generator","G4Propagator"};
 ApplicationMgr.ExtSvc += {"G4GeometrySvc"};
-Generator.Members = {"FluxAlg", "G4Generator", "ExposureAlg"};
+
+
 G4Generator.defaultCutValue=0.7; 
 G4Generator.defaultTkrCutValue=0.1;
 G4Generator.defaultCalCutValue=0.7;
