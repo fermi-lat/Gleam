@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.48 2004/01/29 19:42:02 usher Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.49 2004/02/27 11:07:22 kuss Exp $
 
 // primary DLLs, including auditor 
 
@@ -72,8 +72,10 @@ G4Generator.defaultCalCutValue=0.7;
 FluxSvc.source_lib += {"$(G4GENERATORROOT)/src/test/test_sources.xml"};
 FluxAlg.source_name="muon_pencil_angle";
 
-// add in CRflux, GRB options
-ApplicationMgr.DLLs +={ "CRflux", "GRB" };
+// add in CRflux option
+// GRB is now meant to be loaded differently, 
+// for compatibility sith ScienceTools framework
+ApplicationMgr.DLLs +={ "CRflux" };
 FluxSvc.source_lib += {
    "$(CRFLUXROOT)/xml/source_library.xml",
    "$(GRBROOT)/xml/GRB_user_library.xml"};
