@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Fri Jun  7 11:32:45 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+new G4Generator, to remove some unnecessary use statements.
+    *
+------------------------------------------------------------
 User: burnett  Fri Jun  7 07:58:06 PDT 2002
 Gleam/cmt
 
