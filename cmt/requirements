@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r1p6
 # This is a checkout package
-# $Id: requirements,v 1.69 2002/06/01 17:32:07 burnett Exp $
+# $Id: requirements,v 1.70 2002/06/02 15:26:32 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
@@ -73,7 +73,7 @@ use CalRecon               v5r5p1
 
 
 #diagnostic and summary of bottom line
-use merit                  v5r2p1
+use merit                  v5r3
 
 ### define a simple executable with GUI
 
