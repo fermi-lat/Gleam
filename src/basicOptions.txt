@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.18 2002/07/08 03:28:20 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.19 2002/07/27 08:48:10 burnett Exp $
 
 // primary DLLs
 
@@ -136,7 +136,7 @@ Output.Members += {"mcRootWriterAlg", "digiRootWriterAlg", "reconRootWriterAlg"}
 mcRootWriterAlg.OutputLevel=3;
 digiRootWriterAlg.OutputLevel=3;
 reconRootWriterAlg.OutputLevel=3;
-
+ 
 // Set output level threshold (2=DEBUG, 3=INFO, 4=WARNING, 5=ERROR, 6=FATAL )
 MessageSvc.OutputLevel = 2;
 
