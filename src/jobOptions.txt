@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam job
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.8 2003/08/17 18:51:59 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.9 2003/09/29 03:00:35 burnett Exp $
 
 #include "$GLEAMROOT/src/basicOptions.txt"
 #include "$GLEAMROOT/src/guiOptions.txt"
@@ -9,13 +9,7 @@
 FluxAlg.source_name="muon_pencil_angle";
 ApplicationMgr.EvtMax  = 1000;
 
-// setup onboard filter analysis
-ApplicationMgr.DLLs += {"EbfWriter", "OnboardFilter"};
-Triggered.Members += {"EbfWriter", "OnboardFilter"};
-
-ApplicationMgr.DLLs += {"merit"};
-Triggered.Members += { "ExposureAlg", "meritAlg" };
-
+meritAlg.PrimaryType="MC"; // for testing: default is "RECO"
 // turn off output
 Output.Members = {};
 
