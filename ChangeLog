@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: burnett  Tue Sep 24 20:27:34 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+Trigger, CalDigi, CalRecon: all from conversion to Mev.
+GlastSvc: support simple Slab.
+
+    *
+------------------------------------------------------------
 User: burnett  Mon Sep 23 17:41:27 PDT 2002
 Gleam/cmt
 
