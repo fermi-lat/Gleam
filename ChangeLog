@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Mon Mar  3 07:13:20 PST 2003
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+add AnalysisNtuple to standard runtime enviornment
+    *
+------------------------------------------------------------
+User: burnett  Mon Mar  3 07:13:20 PST 2003
 Gleam/cmt
 
 Modified Files:
