@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Thu Sep 12 20:25:33 PDT 2002
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+prepare for tag v2r2p11; v2r3 tomorrow if nightly build succeeds
+
+    *
+------------------------------------------------------------
 User: kyoung  Thu Sep 12 16:34:24 PDT 2002
 Gleam/src/systests/CALSingleCrystal
 
