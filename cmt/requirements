@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r3p2
 # This is a checkout package
-# $Id: requirements,v 1.164 2002/10/01 15:38:48 burnett Exp $
+# $Id: requirements,v 1.165 2002/10/03 03:59:29 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use EXTLIB      v2r4p3
@@ -74,7 +74,7 @@ use AcdRecon             v1r4
 use RootIo               v4r17
 
 #diagnostic and summary of bottom line
-use merit                v5r10
+use merit                v5r11
 
 ### define a simple executable with GUI
 
