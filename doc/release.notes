@@ -1,8 +1,11 @@
 /** @file release.notes
  * @brief package Gleam <pre>
  * package manager:T.Burnett
- * $Id: release.notes,v 1.62 2002/11/06 22:14:29 burnett Exp $
+ * $Id: release.notes,v 1.63 2002/11/14 13:18:38 heather Exp $
 
+* v3r3  THB 19-Nov-02
+     use Trigger           v3r4
+     use RootIo            v4r20p3
 * v3r2  HMK 17-nov-02
      use idents            v2r9
      use Recon             v2r3p7
