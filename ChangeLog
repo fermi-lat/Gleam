@@ -1,5 +1,22 @@
 ------------------------------------------------------------
 User: burnett  Fri Apr 12 07:13:22 PDT 2002
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tag v0r8:
+use facilities        v2r3 
+use xmlGeoDbs         v1r4
+use GlastEvent        v7r0
+use G4Generator       v3r3p2
+use GlastDigi         v2r4
+use Recon             v0r8p2
+
+
+    *
+------------------------------------------------------------
+User: burnett  Fri Apr 12 07:13:22 PDT 2002
 Gleam/cmt
 
 Modified Files:
