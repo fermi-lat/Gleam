@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed May 29 19:00:12 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+trivial change to RootIo to replace GlastDigi
+    *
+------------------------------------------------------------
 User: burnett  Tue May 28 20:44:53 PDT 2002
 Gleam/src
 
