@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Wed Nov 20 09:51:47 PST 2002
+Gleam/src/systests/ACDTop
+
+Modified Files:
+	McFragment.cxx RootTreeAnalysis.h 
+Added Files:
+	chainTrees.cxx 
+Log Message:
+fixes for ACD test
+    *
+------------------------------------------------------------
 User: heather  Wed Nov 20 09:51:16 PST 2002
 Gleam/src/systests/ACDTop
 
