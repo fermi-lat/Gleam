@@ -1,4 +1,23 @@
 ------------------------------------------------------------
+User: burnett  Mon Jan 31 13:18:41 PST 2005
+Gleam/src/systests/ACDDigi
+
+Removed Files:
+	DigiAcdFragment.cxx DigiCalFragment.cxx RUN_Windows RUN_linux 
+	RUN_noise_Windows RUN_noise_linux ReconAcdFragment.cxx 
+	ReconCalFragment.cxx RootTreeAnalysis.h TrgFragment.cxx 
+	acdDigi_0.01stddev.xml acdDigi_0.02stddev.xml 
+	acdDigi_0.04stddev.xml acdDigi_0.1stddev.xml 
+	acdDigi_0stddev.xml gamma_100MeV_miss_0.01stddev.txt 
+	gamma_100MeV_miss_0.02stddev.txt 
+	gamma_100MeV_miss_0.04stddev.txt 
+	gamma_100MeV_miss_0.1stddev.txt gamma_100MeV_miss_0stddev.txt 
+	noiseTest.bat systest_ACDDigi systest_ACDDigi.bat 
+	systest_Gleam.cxx 
+Log Message:
+remove old systest stuff
+    *
+------------------------------------------------------------
 User: burnett  Mon Jan 31 11:39:16 PST 2005
 Gleam/src
 
