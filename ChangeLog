@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Sep 12 15:06:01 PDT 2004
+Gleam/src
+
+Modified Files:
+	fredOptions.txt 
+Log Message:
+don't mix GUI and FRED display!
+    *
+------------------------------------------------------------
 User: burnett  Sun Sep 12 14:50:49 PDT 2004
 Gleam/cmt
 
