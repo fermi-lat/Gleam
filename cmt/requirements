@@ -2,7 +2,7 @@ package Gleam
 
 version  v2r1p5
 # This is a checkout package
-# $Id: requirements,v 1.64 2002/05/26 19:16:25 burnett Exp $
+# $Id: requirements,v 1.65 2002/05/29 03:44:52 burnett Exp $
 
 # gaudi system files: this would checkout all of the Gaudi packages
 use GaudiSys    v9r0p6
@@ -67,7 +67,7 @@ use mcRootData     v2r2
 use digiRootData   v3r2
 use reconRootData  v3r0p2
 
-use RootIo         v4r1p1
+use RootIo                v4r1p2
 
 #diagnostic and summary of bottom line
 use merit                 v5p1
