@@ -1,8 +1,8 @@
 package Gleam
 
-version  v5
+version  v5r0p4
 
-# $Id: requirements,v 1.197 2002/11/29 18:44:58 burnett Exp $
+# $Id: requirements,v 1.197 2003/01/09 21:32:35 als Exp $
 
 use GuiSvc      v*
 
@@ -34,7 +34,7 @@ use RootIo      v*
 #diagnostic and summary of bottom line
 use merit       v*
 
-### define a simple executable with GUI
+### define a simple executable wth GUI
 
 set JOBOPTIONS "${GLEAMROOT}/src/jobOptions.txt"
 
