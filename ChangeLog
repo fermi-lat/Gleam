@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Sun Sep  1 15:58:00 PDT 2002
+Gleam/src/systests/VerticalGamma1GeV
+
+Added Files:
+	RUN systest_VerticalGamma1Gev 
+Log Message:
+batch files for running test. Need further config
+    *
+------------------------------------------------------------
 User: richard  Sun Sep  1 15:48:20 PDT 2002
 Gleam/src/systests/VerticalGamma1GeV
 
