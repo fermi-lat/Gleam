@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.15 2002/06/13 22:45:56 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.16 2002/06/17 00:00:56 burnett Exp $
 
 // primary DLLs
 
@@ -105,10 +105,6 @@ ApplicationMgr.ExtSvc += {"RecoSvc"};
 // -------------------------------------------
 ApplicationMgr.ExtSvc   += { "TkrGeometrySvc"};
 ApplicationMgr.ExtSvc   += { "TkrInitSvc"};
-
-//TkrReconAlg.PropagatorType=1; // for gismo propagator
-TkrReconAlg.PropagatorType=0; // for G4 propagator (current default)
-TkrInitSvc.TrackerReconType = 0;    // = 0 for Link and Tree, = 1 for Combo
 
 Cal1.Members = { 
       "CalXtalRecAlg", 
