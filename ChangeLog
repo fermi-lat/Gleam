@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: usher  Fri Jan 31 09:06:40 PST 2003
+Gleam/src/systests/AllGamma
+
+Modified Files:
+	ReconTkrFragment.cxx 
+Log Message:
+Modify to use TkrKalFitTrack instead of TkrTrack. In the future we need
+to do something (dynamic_cast?) to protect against this problem. 
+
+    *
+------------------------------------------------------------
 User: burnett  Sun Jan 26 13:15:32 PST 2003
 Gleam/src/test
 
