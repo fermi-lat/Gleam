@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.21 2005/01/06 17:35:17 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.22 2005/02/20 03:37:48 burnett Exp $
 
 // just run the "default" job with mods below
 #include "$GLEAMROOT/src/default.txt"
@@ -23,8 +23,10 @@ MeritAlg.IM_filename=""; // disable IM variable
 MeritAlg.cuts="LnA";     // no test for tail suppression
 
 // need these so support Calorimeter default 
-CalibDataSvc.CalibFlavorList     += {"cal_gleam_default"};
 CalCalibSvc.DefaultFlavor = "cal_gleam_default";
+CalibDataSvc.CalibFlavorList += {"cal_gleam_default"};
+CalibDataSvc.CalibTimeSource  = "clock";
+
 
 //==============================================================
 //
