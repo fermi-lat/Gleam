@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Thu Apr 11 04:59:50 PDT 2002
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+G4Generator patches; GlastEvent and GlastDigi changes for CalDigi
+    *
+------------------------------------------------------------
 User: burnett  Wed Apr 10 12:44:22 PDT 2002
 Gleam/cmt
 
