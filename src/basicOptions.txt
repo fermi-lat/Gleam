@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.25 2002/09/04 17:49:38 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.26 2002/09/18 02:12:29 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -55,6 +55,11 @@ GlastDetSvc.topVolume="LAT";
 //GlastDetSvc.topVolume="oneTower";
 //GlastDetSvc.topVolume="trayReg";
 //GlastDetSvc.topVolume="trayBot";
+
+// ----------------------------
+//  Randoms definition
+//
+ApplicationMgr.ExtSvc += { "GlastRandomSvc"};
 
 GlastDetSvc.xmlfile="$(XMLGEODBSROOT)/xml/flight/flightSegVols.xml";
 GlastDetSvc.visitorMode="recon";
