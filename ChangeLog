@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Tue Oct 12 22:58:22 PDT 2004
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+create new sequence CalibrationUpdate, with one member, TkrCalibAlg, and invoke before digitization
+
+    *
+------------------------------------------------------------
 User: burnett  Sun Sep 12 15:13:31 PDT 2004
 Gleam/doc
 
