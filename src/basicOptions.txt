@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.34 2003/02/03 20:04:16 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.35 2003/02/04 05:01:44 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -68,7 +68,7 @@ ApplicationMgr.ExtSvc += { "GlastRandomSvc"};
 // ----------------------------
 //  Generation or input
 //
-ApplicationMgr.DLLs +={ "G4Generator"};
+ApplicationMgr.DLLs +={ "G4Generator","G4Propagator"};
 ApplicationMgr.ExtSvc += {"G4GeometrySvc"};
 Generator.Members = {"FluxAlg", "G4Generator"};
 G4Generator.defaultCutValue=0.7; // instead of 0.1 default
