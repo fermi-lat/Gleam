@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kyoung  Tue Jan 21 11:19:17 PST 2003
+Gleam/src/systests/AllGamma
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+Changed number of events for systests to 50000
+    *
+------------------------------------------------------------
 User: als  Thu Jan 16 13:29:50 PST 2003
 Gleam/cmt
 
