@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kyoung  Thu Sep 12 16:34:24 PDT 2002
+Gleam/src/systests/CALSingleCrystal
+
+Modified Files:
+	DigiCalFragment.cxx 
+Log Message:
+Fix light taper calculation in DigiCalFragment.cxx
+    *
+------------------------------------------------------------
 User: lsrea  Thu Sep 12 15:17:58 PDT 2002
 Gleam/cmt
 
