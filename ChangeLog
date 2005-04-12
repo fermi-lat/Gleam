@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Tue Apr 12 11:28:12 PDT 2005
-Gleam/src
-
-Modified Files:
-	basicOptions.txt 
-Log Message:
-add FhSetAlg to output list.
-    *
-------------------------------------------------------------
 TAG
 Tag name: v5r12p2, operation: add
 Package: Gleam
