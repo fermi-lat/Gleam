@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.60 2005/03/02 15:31:55 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.61 2005/03/17 18:55:03 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -204,7 +204,7 @@ MeritAlg.cuts="LnA";     // no test for tail suppression
 //   Output
 //
 ApplicationMgr.DLLs +={   "RootIo"}; 
-Output.Members = {"mcRootWriterAlg", "digiRootWriterAlg", "reconRootWriterAlg"};
+Output.Members = {"FhSetAlg","mcRootWriterAlg", "digiRootWriterAlg", "reconRootWriterAlg"};
 
  // output levels, including suppression to allow debug, info
 mcRootWriterAlg.OutputLevel=3;
