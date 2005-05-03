@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue May  3 05:57:39 PDT 2005
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+removed FluxDisplay, broken, but not supported by FRED anyway.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v5r13, operation: add
 Package: Gleam
