@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Tue May  3 05:57:39 PDT 2005
+Gleam/src
+
+Modified Files:
+	guiOptions.txt 
+Log Message:
+removed FluxDisplay, broken, but not supported by FRED anyway.
+    *
+------------------------------------------------------------
+User: burnett  Tue May  3 05:57:39 PDT 2005
 Gleam/doc
 
 Modified Files:
