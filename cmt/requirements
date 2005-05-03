@@ -1,8 +1,8 @@
 package Gleam
 
-version  v5r13
+version  v5r13p1
 
-# $Id: requirements,v 1.237 2005/04/04 01:41:06 burnett Exp $
+# $Id: requirements,v 1.238 2005/04/12 18:30:05 burnett Exp $
 
 use GuiSvc      v*
 
@@ -14,7 +14,6 @@ use GlastSvc    v*
 use FluxSvc     v*
 use CRflux      v*
 
-use FluxDisplay v*
 use G4Generator v*
 use G4Propagator v*
 
