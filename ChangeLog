@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Thu Jun 23 14:55:49 PDT 2005
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+Restore some pieces that were mistakenly deleted/removed.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r0p0, operation: add
 Package: Gleam
