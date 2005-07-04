@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.64 2005/06/23 18:06:04 usher Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.65 2005/06/23 21:55:49 usher Exp $
 
 // primary DLLs, including auditor 
 
@@ -203,10 +203,7 @@ ApplicationMgr.DLLs += {"AnalysisNtuple", "ntupleWriterSvc", "merit"};
 ApplicationMgr.ExtSvc += {"RootTupleSvc"};
 Triggered.Members += { "meritAlg" };
 //-------------------------------------
-// Merit configuration
-MeritAlg.IM_filename=""; // disable IM variable
-MeritAlg.cuts="LnA";     // no test for tail suppression
-
+// Merit configuration --  (use defaults)
 
 // ---------------------------- 
 //   Output
