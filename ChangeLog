@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Jul  3 20:21:08 PDT 2005
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+restore merit processing defaults
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r0p1, operation: add
 Package: Gleam
