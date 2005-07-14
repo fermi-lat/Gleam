@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Thu Jul 14 15:57:16 PDT 2005
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+Turn on Cal MIP finding
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r0p2, operation: add
 Package: Gleam
