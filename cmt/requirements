@@ -1,9 +1,9 @@
 	package Gleam
 
-version  v6r0p3
+version  v6r0p4
 author T. Burnett <tburnett@u.washington.edu>
 
-# $Id: requirements,v 1.242 2005/07/04 03:21:08 burnett Exp $
+# $Id: requirements,v 1.243 2005/07/15 14:44:24 burnett Exp $
 
 use GuiSvc      v*
 
@@ -63,3 +63,6 @@ macro Gleamlinkopts  "  $(GuiSvc_lib) $(guiapp_linkopts) $(gui_linkopts) -u GuiS
 
 # define a standard test executable, if desired
 apply_pattern package_test
+
+# for temporary use
+set LATCalibRoot "" WIN32 "f:\glast\calibrations"
