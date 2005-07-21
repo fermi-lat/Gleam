@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.28 2005/07/04 03:21:09 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.29 2005/07/21 17:59:45 burnett Exp $
 
 // just run the "default" job with mods below
 #include "$GLEAMROOT/src/default.txt"
@@ -18,14 +18,6 @@ FluxAlg.sources={"default","timetick30s"};
 // Number of events to process
 ApplicationMgr.EvtMax = 1000;
 MeritAlg.generated = 1000; // for estima/ IM variable
-
-// DC2 calib
-CalibDataSvc.CalibFlavorList = {"vanilla", "DC2"}; 
-CalCalibSvc.DefaultFlavor = "ideal"; 
-TkrCalibAlg.deadStripsCalibFlavor = "DC2"; 
-CalibDataSvc.CalibInstrumentName = "LAT"; 
-CalibMySQLCnvSvc.DbName = "calib"; 
-CalibMySQLCnvSvc.QualityList= {"PROD"}; 
 
 
 //==============================================================
