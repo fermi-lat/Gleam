@@ -1,9 +1,9 @@
 	package Gleam
 
-version  v6r0p4
+version  v6r2
 author T. Burnett <tburnett@u.washington.edu>
 
-# $Id: requirements,v 1.243 2005/07/15 14:44:24 burnett Exp $
+# $Id: requirements,v 1.244 2005/07/21 17:59:44 burnett Exp $
 
 use GuiSvc      v*
 
