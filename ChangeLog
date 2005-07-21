@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: burnett  Thu Jul 21 15:33:39 PDT 2005
+Gleam/src
+
+Modified Files:
+	basicOptions.txt jobOptions.txt 
+Removed Files:
+	gamma_1_gev_normal.txt 
+Log Message:
+use new CalibSvc basic options; clean up a little
+    *
+------------------------------------------------------------
 User: burnett  Thu Jul 21 15:33:38 PDT 2005
 Gleam
 
