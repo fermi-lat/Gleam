@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Jul 21 15:33:38 PDT 2005
+Gleam
+
+Modified Files:
+	.cvsignore 
+Log Message:
+use new CalibSvc basic options; clean up a little
+    *
+------------------------------------------------------------
 User: burnett  Thu Jul 21 10:59:45 PDT 2005
 Gleam/src/test
 
