@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Thu Jul 21 20:24:19 PDT 2005
+Gleam/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+move G4Generator options to its file; remove G4Gen sources out of basicOptions. (more simplification)
+    *
+------------------------------------------------------------
+User: burnett  Thu Jul 21 20:24:19 PDT 2005
 Gleam/src
 
 Modified Files:
