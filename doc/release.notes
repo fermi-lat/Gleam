@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.110 2005/07/21 22:36:17 burnett Exp $
+ * $Id: release.notes,v 1.111 2005/07/22 03:24:19 burnett Exp $
 
+* v6r3p1 THB 24-Jul-05   oops, LATcalibroot wrong for linux
 * v6r3   THB 21-Jul-05   include G4Generator's options, move pencil to test program
 * v6r2   THB 21-Jul-05   convert basicOptions to include CalibSvc default JO
 * v6r1   THB 21-Jul-05   Add folder in src, "jobOptions" containing pipeline JO from Anders

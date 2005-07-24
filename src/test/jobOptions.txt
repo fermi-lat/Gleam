@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.30 2005/07/21 22:33:39 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.31 2005/07/22 03:24:19 burnett Exp $
 
 // just run the "default" job with mods below
 #include "$GLEAMROOT/src/default.txt"
@@ -13,7 +13,7 @@ AcdDigi.OutputLevel=2;
 Output.Members={}; // turn off any root ouptut
 
 // mix in ticks to generate pointing and livetime tree
-FluxAlg.sources={"default","timetick30s"};
+FluxAlg.sources={"gamma_1_gev_normal","timetick30s"};
 
 TriggerAlg.throttle = false;   // set true to test this option
  
