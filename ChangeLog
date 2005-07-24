@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Sun Jul 24 11:04:28 PDT 2005
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Remove testing feature. Change test_Gleam to use 1-GeV photons to see CALLO triggers
+    *
+------------------------------------------------------------
+User: burnett  Sun Jul 24 11:04:28 PDT 2005
 Gleam/cmt
 
 Modified Files:
