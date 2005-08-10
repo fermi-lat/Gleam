@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Aug 10 07:54:29 PDT 2005
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+back off CalXtalResponse #include
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r3p1, operation: add
 Package: Gleam
