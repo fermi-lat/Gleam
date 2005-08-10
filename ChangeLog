@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Wed Aug 10 07:54:29 PDT 2005
-Gleam/src
-
-Modified Files:
-	basicOptions.txt 
-Log Message:
-back off CalXtalResponse #include
-    *
-------------------------------------------------------------
-User: burnett  Wed Aug 10 07:54:29 PDT 2005
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-back off CalXtalResponse #include
-    *
-------------------------------------------------------------
-User: burnett  Wed Aug 10 07:54:29 PDT 2005
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-back off CalXtalResponse #include
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r3p1, operation: add
 Package: Gleam
