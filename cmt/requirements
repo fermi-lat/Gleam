@@ -1,9 +1,9 @@
 	package Gleam
 
-version  v6r4
+version  v6r4p1
 author T. Burnett <tburnett@u.washington.edu>
 
-# $Id: requirements,v 1.247 2005/07/24 18:04:28 burnett Exp $
+# $Id: requirements,v 1.248 2005/08/10 14:54:29 burnett Exp $
 
 use GuiSvc      v*
 
@@ -63,7 +63,6 @@ application Gleam $(GlastMain) $(Win32Resource) $(jobOpts)
 macro Gleamlinkopts  "  $(GuiSvc_lib) $(guiapp_linkopts) $(gui_linkopts) -u GuiSvc_loadRef  -ldl "\
       WIN32 " ${guiapp_linkopts} $(GuiSvc_lib)  /include:_GuiSvc_loadRef "
 private
-set runName "99"
 # define a standard test executable, if desired
 apply_pattern package_test
 
