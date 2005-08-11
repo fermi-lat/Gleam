@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Aug 11 08:59:35 PDT 2005
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove an unfortunate private "set" from the Gleam req file.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r4, operation: add
 Package: Gleam
