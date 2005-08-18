@@ -2,7 +2,7 @@
 //
 // Job options file for Gleam job to run detault source for 10K events
 
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/default.txt,v 1.13 2003/10/20 11:58:37 burnett Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/default.txt,v 1.14 2005/03/17 18:55:03 burnett Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
@@ -17,7 +17,6 @@ FluxSvc.StartDate = "2005-05-01 12:00:00";
 
 // set root output from merit with following
 MeritAlg.EventTreeName="MeritTuple";
-MeritAlg.PointingTreeName="Exposure";
 
 RootTupleSvc.filename="merit.root";
 
