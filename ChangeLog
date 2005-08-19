@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Aug 18 21:52:35 PDT 2005
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+restore change made necessary by CalXtalResponse backoff
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r4p2, operation: add
 Package: Gleam
