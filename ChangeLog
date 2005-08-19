@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Thu Aug 18 21:52:35 PDT 2005
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+restore change made necessary by CalXtalResponse backoff
+    *
+------------------------------------------------------------
+User: burnett  Thu Aug 18 21:52:35 PDT 2005
 Gleam/cmt
 
 Modified Files:
