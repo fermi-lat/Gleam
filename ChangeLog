@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Aug 18 21:52:36 PDT 2005
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+restore change made necessary by CalXtalResponse backoff
+    *
+------------------------------------------------------------
 User: burnett  Thu Aug 18 21:52:35 PDT 2005
 Gleam/doc
 
