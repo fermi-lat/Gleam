@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Sep 20 08:14:01 PDT 2005
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add PointInfoAlg to generation.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r4p3, operation: add
 Package: Gleam
