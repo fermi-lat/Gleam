@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.71 2005/08/18 16:38:08 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.72 2005/08/19 04:52:35 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -33,6 +33,7 @@ Top.Members={
 
 Generator.Members = {
     "FluxAlg", 
+    "PointInfoAlg",
     "G4Generator",
     "Sequencer/CalibrationUpdate",
     "Sequencer/Digitization",

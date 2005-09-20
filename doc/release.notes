@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.115 2005/08/18 16:38:08 burnett Exp $
+ * $Id: release.notes,v 1.116 2005/08/19 04:52:35 burnett Exp $
 
+* v6r4p4 THB 20-sep-05   move Pt info to new alg
 * v6r4p3 THB 18-aug-05   restore backoff CalXtalResponse include
 * v6r4p2 THB 18-aug-05   Fix TkrRecon bug in basicOptions; remove defunct merit property from default.txt
 * v6r4p1 THB 11-aug-05   remove artifacts of back-off
