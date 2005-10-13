@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.72 2005/08/19 04:52:35 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.73 2005/09/20 15:14:01 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -162,17 +162,17 @@ ApplicationMgr.ExtSvc   += { "TkrInitSvc"};
 // *** it should be done in TkrRecon ***
 TkrFilterFirst.FilterToolName="TkrCalFilterTool";
 
+// -------------------------------------------
+//  Calibration sevices
+//
+#include "$CALIBSVCROOT/src/defaultOptions.txt"
+
 
 // -------------------------------------------
 //  Calorimeter services
 //
 ApplicationMgr.Dlls += {"CalXtalResponse"};
 #include "$CALXTALRESPONSEROOT/src/defaultOptions.txt"
-
-// -------------------------------------------
-//  Calibration sevices
-//
-#include "$CALIBSVCROOT/src/defaultOptions.txt"
 
 
 // ----------------------------
