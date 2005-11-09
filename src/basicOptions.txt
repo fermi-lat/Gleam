@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.77 2005/11/09 05:10:32 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.78 2005/11/09 06:47:00 heather Exp $
 
 // primary DLLs, including auditor 
 
@@ -186,7 +186,7 @@ Acd.Members = {"AcdReconAlg"};
 //
 ApplicationMgr.DLLs +=   {"AnalysisNtuple", "ntupleWriterSvc", "merit"};
 ApplicationMgr.ExtSvc += {"RootTupleSvc"};
-Triggered.Members +=     { "meritAlg"};
+Triggered.Members +=     { "meritAlg", "FT1Alg" };
 
 //-------------------------------------
 //   Merit configuration --  (use defaults)
