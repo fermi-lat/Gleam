@@ -2,8 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.121 2005/11/09 05:11:04 heather Exp $
+ * $Id: release.notes,v 1.122 2005/11/09 06:46:49 heather Exp $
 
+
+* v6r7p3 HMK 09-nov-05   Put FT1Alg back in
 * v6r7p2 HMK 09-nov-05   Back off FT1Alg since newer merit is not on GR HEAD
 * v6r7p1 HMK 09-nov-05   patch the patch to basicOptions..doh!
 * v6r7   HMK 09-nov-05   add AcdUtil to basicOptions
