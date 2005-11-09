@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.74 2005/10/13 18:13:25 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.75 2005/11/08 16:59:24 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -178,7 +178,7 @@ ApplicationMgr.Dlls += {"CalXtalResponse"};
 // ----------------------------
 //   ACD recon
 //
-ApplicationMgr.DLLs += {"AcdRecon"};
+ApplicationMgr.DLLs += {"AcdUtil", AcdRecon"};
 Acd.Members = {"AcdReconAlg"};
 
 // ----------------------------
