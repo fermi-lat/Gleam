@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.123 2005/11/09 18:40:15 heather Exp $
+ * $Id: release.notes,v 1.124 2005/12/11 01:10:37 burnett Exp $
 
+* v6r8p1 THB 14-dec-05   Needed to make FT1Alg follow GlastClassify.
 * v6r8   THB 10-dec-05   (For TU): implement Atwood trees (only) in GlastClassify
 * v6r7p3 HMK 09-nov-05   Put FT1Alg back in
 * v6r7p2 HMK 09-nov-05   Back off FT1Alg since newer merit is not on GR HEAD
