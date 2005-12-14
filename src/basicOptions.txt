@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.79 2005/11/09 06:48:25 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.80 2005/12/11 01:10:38 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -182,18 +182,15 @@ ApplicationMgr.DLLs += {"AcdUtil", "AcdRecon"};
 Acd.Members = {"AcdReconAlg"};
 
 // ----------------------------
-//   Atwood's tuple and merit
+//  tuple generation 
 //
 ApplicationMgr.DLLs +=   {"AnalysisNtuple", "ntupleWriterSvc", "merit"};
 ApplicationMgr.ExtSvc += {"RootTupleSvc"};
-Triggered.Members +=     { "meritAlg", "FT1Alg" };
 
-// ----------------------------
-//   Atwood's Insightful Miner analysis (translated by Tracy)
-Triggered.Members +=     {"ClassifyAlg"};
+Triggered.Members +=     {"meritAlg" }; // AnaTup and Filter stuff into the tuple
+Triggered.Members +=     {"ClassifyAlg"};// Atwood's Insightful Miner analysis 
+Triggered.Members +=     {"FT1Alg"};     // generate stuff to go into FT1.
 
-//-------------------------------------
-//   Merit configuration --  (use defaults)
 
 // ---------------------------- 
 //   Output
