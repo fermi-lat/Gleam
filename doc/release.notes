@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.124 2005/12/11 01:10:37 burnett Exp $
+ * $Id: release.notes,v 1.125 2005/12/14 23:14:41 burnett Exp $
 
+* v6r9   THB 18-dec-05   Added Interleave
 * v6r8p1 THB 14-dec-05   Needed to make FT1Alg follow GlastClassify.
 * v6r8   THB 10-dec-05   (For TU): implement Atwood trees (only) in GlastClassify
 * v6r7p3 HMK 09-nov-05   Put FT1Alg back in
