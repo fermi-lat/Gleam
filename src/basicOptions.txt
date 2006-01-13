@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.81 2005/12/14 23:14:41 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.82 2005/12/18 03:22:30 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -33,6 +33,7 @@ Top.Members={
 
 Generator.Members = {
     "FluxAlg", 
+    "CurrentEventAlg",
     "PointInfoAlg",
     "G4Generator",
     "Sequencer/CalibrationUpdate",
@@ -104,6 +105,7 @@ Digitization.Members = {
 //  Trigger calculation
 //
 ApplicationMgr.DLLs +={ "Trigger"};
+ApplicationMgr.ExtSvc += { "LivetimeSvc"}; 
 TriggerAlg.mask = -1; // all bits on by default: reject if none set (e.g., missed)
 
 // ----------------------------
