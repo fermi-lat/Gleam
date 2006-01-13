@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Fri Jan 13 09:14:49 PST 2006
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+add CurrentEventAlg to Generator sequence, tag
+    *
+------------------------------------------------------------
+User: burnett  Fri Jan 13 09:14:49 PST 2006
 Gleam/cmt
 
 Modified Files:
