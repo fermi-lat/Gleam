@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Fri Jan 13 09:14:49 PST 2006
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-add CurrentEventAlg to Generator sequence, tag
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r9p1, operation: add
 Package: Gleam
