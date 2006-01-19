@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.127 2005/12/19 16:46:58 burnett Exp $
+ * $Id: release.notes,v 1.128 2006/01/13 17:14:49 burnett Exp $
 
+* v6r11  THB 19-jan-06   Add LiveTimeSvc to basicOptions; specify correct Insightful Miner file
 * v6r10  THB 13-jan-06   Add CurrentEventAlg to Generator sequence
 * v6r9p1 THB 19-dec-05   Fix test
 * v6r9   THB 18-dec-05   Added Interleave

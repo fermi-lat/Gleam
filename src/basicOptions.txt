@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.82 2005/12/18 03:22:30 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.83 2006/01/13 17:14:50 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -193,6 +193,8 @@ ApplicationMgr.ExtSvc += {"RootTupleSvc"};
 
 Reconstruction.Members +=     {"meritAlg" }; // AnaTup and Filter stuff into the tuple
 Reconstruction.Members +=     {"ClassifyAlg"};// Atwood's Insightful Miner analysis 
+ClassifyAlg.xmlFileName="DC2_Analysis.xml";  // override default
+
 Reconstruction.Members +=     {"FT1Alg"};     // generate stuff to go into FT1.
 
 
