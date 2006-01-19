@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chamont  Wed Jan 18 19:04:14 PST 2006
+Gleam/src/test
+
+Added Files:
+	.cvsignore 
+Log Message:
+not to see file products in cvs commands...
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r10, operation: add
 Package: Gleam
