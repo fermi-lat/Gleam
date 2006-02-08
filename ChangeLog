@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Wed Feb  8 11:03:54 PST 2006
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-tagging
-    *
-------------------------------------------------------------
-User: burnett  Wed Feb  8 10:47:32 PST 2006
-Gleam/src
-
-Modified Files:
-	basicOptions.txt 
-Log Message:
-new anatup algorithm used to fill the tuple
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r11, operation: add
 Package: Gleam
