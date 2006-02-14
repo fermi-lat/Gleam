@@ -2,22 +2,23 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.127 2005/12/19 16:46:58 burnett Exp $
+ * $Id: release.notes,v 1.128 2006/01/13 17:14:49 burnett Exp $
 
-* v6r10  THB 13-jan-06   Add CurrentEventAlg to Generator sequence
-* v6r9p1 THB 19-dec-05   Fix test
-* v6r9   THB 18-dec-05   Added Interleave
-* v6r8p1 THB 14-dec-05   Needed to make FT1Alg follow GlastClassify.
-* v6r8   THB 10-dec-05   (For TU): implement Atwood trees (only) in GlastClassify
-* v6r7p3 HMK 09-nov-05   Put FT1Alg back in
-* v6r7p2 HMK 09-nov-05   Back off FT1Alg since newer merit is not on GR HEAD
-* v6r7p1 HMK 09-nov-05   patch the patch to basicOptions..doh!
-* v6r7   HMK 09-nov-05   add AcdUtil to basicOptions
-* v6r6   THB 09-nov-05   add FT1Alg to triggered sequence
-* v6r5   THB 21-oct-05   fix order of calib stuff in basicOptions.
-* v6r4p4 THB 20-sep-05   move Pt info to new alg
-* v6r4p3 THB 18-aug-05   restore backoff CalXtalResponse include
-* v6r4p2 THB 18-aug-05   Fix TkrRecon bug in basicOptions; remove defunct merit property from default.txt
+* v6r10cl0 TU 14-Feb-06    Tag branch for new externals
+* v6r10    THB 13-jan-06   Add CurrentEventAlg to Generator sequence
+* v6r9p1   THB 19-dec-05   Fix test
+* v6r9     THB 18-dec-05   Added Interleave
+* v6r8p1   THB 14-dec-05   Needed to make FT1Alg follow GlastClassify.
+* v6r8     THB 10-dec-05   (For TU): implement Atwood trees (only) in GlastClassify
+* v6r7p3   HMK 09-nov-05   Put FT1Alg back in
+* v6r7p2   HMK 09-nov-05   Back off FT1Alg since newer merit is not on GR HEAD
+* v6r7p1   HMK 09-nov-05   patch the patch to basicOptions..doh!
+* v6r7     HMK 09-nov-05   add AcdUtil to basicOptions
+* v6r6     THB 09-nov-05   add FT1Alg to triggered sequence
+* v6r5     THB 21-oct-05   fix order of calib stuff in basicOptions.
+* v6r4p4   THB 20-sep-05   move Pt info to new alg
+* v6r4p3   THB 18-aug-05   restore backoff CalXtalResponse include
+* v6r4p2   THB 18-aug-05   Fix TkrRecon bug in basicOptions; remove defunct merit property from default.txt
 * v6r4p1 THB 11-aug-05   remove artifacts of back-off
 * v6r4   THB 10-aug-05   back off include of CalXtalResponse
 * v6r3p1 THB 24-Jul-05   oops, LATcalibroot wrong for linux
