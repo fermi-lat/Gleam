@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.129 2006/01/19 16:26:53 burnett Exp $
+ * $Id: release.notes,v 1.130 2006/02/08 19:03:55 burnett Exp $
 
+* v6r13  THB 19-mar-06   Disable livetime; fix bug in basicoptions for onboard filter
 * v6r12  THB 08-feb-06   Add AnalysisNtupleAlg to Triggered sequence 
 * v6r11  THB 19-jan-06   Add LiveTimeSvc to basicOptions; specify correct Insightful Miner file
 * v6r10  THB 13-jan-06   Add CurrentEventAlg to Generator sequence
