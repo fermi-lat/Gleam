@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.85 2006/02/08 18:47:31 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.86 2006/03/20 04:25:43 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -12,13 +12,14 @@ AuditorSvc.Auditors = {"ChronoAuditor"};
 // ----------------------------
 // setup basic event loop stuff
 //
-ApplicationMgr.ExtSvc = { 
-    "GlastEventSelector/EventSelector" , 
-    "EventCnvSvc"
-    };
+ApplicationMgr.ExtSvc = { "EventSelector/EventSelector" };
+    //"GlastEventSelector/EventSelector" , 
+    //"EventCnvSvc"
+    //};
 
 EventPersistencySvc.CnvServices = {"EventCnvSvc"};
-EventSelector.Input = "NONE";
+//EventSelector.Input = "NONE";
+EventSelector.Input = "SVC='DbEvtSelector'";
 
 
 // ----------------------------
