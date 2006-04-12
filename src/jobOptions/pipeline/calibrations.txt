@@ -2,7 +2,7 @@
 // Job Option file containing calibration stuff 
 // to be included by recon and mc:
 //
-// $Header$
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions/pipeline/calibrations.txt,v 1.1 2005/07/21 17:33:28 burnett Exp $
 //
 // Start up a CalibDataSvc: 
 //
@@ -58,6 +58,15 @@ TkrCalibAlg.calibFlavor = "vanilla";
 // Write out bad and hot strips to the log file:
 //
 TkrBadStripsSvc.OutputLevel = 2;
+
+ 
+// Start up an AcdCalibSvc:
+ApplicationMgr.ExtSvc += {"AcdCalibSvc"};
+ 
+// for real data
+AcdCalibSvc.DefaultFlavor = "vanilla"
+
+
 
 //
 // General calibration flavor list:
