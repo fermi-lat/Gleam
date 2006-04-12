@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Wed Apr 12 14:28:36 PDT 2006
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Added AcdCalibSvc in src/jobOptions/pipeline/calibrations.txt
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r14p1, operation: add
 Package: Gleam
