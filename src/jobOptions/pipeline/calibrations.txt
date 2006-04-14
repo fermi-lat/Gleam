@@ -2,7 +2,7 @@
 // Job Option file containing calibration stuff 
 // to be included by recon and mc:
 //
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions/pipeline/calibrations.txt,v 1.1 2005/07/21 17:33:28 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions/pipeline/calibrations.txt,v 1.2 2006/04/12 21:28:37 echarles Exp $
 //
 // Start up a CalibDataSvc: 
 //
@@ -64,7 +64,7 @@ TkrBadStripsSvc.OutputLevel = 2;
 ApplicationMgr.ExtSvc += {"AcdCalibSvc"};
  
 // for real data
-AcdCalibSvc.DefaultFlavor = "vanilla"
+AcdCalibSvc.DefaultFlavor = "vanilla";
 
 
 
