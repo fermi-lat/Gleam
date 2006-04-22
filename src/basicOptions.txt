@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.87 2006/03/21 01:25:35 usher Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.88 2006/03/31 03:58:26 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -137,7 +137,6 @@ Reconstruction.Members={
 Cal1.Members = { 
     "CalXtalRecAlg",
     "CalClustersAlg/first",
-    "CalMipFinderAlg", 
     "CalEventEnergyAlg/RawEnergy"
     };
 
