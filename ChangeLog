@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Sat Apr 22 15:23:28 PDT 2006
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-remove CalMipFinder from basicOptions; tagging
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r15p1, operation: add
 Package: Gleam
