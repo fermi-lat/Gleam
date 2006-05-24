@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Tue May 23 17:08:51 PDT 2006
-Gleam/src
-
-Modified Files:
-	readAndDisplay.txt 
-Log Message:
-update JO file for reading root and display to FRED
-    *
-------------------------------------------------------------
-User: burnett  Tue May 23 17:08:51 PDT 2006
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-update JO file for reading root and display to FRED
-    *
-------------------------------------------------------------
-User: burnett  Tue May 23 17:08:51 PDT 2006
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-update JO file for reading root and display to FRED
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r16, operation: add
 Package: Gleam
