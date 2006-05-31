@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed May 31 14:57:14 PDT 2006
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	calibrations.txt ldf2digi.txt 
+Log Message:
+use LDF packages for kicks
+    *
+------------------------------------------------------------
 User: heather  Wed May 31 14:57:13 PDT 2006
 Gleam/doc
 
