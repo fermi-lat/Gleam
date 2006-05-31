@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed May 31 14:57:11 PDT 2006
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+use LDF packages for kicks
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r16p1, operation: add
 Package: Gleam
