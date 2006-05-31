@@ -1,9 +1,9 @@
 package Gleam
 
-version  v6r16p1
+version  v6r17
 author T. Burnett <tburnett@u.washington.edu>
 
-# $Id: requirements,v 1.270 2006/04/14 00:59:46 echarles Exp $
+# $Id: requirements,v 1.271 2006/05/24 00:08:51 burnett Exp $
 
 use GuiSvc      v*
 
@@ -52,8 +52,9 @@ use  HepRepSvc *
 use  HepRepXml *
 use  HepRepCorba *
 
-# for reading real data?
-### use LDFevent *
+# for reading real data
+use LdfEvent v*
+use LdfConverter v*
 
 ### define a simple executable wth GUI
 
