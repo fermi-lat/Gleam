@@ -1,7 +1,7 @@
 //
 // Muon hypothesis for the new TkrRecon:
 //
-// $Header$
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions/pipeline/muonHyp.txt,v 1.1 2005/07/21 17:33:28 burnett Exp $
 
 //
 // Muon hypothesis in tracking, 
@@ -10,4 +10,6 @@
 ToolSvc.ComboFindTrackTool.MinEnergy = 2000.0;
 ToolSvc.ComboFindTrackTool.EnergyType = "User";
 ToolSvc.KalmanTrackFitTool.ParticleName  = "mu-";
-TkrInitSvc.TkrHitEnergyType = "MuRadLoss";
+ToolSvc.KalmanTrackFitTool.HitEnergyType = "BetheBloch";
+//TkrInitSvc.TkrHitEnergyType = "MuRadLoss";
+
