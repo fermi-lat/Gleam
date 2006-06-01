@@ -1,7 +1,7 @@
 //
 // Job Option file for fits2digi/ldf2digi: 
 //
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions/pipeline/ldf2digi.txt,v 1.1 2005/07/21 17:33:28 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions/pipeline/ldf2digi.txt,v 1.2 2006/05/31 21:57:14 heather Exp $
 
 //
 // Job Option file for fits2digi/ldf2digi: 
@@ -57,6 +57,9 @@ GlastDetSvc.visitorMode = "recon";
 //
 ApplicationMgr.DLLs += {"Trigger"};
 Trigger.Members      = {"TriggerAlg"};
+
+ApplicationMgr.ExtSvc += { "LivetimeSvc"};
+LivetimeSvc.Deadtime=0;  // default is now to disable this
 
 
 //
