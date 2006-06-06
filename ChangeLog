@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Jun  5 22:51:48 PDT 2006
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	readigi_runrecon.txt 
+Log Message:
+use EventIntegrity and fix up readdigi_runrecon.txt
+    *
+------------------------------------------------------------
+User: heather  Mon Jun  5 22:51:48 PDT 2006
 Gleam/cmt
 
 Modified Files:
