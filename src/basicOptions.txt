@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.89 2006/04/22 22:23:28 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.90 2006/06/23 15:46:53 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -122,7 +122,7 @@ Reconstruction.Members += {"FilterTracks", "FilterAlg"}; // for study of perform
 ApplicationMgr.ExtSvc += { "GlastPropagatorSvc" };
 
 ApplicationMgr.DLLs +={ 
-    "CalRecon", "CalUtil", 
+    "CalRecon", 
     "TkrRecon", "TkrUtil"
     };
 Reconstruction.Members={ 
