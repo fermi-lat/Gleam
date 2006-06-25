@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Sun Jun 25 11:55:51 PDT 2006
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+remove CalUtil from list of dll's; tag
+    *
+------------------------------------------------------------
+User: burnett  Sun Jun 25 11:55:51 PDT 2006
 Gleam/doc
 
 Modified Files:
