@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Sun Jun 25 11:55:51 PDT 2006
-Gleam/src
-
-Modified Files:
-	basicOptions.txt 
-Log Message:
-remove CalUtil from list of dll's; tag
-    *
-------------------------------------------------------------
-User: burnett  Sun Jun 25 11:55:51 PDT 2006
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-remove CalUtil from list of dll's; tag
-    *
-------------------------------------------------------------
-User: burnett  Sun Jun 25 11:55:51 PDT 2006
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-remove CalUtil from list of dll's; tag
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r18p1, operation: add
 Package: Gleam
