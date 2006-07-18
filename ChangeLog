@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jul 18 11:15:02 PDT 2006
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add ancillaryData package uses
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r14p2, operation: del
 Package: Gleam
