@@ -4,7 +4,7 @@ version  v6r19
 author T. Burnett <tburnett@u.washington.edu>
 build_strategy without_installarea
 
-# $Id: requirements,v 1.277 2006/06/25 18:55:51 burnett Exp $
+# $Id: requirements,v 1.278 2006/07/18 18:15:02 heather Exp $
 
 use GuiSvc      v*
 
@@ -61,6 +61,7 @@ use EventIntegrity v*
 # beamtest 2006 ancillary data
 use AncillaryDataEvent v*
 use AncillaryDataRecon v*
+use AdfReader v*
 
 
 ### define a simple executable wth GUI
