@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.90 2006/06/23 15:46:53 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.91 2006/06/25 18:55:51 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -185,7 +185,7 @@ Acd.Members = {"AcdReconAlg"};
 // ----------------------------
 //  tuple generation 
 //
-ApplicationMgr.DLLs +=   {"AnalysisNtuple", "ntupleWriterSvc", "merit"};
+ApplicationMgr.DLLs +=   {"AnalysisNtuple", "ntupleWriterSvc", "merit", "GlastClassify" };
 ApplicationMgr.ExtSvc += {"RootTupleSvc"};
 
 Reconstruction.Members +=     {"AnalysisNtupleAlg" }; // AnaTup and Filter stuff into the tuple
