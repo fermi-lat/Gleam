@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Oct 31 10:19:48 PST 2006
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+ditch AdfReader and AncillaryDataRecon
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r20p1, operation: add
 Package: Gleam
