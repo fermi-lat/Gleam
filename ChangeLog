@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Sun Dec 24 17:46:46 PST 2006
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+added use of Count alg.
+    *
+------------------------------------------------------------
+User: burnett  Sun Dec 24 17:46:46 PST 2006
 Gleam/cmt
 
 Modified Files:
