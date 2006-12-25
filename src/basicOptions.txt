@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.91 2006/06/25 18:55:51 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.92 2006/10/23 21:37:50 usher Exp $
 
 // primary DLLs, including auditor 
 
@@ -46,6 +46,7 @@ Generator.BranchMembers = {"FluxAlg", "ExposureAlg"};
 // the sequence that is triggered with data
 Triggered.Members={
     "TriggerAlg",       // can reject following
+    "Count/triggerd",
     "Sequencer/Filter",
     "Sequencer/Reconstruction",
     "Sequencer/RecoDisplay",
@@ -111,7 +112,7 @@ TriggerAlg.mask = -1; // all bits on by default: reject if none set (e.g., misse
 //  onboard filter 
 //
 ApplicationMgr.DLLs  += { "EbfWriter", "OnboardFilter"};
-Filter.Members       += {"EbfWriter", "OnboardFilter"}; // this guy can cause rejection
+Filter.Members       += {"EbfWriter","Count/downlink", "OnboardFilter"}; // this guy can cause rejection
 OnboardFilter.mask=0; // all bits off by default: no rejection
 
 Reconstruction.Members += {"FilterTracks", "FilterAlg"}; // for study of performance
