@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Dec 24 17:46:46 PST 2006
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+added use of Count alg.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r20p3, operation: add
 Package: Gleam
