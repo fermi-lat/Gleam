@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Fri Dec 29 08:54:24 PST 2006
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-patch to basicOptions
-    *
-------------------------------------------------------------
-User: burnett  Fri Dec 29 08:51:29 PST 2006
-Gleam/src
-
-Modified Files:
-	basicOptions.txt 
-Log Message:
-fix the count
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r21, operation: add
 Package: Gleam
