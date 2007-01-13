@@ -4,7 +4,7 @@ version v6r21p1
 author T. Burnett <tburnett@u.washington.edu>
 build_strategy without_installarea
 
-# $Id: requirements,v 1.287 2006/12/25 01:46:46 burnett Exp $
+# $Id: requirements,v 1.288 2006/12/29 16:54:24 burnett Exp $
 
 use GuiSvc      v*
 
@@ -78,3 +78,5 @@ private
 # define a standard test executable, if desired
 apply_pattern package_test
 
+# make a folder to keep local data files
+branches data
