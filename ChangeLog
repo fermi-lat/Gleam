@@ -1,5 +1,19 @@
 ------------------------------------------------------------
 User: lsrea  Sat Jan 13 12:17:57 PST 2007
+Gleam/src
+
+Modified Files:
+	jobOptions.txt 
+Added Files:
+	basicOptions_test.txt readDisplayAndWrite.txt 
+Log Message:
+requirements: add a statement to make a "data" directory
+basicOptions_test.txt: Modular version, default for output is data directory
+readDisplayAndWrite: demo of new features
+
+    *
+------------------------------------------------------------
+User: lsrea  Sat Jan 13 12:17:57 PST 2007
 Gleam/cmt
 
 Modified Files:
