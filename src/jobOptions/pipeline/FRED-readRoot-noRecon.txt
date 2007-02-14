@@ -3,7 +3,7 @@
 // Job options file for Reading in ROOT files i.e. not rerun recon!
 //
 //##################################################################
-// $Header$
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions/pipeline/FRED-readRoot-noRecon.txt,v 1.1 2005/07/21 17:33:28 burnett Exp $
 
 //
 // Get the basic stuff:
@@ -11,7 +11,7 @@
 ApplicationMgr.DLLs    += {"GaudiAlg","FluxSvc","GlastSvc"};
 ApplicationMgr.DLLs    += {"HepRepSvc","HepRepXml","HepRepCorba"};
 ApplicationMgr.ExtSvc  += {"HepRepSvc"};
-ApplicationMgr.ExtSvc  += {"GlastEventSelector/EventSelector","EventCnvSvc"};
+ApplicationMgr.ExtSvc  += {"EventSelector/EventSelector","EventCnvSvc"};
 
 ApplicationMgr.Runable = "HepRepSvc";
 
