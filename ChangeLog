@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Wed Feb 14 10:10:43 PST 2007
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	FRED-readRoot-noRecon.txt mc.txt 
+Log Message:
+remove GlastEventSelector
+
+    *
+------------------------------------------------------------
 User: lsrea  Sat Jan 13 12:17:57 PST 2007
 Gleam/src
 
