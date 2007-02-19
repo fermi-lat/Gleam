@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Mon Feb 19 11:33:32 PST 2007
+Gleam/src
+
+Modified Files:
+	basicOptions.txt default.txt 
+Log Message:
+move declaration of RootTupleSvc to end, for jobinfo
+    *
+------------------------------------------------------------
+User: burnett  Mon Feb 19 11:33:32 PST 2007
 Gleam/doc
 
 Modified Files:
