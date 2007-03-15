@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Thu Mar 15 07:42:22 PDT 2007
-Gleam/src
-
-Modified Files:
-	basicOptions.txt 
-Log Message:
-remove FilterAlgTuple from basicOptions; tag
-    *
-------------------------------------------------------------
-User: burnett  Thu Mar 15 07:42:22 PDT 2007
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-remove FilterAlgTuple from basicOptions; tag
-    *
-------------------------------------------------------------
-User: burnett  Thu Mar 15 07:42:22 PDT 2007
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-remove FilterAlgTuple from basicOptions; tag
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r22p1, operation: add
 Package: Gleam
