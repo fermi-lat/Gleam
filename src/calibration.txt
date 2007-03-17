@@ -1,0 +1,15 @@
+// $Header: /nfs/slac/g/glast/ground/cvs/DataChallenge/src/calibration.txt,v 1.1 2005/07/21 18:08:30 burnett Exp $
+// DC2 calibration
+
+// add new flavors to default
+CalibDataSvc.CalibFlavorList += {"vanilla", "DC2"}; 
+
+// for MSQL connection
+CalibMySQLCnvSvc.DbName      = "calib"; 
+CalibMySQLCnvSvc.QualityList = {"PROD"}; 
+
+// Cal specs
+CalCalibSvc.DefaultFlavor     = "ideal"; 
+
+// Tkr specs
+TkrCalibAlg.deadStripsCalibFlavor = "DC2"; 
