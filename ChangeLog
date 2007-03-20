@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Mar 20 11:16:59 PDT 2007
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+add relation writer to basicOpt
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r24, operation: add
 Package: Gleam
