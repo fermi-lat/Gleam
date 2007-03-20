@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Tue Mar 20 11:32:28 PDT 2007
-Gleam/src
-
-Modified Files:
-	basicOptions.txt full_source_simulation.txt interleave.txt 
-Log Message:
-adjust for convenience of pipeline tasks.
-    *
-------------------------------------------------------------
-User: burnett  Tue Mar 20 11:32:28 PDT 2007
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-adjust for convenience of pipeline tasks.
-    *
-------------------------------------------------------------
-User: burnett  Tue Mar 20 11:32:28 PDT 2007
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-adjust for convenience of pipeline tasks.
-    *
-------------------------------------------------------------
 User: heather  Tue Mar 20 11:16:59 PDT 2007
 Gleam/src
 
