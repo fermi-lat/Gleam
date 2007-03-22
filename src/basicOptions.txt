@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.99 2007/03/20 18:32:28 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.100 2007/03/22 20:46:34 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -150,16 +150,12 @@ mcRootWriterAlg.mcRootFile       = "$(GLEAMROOT)/data/mc.root";
 digiRootWriterAlg.digiRootFile   = "$(GLEAMROOT)/data/digi.root";
 reconRootWriterAlg.reconRootFile = "$(GLEAMROOT)/data/recon.root";
 relationRootWriterAlg.rootFile   = "$(GLEAMROOT)/data/relation.root";
-RootTupleSvc.filename            = "${GLEAMROOT}/data/merit.root";
-RootTupleSvc.RejectIfBad = false;
-
 
 // ----------------------------
 // ntuple generation 
 
 ApplicationMgr.DLLs +=   {"AnalysisNtuple", "ntupleWriterSvc", "merit", "GlastClassify" };
 NtupleMaker.Members = {
-    "Count/anatup",      // a check!
     "AnalysisNtupleAlg", // AnaTup and Filter stuff into the tuple
     "ClassifyAlg",       // Atwood's Insightful Miner analysis
     "FT1Alg",            // generate stuff to go into FT1.
