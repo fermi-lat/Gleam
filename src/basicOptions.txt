@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.100 2007/03/22 20:46:34 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.101 2007/03/22 20:48:58 burnett Exp $
 
 // primary DLLs, including auditor 
 
@@ -149,7 +149,7 @@ Output.Members = {
 mcRootWriterAlg.mcRootFile       = "$(GLEAMROOT)/data/mc.root";
 digiRootWriterAlg.digiRootFile   = "$(GLEAMROOT)/data/digi.root";
 reconRootWriterAlg.reconRootFile = "$(GLEAMROOT)/data/recon.root";
-relationRootWriterAlg.rootFile   = "$(GLEAMROOT)/data/relation.root";
+relationRootWriterAlg.rootFile   = "$(GLEAMROOT)/data/relations.root";
 
 // ----------------------------
 // ntuple generation 
