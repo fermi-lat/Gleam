@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Mar 22 13:46:34 PDT 2007
+Gleam/src
+
+Modified Files:
+	background.txt basicOptions.txt full_source_simulation.txt 
+Log Message:
+add in relationRoot stuff
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r24p1, operation: add
 Package: Gleam
