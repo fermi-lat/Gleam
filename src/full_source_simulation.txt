@@ -1,10 +1,10 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/full_source_simulation.txt,v 1.3 2007/03/20 18:32:28 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/full_source_simulation.txt,v 1.4 2007/03/22 20:46:34 burnett Exp $
 //##############################################################
 //
 // Job options file for Gleam job to do full simulation with  sources
-//
-// Input sky model directory: $(SKYMODEL_DIR)
+// Input:
 //         pointing history: $(POINTING_HISTORY_FILE)
+//         (expect sources, sky model, background, iterleave,  to be in file adding this)
 //
 // Outputs: $(meritRootFileName)
 //          $(mcRootFileName)
