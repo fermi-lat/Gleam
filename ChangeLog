@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: burnett  Fri Mar 23 06:00:42 PDT 2007
+Gleam/src
+
+Modified Files:
+	full_source_simulation.txt 
+Added Files:
+	clocks.xml skymodel.txt 
+Log Message:
+add support for production
+    *
+------------------------------------------------------------
 User: lsrea  Thu Mar 22 15:13:15 PDT 2007
 Gleam/src
 
