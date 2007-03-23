@@ -1,4 +1,50 @@
 ------------------------------------------------------------
+TAG
+Tag name: v6r25, operation: add
+Package: Gleam
+User: burnett  Fri Mar 23 06:08:19 2007
+Files:
+  Gleam/.cvsignore  1.3
+  Gleam/ChangeLog  1.852
+  Gleam/cmt/.cvsignore  1.2
+  Gleam/cmt/NMake  1.1.1.1
+  Gleam/cmt/requirements  1.295
+  Gleam/cmt/Makefile  1.1
+  Gleam/doc/release.notes  1.157
+  Gleam/src/calibration.txt  1.1
+  Gleam/src/readdigi.txt  1.9
+  Gleam/src/readAndDisplay.txt  1.4
+  Gleam/src/convertFits.txt  1.1
+  Gleam/src/tuple.txt  1.1
+  Gleam/src/mainpage.h  1.3
+  Gleam/src/basicOptions_old.txt  1.1
+  Gleam/src/fredOptions.txt  1.5
+  Gleam/src/readEMDigi.txt  1.1
+  Gleam/src/skymodel.txt  1.1
+  Gleam/src/interleave.txt  1.2
+  Gleam/src/basicOptions.txt  1.102
+  Gleam/src/full_source_simulation.txt  1.5
+  Gleam/src/default.txt  1.16
+  Gleam/src/background.txt  1.2
+  Gleam/src/readDisplayAndWrite.txt  1.1
+  Gleam/src/jobOptions.txt  1.20
+  Gleam/src/clocks.xml  1.1
+  Gleam/src/guiOptions.txt  1.11
+  Gleam/src/jobOptions/pipeline/FRED-readRoot-runRecon.txt  1.1
+  Gleam/src/jobOptions/pipeline/calibrations.txt  1.4
+  Gleam/src/jobOptions/pipeline/FRED-readRoot-noRecon.txt  1.2
+  Gleam/src/jobOptions/pipeline/ldf2digi.txt  1.3
+  Gleam/src/jobOptions/pipeline/VDG.txt  1.1
+  Gleam/src/jobOptions/pipeline/readigi_runrecon.txt  1.3
+  Gleam/src/jobOptions/pipeline/mc.txt  1.4
+  Gleam/src/jobOptions/pipeline/muonHyp.txt  1.2
+  Gleam/src/jobOptions/pipeline/README  1.1
+  Gleam/src/test/.cvsignore  1.1
+  Gleam/src/test/jobOptions.txt  1.34
+  Gleam/src/test/userOptions.txt  1.1
+
+    *
+------------------------------------------------------------
 User: burnett  Fri Mar 23 06:07:57 PDT 2007
 Gleam/doc
 
