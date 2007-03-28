@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.101 2007/03/22 20:48:58 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.102 2007/03/22 22:13:15 lsrea Exp $
 
 // primary DLLs, including auditor 
 
@@ -158,8 +158,10 @@ ApplicationMgr.DLLs +=   {"AnalysisNtuple", "ntupleWriterSvc", "merit", "GlastCl
 NtupleMaker.Members = {
     "AnalysisNtupleAlg", // AnaTup and Filter stuff into the tuple
     "ClassifyAlg",       // Atwood's Insightful Miner analysis
-    "FT1Alg",            // generate stuff to go into FT1.
-    "meritAlg"           //   some analysis for PSF
+    "FT1Alg",            // generate stuff to go into FT1 // version from AnaTup
+    "meritAlg",          // some analysis for PSF
+    "McCoordsAlg",       // now in AnaTup
+    "ObfCoordsAlg"       // now in AnaTup
  };
 
 AnalysisNtupleAlg.tupleName = "MeritTuple";
