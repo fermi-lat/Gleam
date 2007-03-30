@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Fri Mar 30 06:44:18 PDT 2007
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Prepare for tag v6r25p1
+mods to basic options for reorg of merit/AnalysisNtuple
+
+    *
+------------------------------------------------------------
 User: lsrea  Wed Mar 28 10:01:03 PDT 2007
 Gleam/src
 
