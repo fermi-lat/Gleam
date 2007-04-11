@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/full_source_simulation.txt,v 1.4 2007/03/22 20:46:34 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/full_source_simulation.txt,v 1.5 2007/03/23 13:00:42 burnett Exp $
 //##############################################################
 //
 // Job options file for Gleam job to do full simulation with  sources
@@ -38,7 +38,7 @@ FluxAlg.sources    = {"clock"};
 //         Trigger, filter
 //
 LiveTimeAlg.deadtime        = 26e-6;// deadtime per trigger
-TriggerAlg.mask             = 10;   // TKR(2) + HICAL(8) 
+TriggerAlg.mask             = 26;   // TKR(2) + HICAL(8) + CNO(16) 
 TriggerAlg.throttle         = true; // ignore if TKR + Throttle
 OnboardFilter.mask          = -1;   // set the filter to reject events, 
                                     // turn on all bits (only low 16 count)
