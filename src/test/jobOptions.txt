@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.33 2005/12/19 00:18:06 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.34 2005/12/19 16:26:32 burnett Exp $
 
 // just run the "default" job with mods below
 #include "$GLEAMROOT/src/default.txt"
@@ -19,6 +19,11 @@ TriggerAlg.throttle = false;   // set true to test this option
 // Number of events to process
 ApplicationMgr.EvtMax = 1000;
 MeritAlg.generated = 1000; 
+
+// test using the trigger engine
+TriggerAlg.engine  ="default";  // overrides masking logic, uses default engine
+OnboardFilter.mask = -1;      // enable OBF
+//TriggerAlg.OutputLevel=2;
 
 
 //==============================================================
