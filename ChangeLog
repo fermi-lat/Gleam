@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Apr 12 09:19:27 PDT 2007
+Gleam/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+set up current calibration; test program now runs trigger engines
+    *
+------------------------------------------------------------
 User: burnett  Thu Apr 12 09:19:26 PDT 2007
 Gleam/src
 
