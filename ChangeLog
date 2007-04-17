@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Apr 17 15:50:43 PDT 2007
+Gleam/src
+
+Modified Files:
+	calibration.txt 
+Log Message:
+get rid of dashes, maybe causing problems
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r27, operation: add
 Package: Gleam
