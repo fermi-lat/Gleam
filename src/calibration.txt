@@ -1,10 +1,10 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/calibration.txt,v 1.4 2007/04/17 22:50:43 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/calibration.txt,v 1.5 2007/04/19 15:11:54 burnett Exp $
 
 // Start up an AcdCalibSvc
 ApplicationMgr.ExtSvc += {"AcdCalibSvc"};
 
 // add new flavors to default
-CalibDataSvc.CalibFlavorList = {"ideal","MCdata-spring-2007"};
+CalibDataSvc.CalibFlavorList = {"ideal","MC-data-spring-2007"};
 
 // for MSQL connection
 CalibMySQLCnvSvc.DbName      = "calib"; 
@@ -12,6 +12,6 @@ CalibMySQLCnvSvc.QualityList = {"PROD", "DEV" };
 
 // acd, cal, tkr flavors
 AcdCalibSvc.DefaultFlavor    = "ideal";
-CalCalibSvc.DefaultFlavor    = "MCdata-spring-2007";
-TkrCalibAlg.calibFlavor      = "MCdata-spring-2007";
+CalCalibSvc.DefaultFlavor    = "MC-data-spring-2007";
+TkrCalibAlg.calibFlavor      = "MC-data-spring-2007";
 
