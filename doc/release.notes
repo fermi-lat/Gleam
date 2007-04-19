@@ -2,9 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.162 2007/04/17 22:53:17 burnett Exp $
+ * $Id: release.notes,v 1.163 2007/04/19 15:27:27 burnett Exp $
 
-* v6r27p3 THB 19-Apr-07  Rename the flavor for calibration
+* v6r27p4 THB 19-Apr-07  Rename the flavor for calibration
 * v6r27   THB 16-Apr-07  MC version of calibration: test program runs it
 * v6r26p1 THB 12-Apr-07  New calibration; test program runs trigger engines; 
 * v6r25p1 LSR 30-Mar-07  incorporate new Anatup algs into standard sequence 
