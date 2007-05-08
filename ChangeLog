@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Tue May  8 09:10:37 PDT 2007
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+convert to OnoboardFilter.RejectEvents
+    *
+------------------------------------------------------------
+User: burnett  Tue May  8 09:10:37 PDT 2007
 Gleam/cmt
 
 Modified Files:
