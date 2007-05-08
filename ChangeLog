@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue May  8 09:10:37 PDT 2007
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+convert to OnoboardFilter.RejectEvents
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r27p4, operation: add
 Package: Gleam
