@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Tue May  8 18:38:45 PDT 2007
+Gleam/src
+
+Modified Files:
+	readdigi.txt 
+Added Files:
+	readMcAndDigi.txt 
+Log Message:
+fix up readdigi for real data and add a separate mc&digi JO reader
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r28p1, operation: add
 Package: Gleam
