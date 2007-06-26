@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Tue Jun 26 07:36:44 PDT 2007
+Gleam/src
+
+Modified Files:
+	interleave.txt 
+Log Message:
+restore default Interleave disable list
+    *
+------------------------------------------------------------
+User: burnett  Tue Jun 26 07:36:44 PDT 2007
 Gleam/doc
 
 Modified Files:
