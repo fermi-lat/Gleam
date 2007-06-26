@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Tue Jun 26 07:36:44 PDT 2007
-Gleam/src
-
-Modified Files:
-	interleave.txt 
-Log Message:
-restore default Interleave disable list
-    *
-------------------------------------------------------------
-User: burnett  Tue Jun 26 07:36:44 PDT 2007
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-restore default Interleave disable list
-    *
-------------------------------------------------------------
-User: burnett  Tue Jun 26 07:36:44 PDT 2007
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-restore default Interleave disable list
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r29, operation: add
 Package: Gleam
