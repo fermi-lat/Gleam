@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 27 16:26:01 PDT 2007
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tag Tracy's Interleave JO that avoids calling Trigger for events that are read in
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 27 16:26:00 PDT 2007
 Gleam/cmt
 
