@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Wed Jun 27 13:00:28 PDT 2007
+Gleam/src
+
+Modified Files:
+	interleave.txt 
+Log Message:
+Modify job options strategy for running interleave to try to avoid calling Trigger for events which are read in
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r29p1, operation: add
 Package: Gleam
