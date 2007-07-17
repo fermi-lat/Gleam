@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 // Options for Gleam that are specific to reading ROOT files and using the GUI
-// $Id: readAndDisplay.txt,v 1.3 2006/08/19 07:12:18 lsrea Exp $
+// $Id: readAndDisplay.txt,v 1.4 2006/12/07 18:55:17 lsrea Exp $
 //##############################################################
 //
 // Job options file for Reading in the root output files and displaying events in FRED
@@ -33,6 +33,7 @@ ApplicationMgr.DLLs += { "RootIo" };
 Top.Members =  { "mcRootReaderAlg"}; 
 Top.Members += { "digiRootReaderAlg"}; 
 Top.Members += { "reconRootReaderAlg"};
+Top.Members += { "relationRootReaderAlg"};
 
 ApplicationMgr.ExtSvc += { "RootIoSvc", "ParticlePropertySvc", "GlastDetSvc" };
 
@@ -53,9 +54,10 @@ HepRepSvc.startFred = "$Fred_DIR";
 // From time to time, the test files below become outdated. If this job doesn't 
 //   run out of the box, please notify Leon or Heather.
 
-mcRootReaderAlg.mcRootFileList = {"$(ROOTTESTDATAROOT)/data/default/mc.root"};
-digiRootReaderAlg.digiRootFileList = {"$(ROOTTESTDATAROOT)/data/default/digi.root"};
-reconRootReaderAlg.reconRootFileList = {"$(ROOTTESTDATAROOT)/data/default/recon.root"};
+mcRootReaderAlg.mcRootFile       = "$(ROOTTESTDATAROOT)/data/default/mc.root";
+digiRootReaderAlg.digiRootFile   = "$(ROOTTESTDATAROOT)/data/default/digi.root";
+reconRootReaderAlg.reconRootFile = "$(ROOTTESTDATAROOT)/data/default/recon.root";
+relationRootReaderAlg.rootFile   = "$(ROOTTESTDATAROOT)/data/default/relations.root";
 ApplicationMgr.EvtMax  = 10;
 
 // -------end readAndDisplay-specific-------
