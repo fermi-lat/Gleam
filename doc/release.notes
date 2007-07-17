@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.171 2007/06/26 14:36:44 burnett Exp $
+ * $Id: release.notes,v 1.172 2007/06/27 23:26:01 heather Exp $
 
+* v6r29p3 LSR 17-jul-07  Update jO files readAndDisplay.txt and readDisplayAndWrite.txt
 * v6r29p2 TU  27-jun-07  Modify job options strategy for running interleave to 
                          try to avoid calling Trigger for events which are 
                          read in
