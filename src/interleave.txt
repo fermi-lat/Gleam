@@ -1,7 +1,7 @@
 
 //--------------------------------------------------------
 //     Interleave-specific job options
-//     $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/interleave.txt,v 1.5 2007/06/27 20:00:28 usher Exp $
+//     $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/interleave.txt,v 1.6 2007/07/20 15:11:41 burnett Exp $
 
 ApplicationMgr.DLLs   += { "Interleave" }; 
 
@@ -26,8 +26,8 @@ GenerateEvent.Members = {
     "CurrentEventAlg",
     "PointInfoAlg"};
 
-// Define the action when the Generation sequencer fails    
-GenerateEvent.BranchMembers = {"FluxAlg", "ExposureAlg", "FilterFailAlg/GenEventFailAlg"};
+// Define the action when the Generation sequencer fails. ExposureAlg is expected to "fail"    
+GenerateEvent.BranchMembers = {"FluxAlg", "ExposureAlg"};
 
 // Define the event simulation
 SimulateEvent.Members = {
