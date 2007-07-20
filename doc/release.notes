@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.172 2007/06/27 23:26:01 heather Exp $
+ * $Id: release.notes,v 1.173 2007/07/17 20:18:27 lsrea Exp $
 
+* v6r29p4 THB 20-jul-07  Update interleave to fix name for ExposureAlg and assume it fails filter
 * v6r29p3 LSR 17-jul-07  Update jO files readAndDisplay.txt and readDisplayAndWrite.txt
 * v6r29p2 TU  27-jun-07  Modify job options strategy for running interleave to 
                          try to avoid calling Trigger for events which are 
