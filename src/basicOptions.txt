@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.102 2007/03/22 22:13:15 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.103 2007/03/28 17:01:03 lsrea Exp $
 
 // primary DLLs, including auditor 
 
@@ -91,6 +91,24 @@ ApplicationMgr.DLLs +={ "Trigger"};
 ApplicationMgr.ExtSvc += { "LivetimeSvc"}; 
 LivetimeSvc.Deadtime=0;  // default is now to disable this
 TriggerAlg.mask = -1; // all bits on by default: reject if none set (e.g., missed)
+
+// The following is for the new Trigger Configuration Service
+// TriggerAlg.engine="TrgConfigSvc"; // use TrgConfigSvc to configure trigger engines. The following options control the configuration:
+
+
+// Default configuration
+// TrgConfigSvc.useDefaultConfiguration=true; // use default configuration from file src/defaultTrgConfig.xml in the trigger package
+
+
+// Configuration from xml file
+// TrgConfigSvc.configureFromFile = true; // configure from xml file
+// TrgConfigSvc.xmlFile= "/path/configFile.xml"; // path to config xml file
+
+
+// Configuration from database
+// TrgConfigSvc.configureFromMoot=true; // configure from Moot DB
+// TrgConfigSvc.useKeyFromData=true; // use DB key from the event
+// TrgConfigSvc.fixedKey=1852 // if useKeyFromData is false, use this fixed key for all events instead.
 
 
 // ----------------------------
