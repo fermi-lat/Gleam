@@ -2,7 +2,7 @@
 //
 // Job options file for Gleam job using pre-existing files and writing them out
 // demo of the new basicOptions
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readDisplayAndWrite.txt,v 1.1 2007/01/13 20:17:57 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readDisplayAndWrite.txt,v 1.2 2007/07/17 20:18:27 lsrea Exp $
 
 #include "$GLEAMROOT/src/basicOptions.txt"
 
@@ -28,10 +28,11 @@ Digitization.Members   = {"digiRootReaderAlg"};
 Reconstruction.Members = {"reconRootReaderAlg", "relationRootReaderAlg"};
 Filter.Members         = {};
 
-mcRootReaderAlg.mcRootFile       = "$(ROOTTESTDATAROOT)/data/default/mc.root";
-digiRootReaderAlg.digiRootFile   = "$(ROOTTESTDATAROOT)/data/default/digi.root";
-reconRootReaderAlg.reconRootFile = "$(ROOTTESTDATAROOT)/data/default/recon.root";
-relationRootReaderAlg.rootFile   = "$(ROOTTESTDATAROOT)/data/default/relations.root";
+mcRootReaderAlg.mcRootFileList       = { "$(ROOTTESTDATAROOT)/data/default/mc.root" } ;
+digiRootReaderAlg.digiRootFileList   = { "$(ROOTTESTDATAROOT)/data/default/digi.root" } ;
+reconRootReaderAlg.reconRootFileList = { "$(ROOTTESTDATAROOT)/data/default/recon.root" } ;
+relationRootReaderAlg.relationRootFileList = { "$(ROOTTESTDATAROOT)/data/default/relations.root" } ;
+
 ApplicationMgr.EvtMax = 5;
 
 //==============================================================
