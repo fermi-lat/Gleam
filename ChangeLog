@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: chamont  Wed Aug 22 02:04:08 PDT 2007
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	FRED-readRoot-runRecon.txt readigi_runrecon.txt 
+Log Message:
+upgrade the option files, so that they refer to new *RootFileList readers properties, rather than old *RootFile ones
+    *
+------------------------------------------------------------
+User: chamont  Wed Aug 22 02:04:08 PDT 2007
 Gleam/src
 
 Modified Files:
