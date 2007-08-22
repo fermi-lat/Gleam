@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: chamont  Wed Aug 22 02:04:08 PDT 2007
+Gleam/src
+
+Modified Files:
+	readAndDisplay.txt readDisplayAndWrite.txt readEMDigi.txt 
+	readdigi.txt 
+Log Message:
+upgrade the option files, so that they refer to new *RootFileList readers properties, rather than old *RootFile ones
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r29p7, operation: add
 Package: Gleam
