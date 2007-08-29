@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Aug 29 08:28:59 PDT 2007
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+make TrgConfigSvc the default
+    *
+------------------------------------------------------------
 User: chamont  Wed Aug 22 02:04:08 PDT 2007
 Gleam/src/jobOptions/pipeline
 
