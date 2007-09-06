@@ -2,8 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.176 2007/08/10 21:00:29 borgland Exp $
+ * $Id: release.notes,v 1.177 2007/08/16 16:40:12 heather Exp $
 
+* v6r29p9 AWB 06-Sep-07  Updated JO pipeline/mc.txt with new location of VDG sources.
+* v6r29p8
 * v6r29p7 HMK 16-AUG-07  Update basicOptions for TrgConfigSvc example, but
 *                        all commented out for now
 * v6r29p6 AWB 10-AUG-07  Updated JO files in src/jobOptions/pipeline.
