@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kocian  Tue Sep 11 14:17:23 PDT 2007
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+use TrgConfigSvc to determine engine number by default
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r29p11, operation: add
 Package: Gleam
