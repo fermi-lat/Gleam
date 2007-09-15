@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Sat Sep 15 16:54:59 PDT 2007
-Gleam/src/test
-
-Modified Files:
-	jobOptions.txt 
-Log Message:
-fix test program JO
-    *
-------------------------------------------------------------
-User: burnett  Sat Sep 15 16:54:59 PDT 2007
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-fix test program JO
-    *
-------------------------------------------------------------
-User: burnett  Sat Sep 15 16:54:59 PDT 2007
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-fix test program JO
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r29p12, operation: add
 Package: Gleam
