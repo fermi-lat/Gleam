@@ -1,20 +1,4 @@
 ------------------------------------------------------------
-User: borgland  Mon Sep 24 13:58:47 PDT 2007
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-    *
-------------------------------------------------------------
-User: borgland  Mon Sep 24 13:58:47 PDT 2007
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r29p15, operation: add
 Package: Gleam
