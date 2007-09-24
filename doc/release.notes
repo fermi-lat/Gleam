@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.181 2007/09/15 23:58:09 burnett Exp $
+ * $Id: release.notes,v 1.182 2007/09/16 01:46:20 burnett Exp $
 
+* v6r29p16 AWB 24-Sep-07 Updated pipeline JO with OBF, GCR and FT2.
 * v6r29p15 THB 15-Sep-07 Fix test program JO to enable trigger
 * v6r29p10 AWB 06-Sep-07 Updated JO pipeline/mc.txt.
 * v6r29p9 AWB 06-Sep-07  Updated JO pipeline/mc.txt with new location of VDG sources.
