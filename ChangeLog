@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Oct  1 17:36:21 PDT 2007
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+turn off event collection by default
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r29p17, operation: add
 Package: Gleam
