@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Oct  1 17:36:21 PDT 2007
+Gleam/src
+
+Modified Files:
+	basicOptions.txt jobOptions.txt 
+Log Message:
+turn off event collection by default
+    *
+------------------------------------------------------------
+User: heather  Mon Oct  1 17:36:21 PDT 2007
 Gleam/doc
 
 Modified Files:
