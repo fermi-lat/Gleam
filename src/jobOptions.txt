@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for GUI (gui or FRED) Gleam job
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.19 2006/03/25 01:22:27 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.20 2007/01/13 20:17:57 lsrea Exp $
 
 #include "$GLEAMROOT/src/basicOptions.txt"
 // or, try out the new basicOptions!
@@ -20,6 +20,7 @@ ApplicationMgr.EvtMax  = 1000;
 
 // turn off output
 Output.Members = {};
+RootIoSvc.MetaRootFileWrite="";
 
 //==============================================================
 //
