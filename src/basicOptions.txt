@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.108 2007/09/11 21:17:23 kocian Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.109 2007/10/02 00:36:21 heather Exp $
 
 // primary DLLs, including auditor 
 
@@ -97,16 +97,16 @@ TriggerAlg.engine="TrgConfigSvc"; // use TrgConfigSvc to configure trigger engin
 //TriggerAlg.applyPrescales=true; //only use TrgConfigSvc to determine trigger engine
 //TriggerAlg.useGltWordForData=true; //when prescaling data use Glt word instead of Gem word
 
-//TrgConfigSvc.useDefaultConfiguration=true; // use default configuration from file src/defaultTrgConfig.xml in the trigger package
+// Configure TrgConfigSvc if used
+
+// TrgConfigSvc.configureFrom="Moot"; // options are "Default", "File", "Moot"
 
 // Configuration from xml file
-//TrgConfigSvc.configureFromFile = true; // configure from xml file
 //TrgConfigSvc.xmlFile= "/path/configFile.xml"; // path to config xml file
 
 // Configuration from database
-// TrgConfigSvc.configureFromMoot=true; // configure from Moot DB
-// TrgConfigSvc.useKeyFromData=true; // use DB key from the event
-// TrgConfigSvc.fixedKey=1852 // if useKeyFromData is false, use this fixed key for all events instead.
+// TrgConfigSvc.useKeyFromData=false; // use DB key from the event
+// TrgConfigSvc.fixedKey=4561; // if useKeyFromData is false, use this fixed key for all events instead.
 
 
 // ----------------------------
