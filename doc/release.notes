@@ -2,8 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.186 2007/10/02 17:07:38 borgland Exp $
+ * $Id: release.notes,v 1.187 2007/10/02 18:43:18 borgland Exp $
 
+* v6r30    HMK 03-Oct-07 Added use GCRCalib to get it to build when building
+*          Gleam
+* v6r29p21 MK  03-Oct-07 Updated basicOptions for mootCore
 * v6r29p20 AWB 02-Oct-07 Updated pipeline JO to use McKludge.
 * v6r29p19 AWB 02-Oct-07 Updated pipeline JO to correctly read in FT2.
 * v6r29p18 HMK 01-Oct-07 Updated basicOptions to shut off meta ROOT by defaultd
