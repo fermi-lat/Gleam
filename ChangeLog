@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kocian  Tue Nov  6 14:44:58 PST 2007
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+new job option for interleave mode
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r33, operation: add
 Package: Gleam
