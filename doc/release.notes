@@ -2,7 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.189 2007/10/22 21:29:09 borgland Exp $
+ * $Id: release.notes,v 1.190 2007/10/30 03:04:57 heather Exp $
+
+* v6r33p2  HMK 06-Nov-07 Pick up JO mods in basicOptions for updated Trigger
+*              from Martin.
 
 * v6r32    HMK 30-OCT-07 Use gr_app
 * v6r31    AWB 22-OCT-07 Updated pipeline FRED JO.
