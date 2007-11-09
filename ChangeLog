@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Fri Nov  9 09:12:57 PST 2007
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+run CalDigiAlg before TriggerAlg for now
+    *
+------------------------------------------------------------
+User: heather  Fri Nov  9 09:12:57 PST 2007
 Gleam/doc
 
 Modified Files:
