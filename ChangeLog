@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Nov  9 09:12:57 PST 2007
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+run CalDigiAlg before TriggerAlg for now
+    *
+------------------------------------------------------------
 User: heather  Fri Nov  9 09:12:56 PST 2007
 Gleam/cmt
 
