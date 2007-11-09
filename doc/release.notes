@@ -2,8 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.190 2007/10/30 03:04:57 heather Exp $
+ * $Id: release.notes,v 1.191 2007/11/07 19:55:38 heather Exp $
 
+* v6r33p3  HMK 09-Nov-07 Go back to running CalDigiAlg before TriggerAlg
+                         until we sort out what may go wrong with EbfWriter
+                         and 4 range readout in some cases
 * v6r33p2  HMK 06-Nov-07 Pick up JO mods in basicOptions for updated Trigger
 *              from Martin.
 

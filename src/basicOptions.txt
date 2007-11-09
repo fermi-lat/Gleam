@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.112 2007/11/06 22:44:57 kocian Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.113 2007/11/07 19:55:38 heather Exp $
 
 // primary DLLs, including auditor 
 
@@ -34,7 +34,6 @@ Event.Members = {
     "Sequencer/CalibrationUpdate",
     "Sequencer/Digitization",
     "Sequencer/TriggerTest",   // can reject events, set TriggerAlg.mask = 0 to pass all
-    "Sequencer/CalDigitization",
     "Sequencer/Triggered" 
 };
 
@@ -65,13 +64,15 @@ CalibrationUpdate.Members={
 ApplicationMgr.DLLs +={ "TkrDigi", "CalDigi", "AcdDigi"  };
 Digitization.Members = { 
     "TkrDigiAlg", 
+    "CalDigiAlg",
     "AcdDigiAlg"
     };
 
 // this sequence contains the trigger test
 TriggerTest.Members = {"TriggerAlg", "Count/trigger" };
 
-CalDigitization.Members = { "CalDigiAlg" };
+// We'll reactivate this later once EbfWriter is updated a bit for 4 ranges
+//CalDigitization.Members = { "CalDigiAlg" };
 
 // this sequence runs if the event passes the trigger
 
