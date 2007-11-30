@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Fri Nov 30 14:30:28 PST 2007
+Gleam/src
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+Turn off prescaling for vanilla Gleam (muons)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r33p3, operation: add
 Package: Gleam
