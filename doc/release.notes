@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.191 2007/11/07 19:55:38 heather Exp $
+ * $Id: release.notes,v 1.192 2007/11/09 17:12:57 heather Exp $
 
+* v6r33p6  AWB 13-Dec-07 Updated JO for pipeline.
 * v6r33p3  HMK 09-Nov-07 Go back to running CalDigiAlg before TriggerAlg
                          until we sort out what may go wrong with EbfWriter
                          and 4 range readout in some cases
