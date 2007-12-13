@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.192 2007/11/09 17:12:57 heather Exp $
+ * $Id: release.notes,v 1.193 2007/12/13 23:05:02 borgland Exp $
 
+* v6r33p7  AWB 13-Dec-07 Updated some more.
 * v6r33p6  AWB 13-Dec-07 Updated JO for pipeline.
 * v6r33p3  HMK 09-Nov-07 Go back to running CalDigiAlg before TriggerAlg
                          until we sort out what may go wrong with EbfWriter
