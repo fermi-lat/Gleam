@@ -1,4 +1,52 @@
 ------------------------------------------------------------
+TAG
+Tag name: v6r33p8, operation: add
+Package: Gleam
+User: borgland  Mon Jan  7 17:43:34 2008
+Files:
+  Gleam/.cvsignore  1.3
+  Gleam/ChangeLog  1.1036
+  Gleam/cmt/.cvsignore  1.2
+  Gleam/cmt/NMake  1.1.1.1
+  Gleam/cmt/requirements  1.338
+  Gleam/cmt/Makefile  1.1
+  Gleam/doc/release.notes  1.195
+  Gleam/src/calibration.txt  1.6
+  Gleam/src/readdigi.txt  1.11
+  Gleam/src/readAndDisplay.txt  1.6
+  Gleam/src/convertFits.txt  1.1
+  Gleam/src/tuple.txt  1.1
+  Gleam/src/mainpage.h  1.3
+  Gleam/src/basicOptions_old.txt  1.1
+  Gleam/src/fredOptions.txt  1.5
+  Gleam/src/readEMDigi.txt  1.2
+  Gleam/src/skymodel.txt  1.3
+  Gleam/src/interleave.txt  1.7
+  Gleam/src/SAAboundary.txt  1.1
+  Gleam/src/basicOptions.txt  1.114
+  Gleam/src/full_source_simulation.txt  1.9
+  Gleam/src/default.txt  1.16
+  Gleam/src/background.txt  1.2
+  Gleam/src/readDisplayAndWrite.txt  1.3
+  Gleam/src/jobOptions.txt  1.22
+  Gleam/src/clocks.xml  1.1
+  Gleam/src/readMcAndDigi.txt  1.1
+  Gleam/src/guiOptions.txt  1.11
+  Gleam/src/jobOptions/pipeline/FRED-readRoot-runRecon.txt  1.3
+  Gleam/src/jobOptions/pipeline/calibrations.txt  1.6
+  Gleam/src/jobOptions/pipeline/FRED-readRoot-noRecon.txt  1.4
+  Gleam/src/jobOptions/pipeline/ldf2digi.txt  1.6
+  Gleam/src/jobOptions/pipeline/VDG.txt  1.2
+  Gleam/src/jobOptions/pipeline/readigi_runrecon.txt  1.10
+  Gleam/src/jobOptions/pipeline/mc.txt  1.8
+  Gleam/src/jobOptions/pipeline/muonHyp.txt  1.3
+  Gleam/src/jobOptions/pipeline/README  1.2
+  Gleam/src/test/.cvsignore  1.1
+  Gleam/src/test/jobOptions.txt  1.40
+  Gleam/src/test/userOptions.txt  1.1
+
+    *
+------------------------------------------------------------
 User: borgland  Mon Jan  7 17:43:22 PST 2008
 Gleam/src/jobOptions/pipeline
 
