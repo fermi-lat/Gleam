@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.196 2008/01/11 20:51:49 borgland Exp $
+ * $Id: release.notes,v 1.197 2008/01/15 19:19:45 lsrea Exp $
 
+* v6r33p11 LSR 15-Jan-08 Another little fix to jobOptions.txt
 * v6r33p10 LSR 15-Jan-08 Add EventAuditor to basicOptions
                          Add placeholder for UserAlg: Sequencer/User
 * v6r33p9  AWB 11-JAN-08 Updated I&T mc.txt with correct ACD calibrations.
