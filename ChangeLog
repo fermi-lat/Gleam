@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Tue Jan 15 11:19:45 PST 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Add EventAuditor to basicOptions
+Add placeHolder for UserAlg: Sequencer/User
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r33p9, operation: add
 Package: Gleam
