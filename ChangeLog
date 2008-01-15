@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Tue Jan 15 15:55:03 PST 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt mc.txt 
+Log Message:
+Filter JO update for pipeline.
+    *
+------------------------------------------------------------
+User: borgland  Tue Jan 15 15:55:03 PST 2008
 Gleam/doc
 
 Modified Files:
