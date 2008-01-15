@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: lsrea  Tue Jan 15 11:19:45 PST 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Add EventAuditor to basicOptions
+Add placeHolder for UserAlg: Sequencer/User
+
+    *
+------------------------------------------------------------
+User: lsrea  Tue Jan 15 11:19:45 PST 2008
 Gleam/cmt
 
 Modified Files:
