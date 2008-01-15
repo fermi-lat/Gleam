@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Tue Jan 15 15:55:02 PST 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Filter JO update for pipeline.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r33p11, operation: add
 Package: Gleam
