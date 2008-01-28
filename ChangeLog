@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Mon Jan 28 13:41:59 PST 2008
+Gleam/src
+
+Modified Files:
+	calibration.txt 
+Log Message:
+update by merging with current JO file used for production simulation.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r33p13, operation: add
 Package: Gleam
