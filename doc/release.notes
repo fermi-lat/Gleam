@@ -2,10 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.200 2008/01/15 23:58:18 borgland Exp $
+ * $Id: release.notes,v 1.201 2008/03/10 15:29:10 heather Exp $
 
-*          HMK 10-Mar-08 Add use of CalibSvc so that when building Gleam
+* v6r33p14 HMK 10-Mar-08 Add use of CalibSvc so that when building Gleam
 *                        CalibSvc will be as well
+*                        includes Toby's updates to calibration.txt
 * v6r33p13 AWB 15-JAN-08 Yet another filter JO update for pipeline.
 * v6r33p12 AWB 15-JAN-08 Filter JO update for pipeline.
 * v6r33p11 LSR 15-Jan-08 Another little fix to jobOptions.txt
