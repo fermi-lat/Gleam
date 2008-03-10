@@ -4,7 +4,7 @@ version v6r33p13
 author T. Burnett <tburnett@u.washington.edu>
 build_strategy without_installarea
 
-# $Id: requirements,v 1.342 2008/01/15 23:55:02 borgland Exp $
+# $Id: requirements,v 1.343 2008/01/15 23:58:18 borgland Exp $
 
 use GuiSvc      v*
 
@@ -41,6 +41,9 @@ use OnboardFilter v*
 #ROOT persistence: RootIo specifies the data packages
 use RootIo      v*
 use RootDisplay v*
+
+#Calibrations
+use CalibSvc    v*
 
 #diagnostic and summary of bottom line
 use merit       v*
