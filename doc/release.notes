@@ -2,8 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.202 2008/03/10 20:40:36 heather Exp $
+ * $Id: release.notes,v 1.203 2008/03/13 19:58:09 heather Exp $
 
+* v6r33p16 HMK 12-Mar-08 Comment out LATCalibRoot in requirements file like it
+*                        should be
 * v6r33p15 HMK 12-Mar-08 Update calibrations.txt to set FlavorRibbon="ideal"
 * v6r33p14 HMK 10-Mar-08 Add use of CalibSvc so that when building Gleam
 *                        CalibSvc will be as well
