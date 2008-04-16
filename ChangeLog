@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Wed Apr 16 12:50:17 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Added 'TriRowBitsAlg' to pipeline JO.
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-06-33-16, operation: add
 Package: Gleam
