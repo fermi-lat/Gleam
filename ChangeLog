@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Wed Apr 16 12:50:18 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt mc.txt 
+Log Message:
+Added 'TriRowBitsAlg' to pipeline JO.
+    *
+------------------------------------------------------------
+User: borgland  Wed Apr 16 12:50:18 PDT 2008
 Gleam/doc
 
 Modified Files:
