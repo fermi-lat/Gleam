@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.114 2007/11/09 17:12:57 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.115 2008/01/15 19:19:45 lsrea Exp $
 
 // primary DLLs, including auditor 
 
@@ -69,7 +69,7 @@ Digitization.Members = {
     };
 
 // this sequence contains the trigger test
-TriggerTest.Members = {"TriggerAlg", "Count/trigger" };
+TriggerTest.Members = {"TriggerAlg", "Count/trigger", "TriRowBitsAlg" };
 
 // We'll reactivate this later once EbfWriter is updated a bit for 4 ranges
 //CalDigitization.Members = { "CalDigiAlg" };
