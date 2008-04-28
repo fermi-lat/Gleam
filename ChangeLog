@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 28 09:01:35 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add TriRowBitsAlg to basicOptions to keep consistent with pipeline JO
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-06-33-17, operation: add
 Package: Gleam
