@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Apr 28 09:01:36 PDT 2008
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+add TriRowBitsAlg to basicOptions to keep consistent with pipeline JO
+    *
+------------------------------------------------------------
+User: heather  Mon Apr 28 09:01:36 PDT 2008
 Gleam/doc
 
 Modified Files:
