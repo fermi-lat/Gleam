@@ -2,8 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.205 2008/04/16 19:50:18 borgland Exp $
+ * $Id: release.notes,v 1.206 2008/04/28 16:01:35 heather Exp $
 
+
+* v6r34p1  AWB 01-May-08 Added EbfWriter JO to pipeline JO.
 * v6r33p18 HMK 28-Apr-08 Added 'TriRowBitsAlg' to basicOptions
 * v6r33p17 awb 16-Apr-08 Added 'TriRowBitsAlg' to pipeline JO.
 * v6r33p16 HMK 12-Mar-08 Comment out LATCalibRoot in requirements file like it
