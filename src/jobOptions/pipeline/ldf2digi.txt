@@ -116,6 +116,8 @@ ApplicationMgr.ExtSvc += {"CalFailureModeSvc"};
 ApplicationMgr.DLLs  += {"EbfWriter","OnboardFilter"};
 Trigger.Members      += {"EbfWriter","OnboardFilter"};
 OnboardFilter.mask    = 0; // Keep all events!                    
+// Feed all events to the filters
+EbfWriter.ReqGemTrig = false;
 
 // Real calibrations for the gamma-filter:
 OnboardFilter.FileNamePeds  = "cal_db_pedestals_flight";
