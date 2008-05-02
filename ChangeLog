@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu May  1 19:31:18 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+update basicOptions with EbfWriter.ReqGemTrig
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-06-34-01, operation: add
 Package: Gleam
