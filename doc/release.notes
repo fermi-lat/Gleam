@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.204 2008/03/14 02:43:05 heather Exp $
+ * $Id: release.notes,v 1.205 2008/04/16 19:50:18 borgland Exp $
 
+* v6r33p17gr1 HMK 06-May-08 Remove FlavorRibbon for the current L1 P2 branch
 * v6r33p17 awb 16-Apr-08 Added 'TriRowBitsAlg' to pipeline JO.
 * v6r33p16 HMK 12-Mar-08 Comment out LATCalibRoot in requirements file like it
 *                        should be

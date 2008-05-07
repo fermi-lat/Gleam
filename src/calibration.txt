@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/calibration.txt,v 1.7 2008/01/28 21:41:59 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/calibration.txt,v 1.8 2008/03/13 19:58:09 heather Exp $
 
 // Start up an AcdCalibSvc
 ApplicationMgr.ExtSvc += {"AcdCalibSvc"};
@@ -30,5 +30,5 @@ AcdSimCalibSvc.FlavorHighRange = "ideal";
 AcdSimCalibSvc.FlavorCoherentNoise = "ideal";
 AcdSimCalibSvc.FlavorVeto      = "MC_OktoberFest07";
 AcdSimCalibSvc.FlavorCno       = "ideal";
-AcdSimCalibSvc.FlavorRibbon       = "ideal";
+//AcdSimCalibSvc.FlavorRibbon       = "ideal";
 
