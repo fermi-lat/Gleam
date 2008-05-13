@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Tue May 13 13:58:03 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt mc.txt 
+Log Message:
+Removed DGN from real data Gleam filters to run. Added MIP.
+    *
+------------------------------------------------------------
 User: borgland  Tue May 13 13:58:02 PDT 2008
 Gleam/doc
 
