@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: borgland  Tue May 13 13:58:02 PDT 2008
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-Removed DGN from real data Gleam filters to run. Added MIP.
-    *
-------------------------------------------------------------
-User: borgland  Tue May 13 13:58:02 PDT 2008
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-Removed DGN from real data Gleam filters to run. Added MIP.
-    *
-------------------------------------------------------------
 TAG
 Tag name: v6r33p17gr1, operation: add
 Package: Gleam
