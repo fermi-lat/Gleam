@@ -2,8 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.208 2008/05/02 02:31:18 heather Exp $
+ * $Id: release.notes,v 1.209 2008/05/13 20:58:02 borgland Exp $
 
+
+*                        Modified GCR JO for L1 pipeline.
 * v6r34p3  AWB 13-May-08 Removed DGN from real data Gleam filters to run. Added MIP.
 * v6r34p2  HMK 01-May-08 Add EbfWriter.ReqGemTrig to basicOptions too
 * v6r34p1  AWB 01-May-08 Added EbfWriter JO to pipeline JO.
