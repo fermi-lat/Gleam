@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Mon May 19 09:05:31 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	mc.txt readigi_runrecon.txt 
+Log Message:
+ Modified GCR JO for L1 pipeline.
+    *
+------------------------------------------------------------
+User: borgland  Mon May 19 09:05:31 PDT 2008
 Gleam/doc
 
 Modified Files:
