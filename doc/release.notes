@@ -2,8 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.211 2008/05/19 17:33:37 heather Exp $
+ * $Id: release.notes,v 1.212 2008/05/21 18:18:14 heather Exp $
 
+
+* v6r37    AWB 22-May-08 Updated AnalysisNtupleAlg.toolList for the pipeline.
 * v6r36    HMK 21-May-08 Add ideal calibration defaults to calibrations.txt
 *          for new Tkr alignment
 * v6r35    HMK 19-May-08 Update basicOption.txt to run GCR code
