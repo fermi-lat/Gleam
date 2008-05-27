@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: borgland  Tue May 27 13:03:38 PDT 2008
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-Changed pipeline JO to include TKR alignment.
-    *
-------------------------------------------------------------
 TAG
 Tag name: Gleam-06-37-01, operation: add
 Package: Gleam
