@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Tue May 27 13:03:38 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Changed pipeline JO to include TKR alignment.
+    *
+------------------------------------------------------------
+User: borgland  Tue May 27 13:03:38 PDT 2008
 Gleam/cmt
 
 Modified Files:
