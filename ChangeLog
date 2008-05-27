@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Tue May 27 10:24:40 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt 
+Log Message:
+Changed pipeline JO to use correct MIP-filter.
+    *
+------------------------------------------------------------
 User: borgland  Tue May 27 10:24:39 PDT 2008
 Gleam/doc
 
