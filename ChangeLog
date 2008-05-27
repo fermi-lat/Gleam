@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: borgland  Tue May 27 10:24:39 PDT 2008
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-Changed pipeline JO to use correct MIP-filter.
-    *
-------------------------------------------------------------
 TAG
 Tag name: Gleam-06-37-00, operation: add
 Package: Gleam
