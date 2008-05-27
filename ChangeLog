@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Tue May 27 13:03:39 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	calibrations.txt readigi_runrecon.txt 
+Log Message:
+Changed pipeline JO to include TKR alignment.
+    *
+------------------------------------------------------------
 User: borgland  Tue May 27 13:03:38 PDT 2008
 Gleam/doc
 
