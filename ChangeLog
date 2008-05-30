@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Fri May 30 13:51:01 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	readigi_runrecon.txt 
+Log Message:
+Fixed pipeline JO. Had duplicate of ACD.
+    *
+------------------------------------------------------------
+User: borgland  Fri May 30 13:51:01 PDT 2008
 Gleam/doc
 
 Modified Files:
