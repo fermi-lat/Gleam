@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: borgland  Fri May 30 13:51:00 PDT 2008
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-Fixed pipeline JO. Had duplicate of ACD.
-    *
-------------------------------------------------------------
 TAG
 Tag name: Gleam-06-37-02, operation: add
 Package: Gleam
