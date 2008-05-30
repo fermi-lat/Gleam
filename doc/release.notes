@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.214 2008/05/27 17:24:39 borgland Exp $
+ * $Id: release.notes,v 1.215 2008/05/27 20:03:38 borgland Exp $
 
 
+* v6r37p3  AWB 30-May-08 Fixed pipeline JO. Had duplicate of ACD.
 * v6r37p2  AWB 27-May-08 Changed pipeline JO to include TKR alignment.
 * v6r37p1  AWB 27-May-08 Changed pipeline JO to use correct MIP-filter.
 * v6r37    AWB 22-May-08 Updated AnalysisNtupleAlg.toolList for the pipeline.
