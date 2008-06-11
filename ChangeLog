@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Wed Jun 11 11:34:00 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt 
+Log Message:
+Added MootSvc to the L1 pipeline ldf2digi JO.
+    *
+------------------------------------------------------------
 User: borgland  Wed Jun 11 11:33:59 PDT 2008
 Gleam/doc
 
