@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/full_source_simulation.txt,v 1.8 2007/05/08 16:10:37 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/full_source_simulation.txt,v 1.9 2007/06/04 22:51:34 burnett Exp $
 //##############################################################
 //
 // Job options file for Gleam job to do full simulation with  sources
@@ -48,6 +48,11 @@ OnboardFilter.FailNoEbfData = true; // if no EBF data (error anyway) reject the 
 // --------------------------------------------
 //         calibration
 #include "$GLEAMROOT/src/calibration.txt"
+
+
+// --------------------------------------------
+//        MOOT 
+MootSvc.noMoot = "false";  // make sure MOOT is used
 
 // ------------------------------------------------
 //          Job length
