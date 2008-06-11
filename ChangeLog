@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Wed Jun 11 11:33:59 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Added MootSvc to the L1 pipeline ldf2digi JO.
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-06-37-03, operation: add
 Package: Gleam
