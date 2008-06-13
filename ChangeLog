@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Fri Jun 13 13:24:55 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	readigi_runrecon.txt 
+Log Message:
+Added new CAL Calib to pipeline JO.
+    *
+------------------------------------------------------------
 User: borgland  Fri Jun 13 13:24:54 PDT 2008
 Gleam/doc
 
