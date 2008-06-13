@@ -2,8 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.217 2008/06/11 18:33:59 borgland Exp $
+ * $Id: release.notes,v 1.218 2008/06/11 18:56:13 heather Exp $
 
+
+* v7r0p1   AWB 13-Jun-08 Added new CAL Calib to pipeline JO. 
 * v7r0     HMK 10-Jun-08 Add MootSvc to req file and its defaultOptions to
 *              basicOptions
 *          AWB 10-Jun-08 Added MootSvc to the L1 pipeline ldf2digi JO.
