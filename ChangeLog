@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Sun Jun 15 11:23:20 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Remove "OnboardFilter.mask = 0;" ... invalid now
+Turn off Moot in default jO
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-01, operation: add
 Package: Gleam
