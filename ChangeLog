@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: lsrea  Sun Jun 15 11:23:20 PDT 2008
+Gleam/src
+
+Modified Files:
+	basicOptions.txt jobOptions.txt 
+Log Message:
+Remove "OnboardFilter.mask = 0;" ... invalid now
+Turn off Moot in default jO
+
+    *
+------------------------------------------------------------
+User: lsrea  Sun Jun 15 11:23:20 PDT 2008
 Gleam/doc
 
 Modified Files:
