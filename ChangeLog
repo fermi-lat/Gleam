@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Wed Jun 18 12:41:45 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tag v7r0p3: Change pipeline jobOptions and basicOptions to use ConfigSvc
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-02, operation: add
 Package: Gleam
