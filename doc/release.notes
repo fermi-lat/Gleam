@@ -2,8 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.221 2008/06/18 19:41:45 echarles Exp $
+ * $Id: release.notes,v 1.222 2008/06/18 19:48:50 heather Exp $
 
+* v7r0p5   EAC 18-Jun-08 Re-Change pipeline jobOptions and basicOptions include 
+*                        fragments from ConfigSvc.
+*                        basicOptions does not require moot, pipeline stuff does 
 * v7r0p4   HMK 18-Jun-08 Add ConfigSvc to list of Gleam's uses in req file
 * v7r0p3   EAC 18-Jun-08 Change pipeline jobOptions and basicOptions to use ConfigSvc
 * v7r0p2   LSR 15-Jun-08 Remove newly invalid line from basicOptions
