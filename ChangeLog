@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Wed Jun 18 14:37:35 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt mc.txt 
+Log Message:
+tag v7r0p5: Re-Change pipeline jobOptions and basicOptions to include fragments from ConfigSvc, basicOptions does not require moot, pipeline stuff does
+    *
+------------------------------------------------------------
+User: echarles  Wed Jun 18 14:37:35 PDT 2008
 Gleam/src
 
 Modified Files:
