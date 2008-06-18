@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 18 12:48:50 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+adding ConfigSvc to req file
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-03, operation: add
 Package: Gleam
