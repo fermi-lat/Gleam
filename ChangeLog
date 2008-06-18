@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Wed Jun 18 12:41:45 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tag v7r0p3: Change pipeline jobOptions and basicOptions to use ConfigSvc
+    *
+------------------------------------------------------------
+User: echarles  Wed Jun 18 12:41:45 PDT 2008
 Gleam/cmt
 
 Modified Files:
