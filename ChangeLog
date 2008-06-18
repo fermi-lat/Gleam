@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Wed Jun 18 12:41:46 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt mc.txt 
+Log Message:
+tag v7r0p3: Change pipeline jobOptions and basicOptions to use ConfigSvc
+    *
+------------------------------------------------------------
+User: echarles  Wed Jun 18 12:41:46 PDT 2008
 Gleam/src
 
 Modified Files:
