@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.121 2008/06/18 19:41:45 echarles Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.122 2008/06/18 21:37:35 echarles Exp $
 
 // primary DLLs, including auditor 
 
@@ -86,8 +86,6 @@ Triggered.Members={
     "Sequencer/NtupleMaker"
  };
 
-// Configuration.  This gets the configuration from files in the release
-#include "$CONFIGSVCROOT/src/configOptions_noMoot.txt"
 
 // ----------------------------
 //  Trigger and livetime
@@ -282,7 +280,9 @@ TkrFilterFirst.FilterToolName="TkrCalFilterTool";
 //  MOOT services
 //
 #include "$MOOTSVCROOT/src/defaultOptions.txt"
-MootSvc.noMoot = "true";  // turn off MOOT access by default for now
+// Configuration.  This gets the configuration from files in the release
+#include "$CONFIGSVCROOT/src/configOptions_noMoot.txt"
+//MootSvc.noMoot = true;  // turn off MOOT access by default for now
 
 // -------------------------------------------
 //  Calorimeter services
