@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 19 14:26:32 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+clean up noMoot parameters
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-06, operation: add
 Package: Gleam
