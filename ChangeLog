@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Thu Jun 19 13:03:56 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Removed obsolete Gleam Onboardfilter JO for the L1 pipeline.
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-05, operation: add
 Package: Gleam
