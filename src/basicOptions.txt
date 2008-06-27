@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.122 2008/06/18 21:37:35 echarles Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.123 2008/06/19 21:26:33 heather Exp $
 
 // primary DLLs, including auditor 
 
@@ -110,6 +110,11 @@ Filter.Members       += {"EbfWriter", "OnboardFilter", "Count/downlink"}; // thi
 
 // Feed all events to the filters
 EbfWriter.ReqGemTrig = false;
+
+OnboardFilter.GammaFilterTool.LeakAllEvents=true;
+OnboardFilter.HIPFilterTool.LeakAllEvents=true;
+OnboardFilter.MIPFilterTool.LeakAllEvents=true;
+OnboardFilter.DGNFilterTool.LeakAllEvents=true;
 
 
 // to specify a different set of calibrations for recon (TKR only)
