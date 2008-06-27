@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Jun 26 20:38:24 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+update JO for new OBF default for LeakAllEvents
+    *
+------------------------------------------------------------
+User: heather  Thu Jun 26 20:38:24 PDT 2008
 Gleam/cmt
 
 Modified Files:
