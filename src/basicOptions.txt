@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.123 2008/06/19 21:26:33 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.124 2008/06/27 03:38:24 heather Exp $
 
 // primary DLLs, including auditor 
 
@@ -115,6 +115,9 @@ OnboardFilter.GammaFilterTool.LeakAllEvents=true;
 OnboardFilter.HIPFilterTool.LeakAllEvents=true;
 OnboardFilter.MIPFilterTool.LeakAllEvents=true;
 OnboardFilter.DGNFilterTool.LeakAllEvents=true;
+
+ToolSvc.FSWAuxLibsTool.FileNamePeds="cal_db_pedestals";
+ToolSvc.FSWAuxLibsTool.FileNameGains="cal_db_gains";
 
 
 // to specify a different set of calibrations for recon (TKR only)
