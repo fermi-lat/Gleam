@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Fri Jun 27 09:04:41 PDT 2008
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+add new JO parameters to make sure we pick up the flight ped/gains on all platforms
+    *
+------------------------------------------------------------
+User: heather  Fri Jun 27 09:04:41 PDT 2008
 Gleam/doc
 
 Modified Files:
