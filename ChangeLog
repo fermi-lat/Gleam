@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jul  1 07:04:04 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+turn off MOOT in Gleam unit test for now
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-10, operation: add
 Package: Gleam
