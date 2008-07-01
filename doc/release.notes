@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.227 2008/06/27 03:38:24 heather Exp $
+ * $Id: release.notes,v 1.228 2008/06/27 16:04:41 heather Exp $
 
+* v7r0p11  HMK Turn off MOOT in Gleam unit test for now
 * v7r0p10  HMK Insert JO to make sure we pick up and find the flight peds/gains
 *          on all platforms
 * v7r0p9   HMK 26-Jun-08 Update basicOptions to set LeakAllEvents true for
