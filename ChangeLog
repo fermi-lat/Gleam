@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jul  1 07:04:05 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+turn off MOOT in Gleam unit test for now
+    *
+------------------------------------------------------------
 User: heather  Tue Jul  1 07:04:04 PDT 2008
 Gleam/cmt
 
