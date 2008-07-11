@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.124 2008/06/27 03:38:24 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.125 2008/06/27 16:04:41 heather Exp $
 
 // primary DLLs, including auditor 
 
@@ -185,8 +185,8 @@ gcrSelectRootWriterAlg.gcrSelectRootFile = "$(GLEAMROOT)/data/gcr.root";
 // ----------------------------
 // ntuple generation 
 
-ApplicationMgr.DLLs +=   {"AnalysisNtuple", "ntupleWriterSvc", "merit", "GlastClassify" };
-AuditorSvc.Auditors = {"EventAuditor"}; // For event-by-event timing
+ApplicationMgr.DLLs += {"AnalysisNtuple", "ntupleWriterSvc", "merit", "GlastClassify" };
+AuditorSvc.Auditors += {"EventAuditor"}; // For event-by-event timing
 
 NtupleMaker.Members = {
     "AnalysisNtupleAlg", // AnaTup and Filter stuff into the tuple
