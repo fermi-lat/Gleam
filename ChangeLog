@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Thu Jul 10 21:30:17 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Fix addtion of EventAuditor
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-11, operation: add
 Package: Gleam
