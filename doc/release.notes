@@ -2,11 +2,12 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.228 2008/06/27 16:04:41 heather Exp $
+ * $Id: release.notes,v 1.229 2008/07/01 14:04:04 heather Exp $
 
-* v7r0p11  HMK Turn off MOOT in Gleam unit test for now
-* v7r0p10  HMK Insert JO to make sure we pick up and find the flight peds/gains
-*          on all platforms
+* v7r0p12  LSR 10-Jul-08 Fix addition of EventAuditor
+* v7r0p11  HMK           Turn off MOOT in Gleam unit test for now
+* v7r0p10  HMK           Insert JO to make sure we pick up and find the 
+*                          flight peds/gains on all platforms
 * v7r0p9   HMK 26-Jun-08 Update basicOptions to set LeakAllEvents true for
 *          all filters for MC
 * v7r0p8   AWB 20-Jun-08 Change L1 pipeline default JO to evt file as input to ldf2digi.
