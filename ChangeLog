@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Thu Jul 17 10:20:50 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Made Moot Fatal really fatal for L1.
+    *
+------------------------------------------------------------
 User: borgland  Thu Jul 17 10:20:49 PDT 2008
 Gleam/cmt
 
