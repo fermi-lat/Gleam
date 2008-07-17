@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Thu Jul 17 10:20:50 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt 
+Log Message:
+Made Moot Fatal really fatal for L1.
+    *
+------------------------------------------------------------
+User: borgland  Thu Jul 17 10:20:50 PDT 2008
 Gleam/doc
 
 Modified Files:
