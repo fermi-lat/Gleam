@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jul 17 20:30:21 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix up unit test to run MOOT again
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-13, operation: add
 Package: Gleam
