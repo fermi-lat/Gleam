@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Jul 17 20:30:22 PDT 2008
+Gleam/src
+
+Modified Files:
+	default.txt 
+Log Message:
+fix up unit test to run MOOT again
+    *
+------------------------------------------------------------
+User: heather  Thu Jul 17 20:30:22 PDT 2008
 Gleam/doc
 
 Modified Files:
