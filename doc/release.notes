@@ -2,8 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.230 2008/07/11 04:30:18 lsrea Exp $
+ * $Id: release.notes,v 1.231 2008/07/17 17:20:50 borgland Exp $
 
+* v7r0p14  HMK 17-Jul-08 Fix up unit test JO to run MOOT again
+*              Thanks Joanne!
 * v7r0p13  AWB 17-Jul-08 Made Moot Fatal really fatal for L1.
 * v7r0p12  LSR 10-Jul-08 Fix addition of EventAuditor
 * v7r0p11  HMK           Turn off MOOT in Gleam unit test for now
