@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.231 2008/07/17 17:20:50 borgland Exp $
+ * $Id: release.notes,v 1.232 2008/07/18 03:30:22 heather Exp $
 
+* v7r0p15  AWB 18-Jul-08 Added new JO to L1 (from Tracy).
 * v7r0p14  HMK 17-Jul-08 Fix up unit test JO to run MOOT again
 *              Thanks Joanne!
 * v7r0p13  AWB 17-Jul-08 Made Moot Fatal really fatal for L1.
