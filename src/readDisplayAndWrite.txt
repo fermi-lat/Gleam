@@ -2,7 +2,7 @@
 //
 // Job options file for Gleam job using pre-existing files and writing them out
 // demo of the new basicOptions
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readDisplayAndWrite.txt,v 1.2 2007/07/17 20:18:27 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/readDisplayAndWrite.txt,v 1.3 2007/08/22 09:04:08 chamont Exp $
 
 #include "$GLEAMROOT/src/basicOptions.txt"
 
@@ -15,11 +15,11 @@
 
 // output is written to $GLEAMROOT/data by default, but just to make it explicit:
 
-mcRootWriterAlg.mcRootFile       = "$(GLEAMROOT)/data/mc_test.root";
-digiRootWriterAlg.digiRootFile   = "$(GLEAMROOT)/data/digi_test.root";
-reconRootWriterAlg.reconRootFile = "$(GLEAMROOT)/data/recon_test.root";
-relationRootWriterAlg.rootFile   = "$(GLEAMROOT)/data/relations_test.root";
-RootTupleSvc.filename            = "${GLEAMROOT}/data/merit_test.root";
+mcRootWriterAlg.mcRootFile       = "$(GLEAMDATAPATH)/mc_test.root";
+digiRootWriterAlg.digiRootFile   = "$(GLEAMDATAPATH)/digi_test.root";
+reconRootWriterAlg.reconRootFile = "$(GLEAMDATAPATH)/recon_test.root";
+relationRootWriterAlg.rootFile   = "$(GLEAMDATAPATH)/relations_test.root";
+RootTupleSvc.filename            = "${GLEAMDATAPATH}/merit_test.root";
 RootTupleSvc.RejectIfBad = false;
 
 // modify basicOptions to do this task
@@ -28,10 +28,10 @@ Digitization.Members   = {"digiRootReaderAlg"};
 Reconstruction.Members = {"reconRootReaderAlg", "relationRootReaderAlg"};
 Filter.Members         = {};
 
-mcRootReaderAlg.mcRootFileList       = { "$(ROOTTESTDATAROOT)/data/default/mc.root" } ;
-digiRootReaderAlg.digiRootFileList   = { "$(ROOTTESTDATAROOT)/data/default/digi.root" } ;
-reconRootReaderAlg.reconRootFileList = { "$(ROOTTESTDATAROOT)/data/default/recon.root" } ;
-relationRootReaderAlg.relationRootFileList = { "$(ROOTTESTDATAROOT)/data/default/relations.root" } ;
+mcRootReaderAlg.mcRootFileList       = { "$(ROOTTESTDATADATAPATH)/default/mc.root" } ;
+digiRootReaderAlg.digiRootFileList   = { "$(ROOTTESTDATADATAPATH)/default/digi.root" } ;
+reconRootReaderAlg.reconRootFileList = { "$(ROOTTESTDATADATAPATH)/default/recon.root" } ;
+relationRootReaderAlg.relationRootFileList = { "$(ROOTTESTDATADATAPATH)/default/relations.root" } ;
 
 ApplicationMgr.EvtMax = 5;
 
