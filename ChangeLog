@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: glastrm  Mon Jul 21 08:17:31 PDT 2008
+GlastRelease-scons/Gleam/src
+
+Modified Files:
+	basicOptions.txt basicOptions_old.txt convertFits.txt 
+	interleave.txt readAndDisplay.txt readDisplayAndWrite.txt 
+	readEMDigi.txt 
+Log Message:
+Removed dependency on CMT env variables
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-15, operation: add
 Package: Gleam
