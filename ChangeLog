@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: glastrm  Mon Jul 21 08:17:31 PDT 2008
+GlastRelease-scons/Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	FRED-readRoot-noRecon.txt FRED-readRoot-runRecon.txt 
+	ldf2digi.txt mc.txt readigi_runrecon.txt 
+Log Message:
+Removed dependency on CMT env variables
+    *
+------------------------------------------------------------
+User: glastrm  Mon Jul 21 08:17:31 PDT 2008
 GlastRelease-scons/Gleam/src
 
 Modified Files:
