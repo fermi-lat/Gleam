@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Tue Jul 22 16:38:09 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Fixed TKR calib JO for L1.
+    *
+------------------------------------------------------------
 User: glastrm  Mon Jul 21 08:17:31 PDT 2008
 GlastRelease-scons/Gleam/src/jobOptions/pipeline
 
