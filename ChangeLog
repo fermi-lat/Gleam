@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Tue Jul 22 16:38:10 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	calibrations.txt readigi_runrecon.txt 
+Log Message:
+Fixed TKR calib JO for L1.
+    *
+------------------------------------------------------------
+User: borgland  Tue Jul 22 16:38:10 PDT 2008
 Gleam/doc
 
 Modified Files:
