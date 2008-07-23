@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jul 23 11:26:09 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+remove setting of peds/gains in basicOptions
+    *
+------------------------------------------------------------
 User: heather  Wed Jul 23 11:26:08 PDT 2008
 Gleam/cmt
 
