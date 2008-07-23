@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jul 23 07:18:53 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove LeakAllEvents JO which is now deprecated
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-16, operation: add
 Package: Gleam
