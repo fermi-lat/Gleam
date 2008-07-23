@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/basicOptions.txt,v 1.126 2008/07/11 04:30:18 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.127 2008/07/21 15:17:31 glastrm Exp $
 
 // primary DLLs, including auditor 
 
@@ -110,11 +110,6 @@ Filter.Members       += {"EbfWriter", "OnboardFilter", "Count/downlink"}; // thi
 
 // Feed all events to the filters
 EbfWriter.ReqGemTrig = false;
-
-OnboardFilter.GammaFilterTool.LeakAllEvents=true;
-OnboardFilter.HIPFilterTool.LeakAllEvents=true;
-OnboardFilter.MIPFilterTool.LeakAllEvents=true;
-OnboardFilter.DGNFilterTool.LeakAllEvents=true;
 
 ToolSvc.FSWAuxLibsTool.FileNamePeds="cal_db_pedestals";
 ToolSvc.FSWAuxLibsTool.FileNameGains="cal_db_gains";
