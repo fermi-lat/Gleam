@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed Jul 23 07:18:54 PDT 2008
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+remove LeakAllEvents JO which is now deprecated
+    *
+------------------------------------------------------------
+User: heather  Wed Jul 23 07:18:54 PDT 2008
 Gleam/doc
 
 Modified Files:
