@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Mon Jul 28 17:42:00 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+ Removed unnecessary OBF JOs from L1.
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-18, operation: add
 Package: Gleam
