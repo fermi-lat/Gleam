@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Mon Jul 28 17:42:01 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt 
+Log Message:
+ Removed unnecessary OBF JOs from L1.
+    *
+------------------------------------------------------------
 User: borgland  Mon Jul 28 17:42:00 PDT 2008
 Gleam/doc
 
