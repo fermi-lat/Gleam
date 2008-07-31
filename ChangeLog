@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Thu Jul 31 13:54:57 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Removed FRED-readRoot-noRecon.txt, FRED-readRoot-runRecon.txt, README VDG.txt, mc.txt, muonHyp.txt from src/jobOptions/pipeline.
+    *
+------------------------------------------------------------
+User: borgland  Thu Jul 31 13:54:57 PDT 2008
 Gleam/cmt
 
 Modified Files:
