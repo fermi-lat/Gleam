@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Mon Aug  4 11:53:32 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	calibrations.txt 
+Log Message:
+Made ACD High Range and Coherent Noise calibs for L1 vanilla (and enabled Coherent noise calib).
+    *
+------------------------------------------------------------
+User: borgland  Mon Aug  4 11:53:32 PDT 2008
 Gleam/doc
 
 Modified Files:
