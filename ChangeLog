@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: borgland  Mon Aug  4 11:53:31 PDT 2008
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-Made ACD High Range and Coherent Noise calibs for L1 vanilla (and enabled Coherent noise calib).
-    *
-------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-20, operation: add
 Package: Gleam
