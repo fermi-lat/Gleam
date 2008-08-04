@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Mon Aug  4 11:53:32 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Made ACD High Range and Coherent Noise calibs for L1 vanilla (and enabled Coherent noise calib).
+    *
+------------------------------------------------------------
 User: borgland  Mon Aug  4 11:53:31 PDT 2008
 Gleam/cmt
 
