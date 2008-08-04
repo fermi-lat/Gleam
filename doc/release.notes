@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.237 2008/07/29 00:42:00 borgland Exp $
+ * $Id: release.notes,v 1.238 2008/07/31 20:54:57 borgland Exp $
 
+* v7r0p21  AWB 04-Aug-08 Made ACD High Range and Coherent Noise calibs for L1 "vanilla" (and enabled Coherent noise calib).
 * v7r0p20  AWB 31-Jul-08 Removed FRED-readRoot-noRecon.txt, FRED-readRoot-runRecon.txt, README VDG.txt, mc.txt, muonHyp.txt from src/jobOptions/pipeline.
 * v7r0p19  AWB 28-Jul-08 Removed unnecessary OBF JOs from L1.
 * v7r0p18  HMK 23-Jul-08 Remove setting of flight ped/gains, should now be
