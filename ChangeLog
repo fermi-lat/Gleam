@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Aug  4 21:54:28 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+update to run CalDigiAlg after TriggerAlg
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-00-21, operation: add
 Package: Gleam
