@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Thu Aug  7 15:42:20 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Set failOnFmxKeyMismatch to false for L1 JO until DFI has been changed.
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-01-00, operation: add
 Package: Gleam
