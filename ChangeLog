@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Thu Aug  7 15:42:20 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Set failOnFmxKeyMismatch to false for L1 JO until DFI has been changed.
+    *
+------------------------------------------------------------
+User: borgland  Thu Aug  7 15:42:20 PDT 2008
 Gleam/cmt
 
 Modified Files:
