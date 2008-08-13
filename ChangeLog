@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Tue Aug 12 20:48:02 PDT 2008
+Gleam/src
+
+Modified Files:
+	readdigi.txt 
+Removed Files:
+	basicOptions_old.txt convertFits.txt readEMDigi.txt tuple.txt 
+Log Message:
+clean up of MC JO
+    *
+------------------------------------------------------------
 User: heather  Tue Aug 12 20:48:01 PDT 2008
 Gleam/doc
 
