@@ -1,6 +1,6 @@
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // Job options file for Gleam job to read default digi root file
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.10 2007/05/09 01:38:45 heather Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.11 2007/08/22 09:04:08 chamont Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
@@ -24,6 +24,7 @@ ApplicationMgr.Runable=  "RootIoSvc";
 Generation.Members={ };
 Digitization.Members={"digiRootReaderAlg"};
 TriggerTest.Members={ };
+CalDigitization.Members = { };
 
 // Redefine Triggered Members to include Integrity check for real data
 // the integrity check should have no effect on MC data
