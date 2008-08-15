@@ -1,6 +1,6 @@
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // Job options file for Gleam job to read default digi root file
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.11 2007/08/22 09:04:08 chamont Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.12 2008/08/13 03:48:01 heather Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
@@ -41,8 +41,8 @@ Filter.Members={ "OnboardFilter", "Count/downlink" };
 
 OutputEvent.Members = {
     "Sequencer/EventDisplay",
-    "Sequencer/Output",
-    "Sequencer/NtupleMaker"
+    "Sequencer/NtupleMaker",
+    "Sequencer/Output"
  };
 
 
