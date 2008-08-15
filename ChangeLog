@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Thu Aug 14 21:42:05 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Moved Output before NtupleMaker in some jO files, 
+  so that AnaTup can set the bit in the TDS.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-02-00, operation: add
 Package: Gleam
