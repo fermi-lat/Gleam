@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.129 2008/07/23 18:26:09 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.130 2008/08/05 04:54:28 heather Exp $
 
 // primary DLLs, including auditor 
 
@@ -82,8 +82,8 @@ Triggered.Members={
     "Sequencer/FilterPerformance",
     "Sequencer/User",
     "Sequencer/EventDisplay",
-    "Sequencer/Output",
-    "Sequencer/NtupleMaker"
+    "Sequencer/NtupleMaker",
+    "Sequencer/Output"
  };
 
 
