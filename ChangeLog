@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: lsrea  Thu Aug 14 21:42:06 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	readigi_runrecon.txt 
+Log Message:
+Moved Output before NtupleMaker in some jO files, 
+  so that AnaTup can set the bit in the TDS.
+
+    *
+------------------------------------------------------------
+User: lsrea  Thu Aug 14 21:42:06 PDT 2008
 Gleam/src
 
 Modified Files:
