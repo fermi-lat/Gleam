@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: borgland  Wed Aug 20 11:23:09 PDT 2008
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Enabled S/C alignment in L1 JO.
+    *
+------------------------------------------------------------
+User: borgland  Wed Aug 20 11:23:09 PDT 2008
 Gleam/cmt
 
 Modified Files:
