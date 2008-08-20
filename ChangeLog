@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Wed Aug 20 11:23:09 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Enabled S/C alignment in L1 JO.
+    *
+------------------------------------------------------------
 User: ecephas  Fri Aug 15 14:42:35 PDT 2008
 GlastRelease-scons/Gleam
 
