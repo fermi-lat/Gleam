@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.242 2008/08/13 03:48:01 heather Exp $
+ * $Id: release.notes,v 1.243 2008/08/15 04:42:05 lsrea Exp $
 
+* v7r2p2   AWB 20-Aug-08 Enabled S/C alignment in L1 JO. 
 * v7r2p1   LSR 14-Aug-08 Move Output after NtupleMaker in 3 jO files
                            Should have no practical consequences
 * v7r2     HMK 12-Aug-08 Clean up MC JO files and remove obsolete ones
