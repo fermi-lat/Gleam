@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Wed Aug 20 11:23:10 PDT 2008
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	readigi_runrecon.txt 
+Log Message:
+Enabled S/C alignment in L1 JO.
+    *
+------------------------------------------------------------
 User: borgland  Wed Aug 20 11:23:09 PDT 2008
 Gleam/doc
 
