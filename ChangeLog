@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Wed Aug 20 13:07:09 PDT 2008
+GlastRelease-scons/Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+Added linking options for the test apps.  Replaced the .Program builder with a GaudiProgram builder, and changed some formatting.
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-02-02, operation: add
 Package: Gleam
