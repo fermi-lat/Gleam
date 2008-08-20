@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.1 2008/08/15 21:22:42 ecephas Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/SConscript,v 1.2 2008/08/20 18:30:13 glastrm Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
 # Version: Gleam-07-02-02
 
@@ -9,10 +9,18 @@ Import('packages')
 progEnv = baseEnv.Clone()
 libEnv = baseEnv.Clone()
 
-libEnv.Tool('GleamLib', depsOnly = 1)
+progEnv.Tool('GuiSvcLib')
+progEnv.Tool('guiLib')
 
+if baseEnv['PLATFORM'] != 'win32':
+	progEnv.AppendUnique(LINKFLAGS=['-u GuiSvc_loadRef'])
+	progEnv.Tool('addLibrary', library = ['dl'])
 
-progEnv.Tool('GleamLib')
-Gleam = progEnv.Program('Gleam') #see corresponding requirements file.  not sure about that $(GlastMain) or how to use it.
+if baseEnv['PLATFORM'] == 'win32':
+	progEnv.AppendUnique(LINKFLAGS = ['/include:_GuiSvc_loadRef'])
+
+Gleam = progEnv.GaudiProgram('Gleam',['']) 
 test_Gleam = progEnv.GaudiProgram('test_Gleam', listFiles(['src/test/*.cxx']), test=1)
-progEnv.Tool('registerObjects', package = 'Gleam', binaries = [Gleam], testApps = [test_Gleam], includes = listFiles(['Gleam/*.h']))
+progEnv.Tool('registerObjects', package = 'Gleam', binaries = [Gleam], 
+	testApps = [test_Gleam], 
+	includes = listFiles(['Gleam/*.h']))
