@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: borgland  Tue Aug 26 10:12:32 PDT 2008
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Enabled correctly the alignment for L1.
+    *
+------------------------------------------------------------
 User: ecephas  Wed Aug 20 13:07:09 PDT 2008
 GlastRelease-scons/Gleam
 
