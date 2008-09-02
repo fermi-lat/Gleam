@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Tue Sep  2 04:13:19 PDT 2008
+GlastRelease-scons/Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+Removed binaries and testApps from registerObjects' parameter. Removed calls to build any programs (do not build any programs).
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-02-03, operation: add
 Package: Gleam
