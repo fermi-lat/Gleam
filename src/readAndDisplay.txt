@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 // Options for Gleam that are specific to reading ROOT files and using the GUI
-// $Id: readAndDisplay.txt,v 1.6 2007/08/22 09:04:08 chamont Exp $
+// $Id: readAndDisplay.txt,v 1.7 2008/07/21 15:17:31 glastrm Exp $
 //##############################################################
 //
 // Job options file for Reading in the root output files and displaying events in FRED
@@ -10,7 +10,7 @@ ApplicationMgr.DLLs+= { "GaudiAlg", "GaudiAud", "FluxSvc", "GlastSvc"};
 ApplicationMgr.ExtSvc += {"ChronoStatSvc"};
 AuditorSvc.Auditors = {"ChronoAuditor"};
 
-ApplicationMgr.DLLs+=    {"TkrUtil","G4Propagator", "G4Generator", "CalibSvc"};
+ApplicationMgr.DLLs+=    {"AcdUtil","TkrUtil","G4Propagator", "G4Generator", "CalibSvc"};
 ApplicationMgr.DLLs+=    {"HepRepSvc", "HepRepXml", "HepRepCorba"}; 
 ApplicationMgr.ExtSvc += {"HepRepSvc","EventSelector/EventSelector"}; 
 ApplicationMgr.Runable = "HepRepSvc";
