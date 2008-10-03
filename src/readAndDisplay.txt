@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 // Options for Gleam that are specific to reading ROOT files and using the GUI
-// $Id: readAndDisplay.txt,v 1.7 2008/07/21 15:17:31 glastrm Exp $
+// $Id: readAndDisplay.txt,v 1.8 2008/10/03 21:00:39 lsrea Exp $
 //##############################################################
 //
 // Job options file for Reading in the root output files and displaying events in FRED
@@ -29,11 +29,15 @@ ApplicationMgr.TopAlg = {
 "Sequencer/Top" };
 
 ApplicationMgr.DLLs += { "RootIo" };
+ApplicationMgr.DLLs += { "TkrRecon" };
 
 Top.Members =  { "mcRootReaderAlg"}; 
 Top.Members += { "digiRootReaderAlg"}; 
-Top.Members += { "reconRootReaderAlg"};
+Top.Members += { "reconRootReaderAlg", "TkrReconAlg/FirstPass" };
 Top.Members += { "relationRootReaderAlg"};
+// This runs TkrReconAlg to update the ghost flags
+FirstPass.firstStage = 0;
+FirstPass.lastStage  = 0;
 
 ApplicationMgr.ExtSvc += { "RootIoSvc", "ParticlePropertySvc", "GlastDetSvc" };
 
