@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.248 2008/10/08 06:00:34 lsrea Exp $
+ * $Id: release.notes,v 1.249 2008/10/08 06:02:40 lsrea Exp $
 
 
+* v7r2p6gr1 HMK 15-Nov-08 add use of Overlay package
 * v7r2p6   LSR 07-Oct-08 update readAndDisplay.txt for merit->FRED/WIRED
 * v7r2p5   LSR 03-Oct-08 set ghost flags when reading in a recon.root file
                             After ghosts get to the pipeline, we may want to
