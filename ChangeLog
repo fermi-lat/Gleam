@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Wed Dec  3 13:13:28 PST 2008
+GlastRelease-scons/Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+Removed a line of code, which was commented out.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v7r2p6gr1, operation: add
 Package: Gleam
