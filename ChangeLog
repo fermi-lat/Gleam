@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: Gleam-07-02-06, operation: mov
+Package: Gleam
+User: glast  Mon Dec  8 14:41:25 2008
+Files:
+  Gleam/SConscript  1.8
+  Gleam/SConscript  1.8
+
+    *
+------------------------------------------------------------
 User: ecephas  Wed Dec  3 13:13:28 PST 2008
 GlastRelease-scons/Gleam
 
