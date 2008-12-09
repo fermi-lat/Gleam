@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: Gleam-07-02-06, operation: mov
+Package: Gleam
+User: glast  Mon Dec  8 16:19:03 2008
+Files:
+  Gleam/GleamLib.py  1.2
+  Gleam/GleamLib.py  1.2
+
+    *
+------------------------------------------------------------
 User: ecephas  Mon Dec  8 16:08:28 PST 2008
 GlastRelease-scons/Gleam
 
