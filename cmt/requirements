@@ -5,7 +5,7 @@ version v7r3p0
 author T. Burnett <tburnett@u.washington.edu>
 build_strategy without_installarea
 
-# $Id: requirements,v 1.389 2008/10/08 06:00:34 lsrea Exp $
+# $Id: requirements,v 1.390 2008/12/18 23:50:42 usher Exp $
 
 use GuiSvc      v*
 
@@ -68,6 +68,7 @@ use MootSvc v*
 
 use ConfigSvc v*
 
+use Overlay v*
 
 # beamtest 2006 ancillary data
 use AncillaryDataEvent v*
