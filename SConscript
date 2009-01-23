@@ -1,8 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.5 2008/09/02 11:13:19 ecephas Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/SConscript,v 1.5 2008/09/02 11:13:19 ecephas Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
-# Version: Gleam-07-02-05
-
+# Version: Gleam-07-02-06
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
@@ -23,3 +22,7 @@ if baseEnv['PLATFORM'] == 'win32':
 test_Gleam = progEnv.GaudiProgram('test_Gleam', listFiles(['src/test/*.cxx']), test=1)
 progEnv.Tool('registerObjects', package = 'Gleam', 
 	includes = listFiles(['Gleam/*.h']))
+
+
+
+
