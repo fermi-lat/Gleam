@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Fri Feb  6 14:53:48 PST 2009
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+update basicOptions for switch to PtValsAlg in simulation
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-02-06, operation: mov
 Package: Gleam
