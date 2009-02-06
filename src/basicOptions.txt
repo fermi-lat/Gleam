@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.131 2008/08/15 04:42:06 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.132 2008/12/18 23:49:01 usher Exp $
 
 // primary DLLs, including auditor 
 
@@ -48,7 +48,7 @@ Event.BranchMembers = {"Generation", "ExposureAlg"};
 Generation.Members = {
     "FluxAlg", 
     "CurrentEventAlg",
-    "PointInfoAlg", 
+    //"PointInfoAlg",  // this will be handled by PtValsAlg now
     "G4Generator" };
   
 
@@ -180,6 +180,7 @@ ApplicationMgr.DLLs += {"AnalysisNtuple", "ntupleWriterSvc", "merit", "GlastClas
 AuditorSvc.Auditors += {"EventAuditor"}; // For event-by-event timing
 
 NtupleMaker.Members = {
+    "PtValsAlg",         // pointing info
     "AnalysisNtupleAlg", // AnaTup and Filter stuff into the tuple
     "ClassifyAlg",       // Atwood's Insightful Miner analysis
     "FT1Alg",            // generate stuff to go into FT1 // version from AnaTup
