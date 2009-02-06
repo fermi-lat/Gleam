@@ -2,7 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.250 2008/12/18 23:50:43 usher Exp $
+ * $Id: release.notes,v 1.251 2008/12/19 23:16:27 usher Exp $
+* v7r3p2   LSR 06-Feb-09 Rearranged basicOptions to use PtValsAlg
+                            PointInfoAlg is no longer called
 * v7r3p1    TU 19-Dec-08 Added in the forgotten "use Overlay" in the req file...
 * v7r3p0    TU 18-Dec-08 Update basicOptions.txt to include TriggerInfoAlg before running TriggerAlg
 * v7r2p6   LSR 07-Oct-08 update readAndDisplay.txt for merit->FRED/WIRED
