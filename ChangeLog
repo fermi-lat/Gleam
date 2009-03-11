@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Mar 11 07:47:38 PDT 2009
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+update ldf2digi for TriggerInfoAlg
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-03-02, operation: add
 Package: Gleam
