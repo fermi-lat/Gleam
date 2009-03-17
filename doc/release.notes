@@ -2,8 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.252 2009/02/06 23:10:14 lsrea Exp $
+ * $Id: release.notes,v 1.253 2009/03/11 14:47:38 heather Exp $
 * EOH
+* v7r4p1   HMK 17-Mar-09 Add ntupleWriterSvc Dll to ldf2digi to avoid 
+*          warning from RootIo
 * v7r4     HMK 11-Mar-09 Add TriggerInfoAlg to ldf2digi.txt
 * v7r3p2   LSR 06-Feb-09 Rearranged basicOptions to use PtValsAlg
                             PointInfoAlg is no longer called
