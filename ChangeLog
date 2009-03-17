@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Tue Mar 17 06:01:42 PDT 2009
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt 
+Log Message:
+add ntupleWriterSvc to ldf2digi
+    *
+------------------------------------------------------------
+User: heather  Tue Mar 17 06:01:42 PDT 2009
 Gleam/doc
 
 Modified Files:
