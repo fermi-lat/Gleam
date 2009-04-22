@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.132 2008/12/18 23:49:01 usher Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.133 2009/02/06 22:53:48 lsrea Exp $
 
 // primary DLLs, including auditor 
 
@@ -155,6 +155,7 @@ EventDisplay.Members = {};
 ApplicationMgr.DLLs +={"RootIo"}; 
 Output.Members = {     
     "FhSetAlg",
+    "FhSetMeritAlg",
     "mcRootWriterAlg", 
     "digiRootWriterAlg", 
     "reconRootWriterAlg",
