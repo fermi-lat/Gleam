@@ -2,8 +2,9 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.253 2009/03/11 14:47:38 heather Exp $
+ * $Id: release.notes,v 1.254 2009/03/17 13:01:41 heather Exp $
 * EOH
+* v7r4p2   HMK 22-Apr-09 Add FhSetMeritAlg to basicOptions and tests
 * v7r4p1   HMK 17-Mar-09 Add ntupleWriterSvc Dll to ldf2digi to avoid 
 *          warning from RootIo
 * v7r4     HMK 11-Mar-09 Add TriggerInfoAlg to ldf2digi.txt
