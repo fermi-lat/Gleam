@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed Apr 22 06:35:24 PDT 2009
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	readigi_runrecon.txt 
+Log Message:
+adding FhSetMeritAlg where necessary
+    *
+------------------------------------------------------------
+User: heather  Wed Apr 22 06:35:24 PDT 2009
 Gleam/src
 
 Modified Files:
