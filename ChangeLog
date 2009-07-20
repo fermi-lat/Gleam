@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Jul 20 09:40:43 PDT 2009
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+insert blank after EOH
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-04-02, operation: add
 Package: Gleam
