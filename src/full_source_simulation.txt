@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/full_source_simulation.txt,v 1.9 2007/06/04 22:51:34 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/full_source_simulation.txt,v 1.10 2008/06/11 18:56:13 heather Exp $
 //##############################################################
 //
 // Job options file for Gleam job to do full simulation with  sources
@@ -40,7 +40,7 @@ FluxAlg.AvoidSAA   = true;          // no events if in SAA
 //         Trigger, filter
 //
 LiveTimeAlg.deadtime        = 26e-6;// deadtime per trigger
-TriggerAlg.mask             = 26;   // TKR(2) + HICAL(8) + CNO(16) 
+TriggerAlg.mask             = "26";   // TKR(2) + HICAL(8) + CNO(16) 
 TriggerAlg.throttle         = true; // ignore if TKR + Throttle
 OnboardFilter.RejectEvents  = true; // set the filter to reject events, 
                                     // turn on all bits (only low 16 count)
