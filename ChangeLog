@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Sep 14 12:09:03 PDT 2009
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+set TriggerAlg mask using string
+    *
+------------------------------------------------------------
 User: heather  Mon Sep 14 12:09:02 PDT 2009
 Gleam
 
