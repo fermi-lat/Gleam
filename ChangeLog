@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Sep 15 11:20:29 PDT 2009
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt 
+Log Message:
+update l1proc digi JO to remove TriggerAlg.mask
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-04-03, operation: add
 Package: Gleam
