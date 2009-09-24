@@ -1,6 +1,6 @@
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // Job options file for Gleam job to read default digi root file
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.12 2008/08/13 03:48:01 heather Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.13 2008/08/15 04:42:06 lsrea Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
@@ -59,6 +59,7 @@ reconRootWriterAlg.reconRootFile = "recon.root";
 RootTupleSvc.filename=           "$(meritRootFileName)";
 
 
+// Set to zero to use the input ROOT files to determine the event loop
 ApplicationMgr.EvtMax = 10000;
 
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,6 +1,6 @@
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // Job options file for Gleam job to read default digi root file
-//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readdigi.txt,v 1.9 2006/06/13 20:52:01 burnett Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readMcAndDigi.txt,v 1.1 2007/05/09 01:38:45 heather Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMROOT/src/basicOptions.txt"
@@ -48,6 +48,8 @@ RootTupleSvc.filename=           "$(meritRootFileName)";
 //RootTupleSvc.filename=           "remerit.root";
 
 
+// Set to zero to use the number of events in the input files to determine
+// the length of the event loop
 ApplicationMgr.EvtMax = 10000;
 
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
