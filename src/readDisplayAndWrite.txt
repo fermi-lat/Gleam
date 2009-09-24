@@ -2,7 +2,7 @@
 //
 // Job options file for Gleam job using pre-existing files and writing them out
 // demo of the new basicOptions
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/readDisplayAndWrite.txt,v 1.3 2007/08/22 09:04:08 chamont Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readDisplayAndWrite.txt,v 1.4 2008/07/21 15:17:31 glastrm Exp $
 
 #include "$GLEAMROOT/src/basicOptions.txt"
 
@@ -33,6 +33,8 @@ digiRootReaderAlg.digiRootFileList   = { "$(ROOTTESTDATADATAPATH)/default/digi.r
 reconRootReaderAlg.reconRootFileList = { "$(ROOTTESTDATADATAPATH)/default/recon.root" } ;
 relationRootReaderAlg.relationRootFileList = { "$(ROOTTESTDATADATAPATH)/default/relations.root" } ;
 
+// Set to zero if you want to use the number of events in the input ROOT
+// files to determine the event loop
 ApplicationMgr.EvtMax = 5;
 
 //==============================================================

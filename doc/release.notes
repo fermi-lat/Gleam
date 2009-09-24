@@ -2,8 +2,12 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.244 2008/08/20 18:23:09 borgland Exp $
+ * $Id: release.notes,v 1.245 2008/08/26 17:12:32 borgland Exp $
+ * EOH
 
+* v7r2p3gr1 HMK 16-Sep-09 Patch JO for TriggerAlg.mask setting via string
+*           and remove mask setting within ldf2digi.txt JO, as it is 
+*           unnecessary due to use of ConfigSvc
 * v7r2p3   AWB 25-Aug-08 Enabled correctly the alignment for L1.
 * v7r2p2   AWB 20-Aug-08 Enabled S/C alignment in L1 JO. 
 * v7r2p1   LSR 14-Aug-08 Move Output after NtupleMaker in 3 jO files
