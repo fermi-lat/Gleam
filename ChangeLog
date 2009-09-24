@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: heather  Thu Sep 24 06:58:22 PDT 2009
+Gleam/src
+
+Modified Files:
+      Tag: GlastReleasev15r47p12
+	basicOptions.txt full_source_simulation.txt 
+	readDisplayAndWrite.txt readMcAndDigi.txt readdigi.txt 
+Log Message:
+JO updates to adapt to new understanding about TriggerAlg.mask, setting EvtMax to zero to read complete input files, remove failOnFmxKeyMismatch to use default
+    *
+------------------------------------------------------------
+User: heather  Thu Sep 24 06:58:22 PDT 2009
 Gleam/doc
 
 Modified Files:
