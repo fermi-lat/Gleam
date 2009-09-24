@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Sep 24 06:58:21 PDT 2009
+Gleam
+
+Modified Files:
+      Tag: GlastReleasev15r47p12
+	SConscript 
+Log Message:
+JO updates to adapt to new understanding about TriggerAlg.mask, setting EvtMax to zero to read complete input files, remove failOnFmxKeyMismatch to use default
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-04-04, operation: add
 Package: Gleam
