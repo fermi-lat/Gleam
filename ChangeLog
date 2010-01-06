@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Wed Jan  6 15:25:48 PST 2010
+Gleam/src
+
+Modified Files:
+	default.txt 
+Log Message:
+Fix default to "noMoot" so test job will run without a central connection
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-02-03-gr1, operation: add
 Package: Gleam
