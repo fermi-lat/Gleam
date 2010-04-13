@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: heather  Tue Apr 13 06:17:35 PDT 2010
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-update fredOptions to use new env variable Fred_EXE_DIR
-    *
-------------------------------------------------------------
-User: heather  Tue Apr 13 06:17:34 PDT 2010
-Gleam
-
-Modified Files:
-	SConscript 
-Log Message:
-update fredOptions to use new env variable Fred_EXE_DIR
-    *
-------------------------------------------------------------
 User: lsrea  Wed Jan  6 15:26:50 PST 2010
 Gleam/cmt
 
