@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Apr 13 06:17:36 PDT 2010
+Gleam/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+update fredOptions to use new env variable Fred_EXE_DIR
+    *
+------------------------------------------------------------
 User: heather  Tue Apr 13 06:17:35 PDT 2010
 Gleam/cmt
 
