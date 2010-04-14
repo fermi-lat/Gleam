@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Apr 14 09:41:43 PDT 2010
+Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+patch readAndDisplay for new Fred_EXE_DIR env var
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-04-06, operation: add
 Package: Gleam
