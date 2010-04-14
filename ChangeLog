@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Apr 14 09:41:44 PDT 2010
+Gleam/src
+
+Modified Files:
+	readAndDisplay.txt 
+Log Message:
+patch readAndDisplay for new Fred_EXE_DIR env var
+    *
+------------------------------------------------------------
 User: heather  Wed Apr 14 09:41:43 PDT 2010
 Gleam/doc
 
