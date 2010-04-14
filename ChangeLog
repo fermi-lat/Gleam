@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed Apr 14 09:41:43 PDT 2010
+Gleam/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+patch readAndDisplay for new Fred_EXE_DIR env var
+    *
+------------------------------------------------------------
+User: heather  Wed Apr 14 09:41:43 PDT 2010
 Gleam
 
 Modified Files:
