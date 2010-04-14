@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.259 2010/01/06 23:26:50 lsrea Exp $
+ * $Id: release.notes,v 1.260 2010/04/13 13:17:35 heather Exp $
 * EOH
 
+* Gleam-07-04-07 14-Apr-2010 HMK patch readAndDisplay.txt to use new env variable
 * Gleam-07-04-06 13-Apr-2010 HMK patch fredOptions.txt to use new env variable
 *                Fred_EXE_DIR
 * Gleam-07-04-05 06-Jan-2010  lsrea Fix default.txt so that test_Gleam will run without a central connection

@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 // Options for Gleam that are specific to reading ROOT files and using the GUI
-// $Id: readAndDisplay.txt,v 1.9 2008/10/03 21:11:22 lsrea Exp $
+// $Id: readAndDisplay.txt,v 1.10 2008/10/08 06:00:34 lsrea Exp $
 //##############################################################
 //
 // Job options file for Reading in the root output files and displaying events in FRED
@@ -59,7 +59,7 @@ GlastDetSvc.topVolume="LAT"; // the whole schebang
 ApplicationMgr.EvtMax = 100000;
 
 // tell it to automatically start the version of FRED 
-HepRepSvc.startFred = "$Fred_DIR";
+HepRepSvc.startFred = "$Fred_EXE_DIR";
 
 //##############################################################
 // Names of input ROOT files - note that you can supply a list of input files
