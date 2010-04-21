@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lsrea  Wed Apr 21 08:35:28 PDT 2010
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+add TkrFillTDInfoAlg to the digitization sequence. This fills in the TEM diagnostic info for the generated event. It assumes perfect trigger efficiency
+    *
+------------------------------------------------------------
 User: lsrea  Wed Apr 21 08:29:14 PDT 2010
 Gleam/src
 
