@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.260 2010/04/13 13:17:35 heather Exp $
+ * $Id: release.notes,v 1.261 2010/04/14 16:41:43 heather Exp $
 * EOH
 
+ Gleam-07-04-08 21-Apr-2010  lsrea Add TkrFillTDInfoAlg to the digitization sequence
 * Gleam-07-04-07 14-Apr-2010 HMK patch readAndDisplay.txt to use new env variable
 * Gleam-07-04-06 13-Apr-2010 HMK patch fredOptions.txt to use new env variable
 *                Fred_EXE_DIR
