@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:37:26 PDT 2010
+GlastRelease-scons/Gleam
+
+Modified Files:
+	.cvsignore SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-04-08, operation: add
 Package: Gleam
