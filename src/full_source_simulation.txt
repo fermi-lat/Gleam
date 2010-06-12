@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/full_source_simulation.txt,v 1.10 2008/06/11 18:56:13 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/full_source_simulation.txt,v 1.11 2009/09/14 19:09:03 heather Exp $
 //##############################################################
 //
 // Job options file for Gleam job to do full simulation with  sources
@@ -12,7 +12,7 @@
 //          $(reconRootFileName)
 //          $(relationRootFileName)
 
-#include "$GLEAMROOT/src/basicOptions.txt"
+#include "$GLEAMJOBOPTIONSPATH/basicOptions.txt"
 
 
 //   ---------------------------------------------
@@ -47,7 +47,7 @@ OnboardFilter.RejectEvents  = true; // set the filter to reject events,
 OnboardFilter.FailNoEbfData = true; // if no EBF data (error anyway) reject the event
 // --------------------------------------------
 //         calibration
-#include "$GLEAMROOT/src/calibration.txt"
+#include "$GLEAMJOBOPTIONSPATH/calibration.txt"
 
 
 // --------------------------------------------

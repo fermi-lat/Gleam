@@ -1,13 +1,13 @@
 //##############################################################
 //
 // Job options file for GUI (gui or FRED) Gleam job
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.25 2008/10/08 06:00:34 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/jobOptions.txt,v 1.26 2009/04/22 13:35:24 heather Exp $
 
-#include "$GLEAMROOT/src/basicOptions.txt"
+#include "$GLEAMJOBOPTIONSPATH/basicOptions.txt"
 
 // choose one or the other below for old integrated Gui or FRED
-//#include "$GLEAMROOT/src/guiOptions.txt" 
-//#include "$GLEAMROOT/src/fredOptions.txt" 
+//#include "$GLEAMJOBOPTIONSPATH/guiOptions.txt" 
+//#include "$GLEAMJOBOPTIONSPATH/fredOptions.txt" 
 // for FRED, the Fred program is expected to be in the path given by
 // the environment variable Fred_DIR, which is set by default in the
 // interface package IExternal/Fred

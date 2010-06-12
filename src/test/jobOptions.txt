@@ -1,10 +1,10 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.41 2008/10/08 06:00:34 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/test/jobOptions.txt,v 1.42 2009/04/22 13:35:25 heather Exp $
 
 // just run the "default" job with mods below
-#include "$GLEAMROOT/src/default.txt"
+#include "$GLEAMJOBOPTIONSPATH/default.txt"
 
 // Set output level threshold (2=DEBUG, 3=INFO, 4=WARNING, 5=ERROR, 6=FATAL )
 MessageSvc.OutputLevel=3;
@@ -25,7 +25,7 @@ MeritAlg.generated = 1000;
 
 OnboardFilter.RejectEvents = true;      // enable OBF
 
-#include "$GLEAMROOT/src/calibration.txt"
+#include "$GLEAMJOBOPTIONSPATH/calibration.txt"
 
 // test saa boundary mechanism
 //#include "$FLUXSVCROOT/src/SAAboundary.txt"
