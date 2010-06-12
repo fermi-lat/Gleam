@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 11 18:25:58 PDT 2010
+GlastRelease-scons/Gleam/src
+
+Modified Files:
+	basicOptions.txt default.txt full_source_simulation.txt 
+	jobOptions.txt readDisplayAndWrite.txt readMcAndDigi.txt 
+	readdigi.txt 
+Log Message:
+in jo files replace occurrences of PKGROOT/src with PKGJOBOPTIONSPATH
+    *
+------------------------------------------------------------
 User: jrb  Thu Jun 10 17:37:26 PDT 2010
 GlastRelease-scons/Gleam
 
