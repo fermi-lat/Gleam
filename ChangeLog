@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jrb  Fri Jun 11 18:25:58 PDT 2010
+GlastRelease-scons/Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	calibrations.txt ldf2digi.txt readigi_runrecon.txt 
+Log Message:
+in jo files replace occurrences of PKGROOT/src with PKGJOBOPTIONSPATH
+    *
+------------------------------------------------------------
+User: jrb  Fri Jun 11 18:25:58 PDT 2010
 GlastRelease-scons/Gleam/src
 
 Modified Files:
