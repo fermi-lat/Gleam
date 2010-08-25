@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.262 2010/04/21 15:37:02 lsrea Exp $
+ * $Id: release.notes,v 1.263 2010/06/13 07:05:54 jrb Exp $
 * EOH
 
+ Gleam-07-05-00 25-Aug-2010  lsrea mods to start WIRED
  Gleam-07-04-09 13-Jun-2010    jrb upgrades for SCons builds
  Gleam-07-04-08 21-Apr-2010  lsrea Add TkrFillTDInfoAlg to the digitization sequence
 * Gleam-07-04-07 14-Apr-2010 HMK patch readAndDisplay.txt to use new env variable
