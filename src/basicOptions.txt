@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/basicOptions.txt,v 1.137 2010/04/21 15:35:28 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.138 2010/06/12 01:25:57 jrb Exp $
 
 // primary DLLs, including auditor 
 
@@ -208,8 +208,11 @@ Cal1.Members = {
 
 // First pass of Tkr Recon
 Tkr.Members = {
+    "TkrReconAlg/TkrCluster",
     "TkrReconAlg/FirstPass"
     };
+
+FirstPass.firstStage = 2;
 
 // Second pass of Cal Recon - energy corrections only
 Cal2.Members = {
