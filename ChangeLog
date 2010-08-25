@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: lsrea  Wed Aug 25 15:02:44 PDT 2010
+Gleam/src
+
+Modified Files:
+	basicOptions.txt jobOptions.txt readAndDisplay.txt 
+Added Files:
+	wiredOptions.txt 
+Log Message:
+Mods to implement starting WIRED from jobOptions
+basicOptions: split off TkrCluster as a separate sequence, to allow more flexibility
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-04-09, operation: add
 Package: Gleam
