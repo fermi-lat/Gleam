@@ -21,6 +21,7 @@ ApplicationMgr.ExtSvc += {"MootSvc"};
 
 AuditorSvc.Auditors    = {"ChronoAuditor"};
 
+ApplicationMgr.HistogramPersistency = "NONE";
 
 //
 // A structure for the topalg, using sequencer steps:
