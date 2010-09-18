@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 // Options for Gleam that are specific to reading ROOT files and using the GUI
-// $Id: readAndDisplay.txt,v 1.10 2008/10/08 06:00:34 lsrea Exp $
+// $Id: readAndDisplay.txt,v 1.11 2010/04/14 16:41:44 heather Exp $
 //##############################################################
 //
 // Job options file for Reading in the root output files and displaying events in FRED
@@ -12,8 +12,10 @@ AuditorSvc.Auditors = {"ChronoAuditor"};
 
 ApplicationMgr.DLLs+=    {"AcdUtil","TkrUtil","G4Propagator", "G4Generator", "CalibSvc"};
 ApplicationMgr.DLLs+=    {"HepRepSvc", "HepRepXml", "HepRepCorba"}; 
-ApplicationMgr.ExtSvc += {"HepRepSvc","EventSelector/EventSelector"}; 
+ApplicationMgr.ExtSvc += {"HepRepSvc","DbEvtSelector/EventSelector"}; 
 ApplicationMgr.Runable = "HepRepSvc";
+
+ApplicationMgr.HistogramPersistency = "NONE";
 
 // Uncomment this if you want to save xml files with the event 
 //HepRepSvc.autoStream = "xml";
@@ -22,8 +24,8 @@ ApplicationMgr.Runable = "HepRepSvc";
 HepRepSvc.geometryDepth = 6;
 
 EventPersistencySvc.CnvServices = {"EventCnvSvc"}; 
-EventSelector.Input = "SVC='DbEvtSelector'";
-EventSelector.PrintFreq = -1;
+//EventSelector.Input = "SVC='DbEvtSelector'";
+//EventSelector.PrintFreq = -1;
 
 ApplicationMgr.TopAlg = {
 "Sequencer/Top" };

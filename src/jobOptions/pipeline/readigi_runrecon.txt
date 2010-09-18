@@ -18,16 +18,17 @@ ApplicationMgr.ExtSvc += {"ChronoStatSvc"};
 
 AuditorSvc.Auditors = {"ChronoAuditor"};
 
+ApplicationMgr.HistogramPersistecy = "NONE";
 
 //
 // Set up basic event loop: 
 //
-ApplicationMgr.ExtSvc = {"EventSelector/EventSelector" };
+ApplicationMgr.ExtSvc = {"DbEvtSelector/EventSelector" };
 
 EventPersistencySvc.CnvServices = {"EventCnvSvc"};
 
-EventSelector.Input     = "SVC='DbEvtSelector";
-EventSelector.PrintFreq = -1;
+//EventSelector.Input     = "SVC='DbEvtSelector";
+//EventSelector.PrintFreq = -1;
 
 
 //
