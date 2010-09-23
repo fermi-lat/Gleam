@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.23 2010/06/13 07:05:54 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.24 2010/08/25 22:03:14 lsrea Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
 # Version: Gleam-07-05-00
 Import('baseEnv')
@@ -10,6 +10,16 @@ libEnv = baseEnv.Clone()
 
 progEnv.Tool('GuiSvcLib')
 progEnv.Tool('guiLib')
+progEnv.Tool('xmlUtilLib')
+progEnv.Tool('CalibDataLib')
+progEnv.Tool('calibRootDataLib')
+progEnv.Tool('overlayRootDataLib')
+progEnv.Tool('CalUtilLib')
+progEnv.Tool('ldfReaderLib')
+progEnv.Tool('TMineLib')
+progEnv.Tool('configDataLib')
+progEnv.Tool('RootConvertLib')
+progEnv.Tool('rootUtilLib')
 
 if baseEnv['PLATFORM'] != 'win32':
 	progEnv.AppendUnique(LINKFLAGS=['-u GuiSvc_loadRef'])
@@ -17,6 +27,18 @@ if baseEnv['PLATFORM'] != 'win32':
 
 if baseEnv['PLATFORM'] == 'win32':
 	progEnv.AppendUnique(LINKFLAGS = ['/include:_GuiSvc_loadRef'])
+
+# Add dependencies for all shareable, non-component libraries
+#progEnv.Tool('addLibrary',
+#	     library= ['facilities','xmlBase', 'xmlUtil', 'CalUtil','astro',
+#		       'CalibData', 'Event','OverlayEvent', 'OnboardFilterTds',
+#		       'rootUtil','rdbModel', 'calibUtil', 'mootCore',
+#		       'commonRootData', 'digiRootData', 'reconRootData',
+#		       'calibRootData', 'mcRootData', 'overlayRootData', 
+#		       'gcrSelectRootData', 'RootConvert', 'eventFile',
+#		       'lsfData', 'ldfReader','TMine','configData'])
+		       
+		     
 
 Gleam = progEnv.GaudiProgram('Gleam',[],test=0, package='Gleam') 
 test_Gleam = progEnv.GaudiProgram('test_Gleam', listFiles(['src/test/*.cxx']),
