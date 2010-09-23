@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Sep 23 15:47:31 PDT 2010
+Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+add dependencies for non-component shared libraries
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-04-08-gr01, operation: add
 Package: Gleam
