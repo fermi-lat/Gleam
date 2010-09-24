@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Thu Sep 23 17:19:49 PDT 2010
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+Restore basicOptions sequence after tagging new TkrRecon
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-05-01, operation: add
 Package: Gleam
