@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bregeon  Thu Nov  4 10:26:20 PDT 2010
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+add CalClassifyAlg to Cal1, update CalClusterAlg nickname
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-05-02, operation: add
 Package: Gleam
