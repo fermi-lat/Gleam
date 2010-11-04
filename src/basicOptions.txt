@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.140 2010/09/23 22:55:25 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.141 2010/09/24 00:19:49 lsrea Exp $
 
 // primary DLLs, including auditor 
 
@@ -205,8 +205,9 @@ RootTupleSvc.RejectIfBad = false;
 // First pass of Cal Recon - full recon...
 Cal1.Members = { 
     "CalXtalRecAlg",
-    "CalClustersAlg/first",
-    "CalEventEnergyAlg/RawEnergy"
+    "CalClustersAlg/CalCluster",
+    "CalEventEnergyAlg/CalRawEnergy",
+    "CalClassifyAlg/CalClassify"
     };
 
 // First pass of Tkr Recon
