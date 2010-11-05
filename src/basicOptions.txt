@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.142 2010/11/04 17:26:20 bregeon Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.143 2010/11/05 17:10:19 lsrea Exp $
 
 // primary DLLs, including auditor 
 
@@ -178,7 +178,7 @@ gcrSelectRootWriterAlg.gcrSelectRootFile = "$(GLEAMDATAPATH)/gcr.root";
 // ntuple generation 
 
 ApplicationMgr.DLLs += {"AnalysisNtuple", "ntupleWriterSvc", "merit"
-              //, "GlastClassify" 
+              , "GlastClassify" 
               };
 AuditorSvc.Auditors += {"EventAuditor"}; // For event-by-event timing
 
