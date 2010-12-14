@@ -5,7 +5,7 @@ version v7r6p1
 author T. Burnett <tburnett@u.washington.edu>
 build_strategy without_installarea
 
-# $Id: requirements,v 1.407 2010/11/05 17:12:17 lsrea Exp $
+# $Id: requirements,v 1.408 2010/11/05 21:33:12 lsrea Exp $
 
 use GuiSvc      v*
 
@@ -90,7 +90,7 @@ use gr_app v*
 apply_pattern package_test
 
 # make a folder to keep local data files
-branches data
+# branches data  # make a data directory explicitly in cvs
 
 # temporary=============================================
 # this is set to the correct place for SLAC and glast-ts

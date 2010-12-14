@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.28 2010/11/05 17:12:17 lsrea Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.29 2010/11/05 21:33:12 lsrea Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
 # Version: Gleam-07-06-01
 Import('baseEnv')
@@ -46,6 +46,7 @@ test_Gleam = progEnv.GaudiProgram('test_Gleam', listFiles(['src/test/*.cxx']),
 progEnv.Tool('registerTargets', package = 'Gleam', 
 	     testAppCxts = [[test_Gleam, progEnv]],
 	     binaryCxts = [[Gleam, progEnv]],
+         data = ['data/dummy.txt'],
 	     jo = listFiles(['src/*.txt', 'src/test/*.txt',
 			     'src/jobOptions/pipeline/*.txt']) )
 
