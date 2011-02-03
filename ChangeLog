@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Wed Feb  2 17:29:26 PST 2011
+GlastRelease-scons/Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+mods needed for use of TMineExt external
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-06-02, operation: add
 Package: Gleam
