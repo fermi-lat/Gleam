@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.30 2010/12/14 01:02:24 lsrea Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/SConscript,v 1.31 2010/12/14 01:03:02 lsrea Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
 # Version: Gleam-07-06-02
 Import('baseEnv')
@@ -16,10 +16,10 @@ progEnv.Tool('calibRootDataLib')
 progEnv.Tool('overlayRootDataLib')
 progEnv.Tool('CalUtilLib')
 progEnv.Tool('ldfReaderLib')
-progEnv.Tool('TMineLib')
 progEnv.Tool('configDataLib')
 progEnv.Tool('RootConvertLib')
 progEnv.Tool('rootUtilLib')
+progEnv.Tool('GlastClassifyLib')
 
 if baseEnv['PLATFORM'] != 'win32':
 	progEnv.AppendUnique(LINKFLAGS=['-u GuiSvc_loadRef'])
