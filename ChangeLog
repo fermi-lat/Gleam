@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kadrlica  Mon May 30 02:56:17 PDT 2011
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+Create two merit tuples in the same output file.
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-06-03, operation: add
 Package: Gleam
