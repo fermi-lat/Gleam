@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Thu Jun  9 21:03:34 PDT 2011
+Gleam/doc
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	release.notes 
+Log Message:
+merge in L1Proc mods for ldf2digi
+    *
+------------------------------------------------------------
+User: heather  Thu Jun  9 21:03:34 PDT 2011
 Gleam/cmt
 
 Modified Files:
