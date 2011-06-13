@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: lsrea  Mon Jun 13 15:07:40 PDT 2011
+Gleam/src
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	jobOptions.txt 
+Added Files:
+      Tag: GlastReleasev18r3p1
+	wiredOptions.txt 
+Log Message:
+For WIRED
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-04-07-gr01, operation: add
 Package: Gleam
