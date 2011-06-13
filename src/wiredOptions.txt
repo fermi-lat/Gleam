@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 // Options for Gleam that are specific to running Fred
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/fredOptions.txt,v 1.6 2010/04/13 13:17:36 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/wiredOptions.txt,v 1.1 2010/08/25 22:02:44 lsrea Exp $
 // ---------------------------------------------------------
 
 // this necessary (for now) to see the event
