@@ -2,9 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.261.2.1 2011/06/10 04:03:34 heather Exp $
+ * $Id: release.notes,v 1.261.2.2 2011/06/14 03:08:06 heather Exp $
 * EOH
 
+* Gleam-07-04-07-gr03 17-Jun-2011 HMK Update to include FT1Alg.EvtClassDefFile
+*        JO paramater
 * Gleam-07-04-07-gr02 13-Jun-2011 LSR merge in Wired update for L1proc
 * Gleam-07-04-07-gr01 09-Jun-2011 HMK merge in L1proc updates 
 * Gleam-07-04-07 14-Apr-2010 HMK patch readAndDisplay.txt to use new env variable

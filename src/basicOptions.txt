@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.134 2009/04/22 13:22:14 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.135 2009/09/14 19:09:03 heather Exp $
 
 // primary DLLs, including auditor 
 
@@ -195,6 +195,7 @@ AnalysisNtupleAlg.tupleName = "MeritTuple";
 RootTupleSvc.filename            = "${GLEAMDATAPATH}/merit.root";
 RootTupleSvc.RejectIfBad = false;
 
+FT1Alg.EventClassDefinitions = "$(EVTUTILSROOT)/xml/EvtClassDefs_P7V6.xml";
 
 // ----------------------------
 // Reconstruction sequence details
