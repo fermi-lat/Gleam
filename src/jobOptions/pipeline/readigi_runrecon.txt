@@ -194,6 +194,8 @@ PtValsAlg.PointingHistory = {"FT2_Gleam.fits", "", ""};
 FT1Alg.CorrectForAberration = true;
 FT1Alg.AlignmentFlavor      = "vanilla";
 
+FT1Alg.EventClassDefinitions = "$(EVTUTILSROOT)/xml/EvtClassDefs_P7V6.xml";
+
 
 //
 // Make ntuple:
