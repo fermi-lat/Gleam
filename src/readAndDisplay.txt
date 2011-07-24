@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 // Options for Gleam that are specific to reading ROOT files and using the GUI
-// $Id: readAndDisplay.txt,v 1.11 2010/04/14 16:41:44 heather Exp $
+// $Id: readAndDisplay.txt,v 1.12 2010/08/25 22:02:44 lsrea Exp $
 //##############################################################
 //
 // Job options file for Reading in the root output files and displaying events in FRED
@@ -36,11 +36,6 @@ Top.Members  += { "mcRootReaderAlg" };  // comment this for data
 Top.Members  += { "digiRootReaderAlg" }; 
 Top.Members  += { "reconRootReaderAlg" };
 
-// to flag ghost clusters in older data,
-Top.Members  += { "TkrReconAlg/FirstPass" }; 
-FirstPass.firstStage = 0;
-FirstPass.lastStage  = 0;
-
 Top.Members  += { "relationRootReaderAlg" }; // comment this for data
 Top.Members  += { "Sequencer/Output" };
 
@@ -56,7 +51,7 @@ ApplicationMgr.ExtSvc += { "RootIoSvc", "ParticlePropertySvc", "GlastDetSvc" };
 GlastDetSvc.xmlfile="$(XMLGEODBSXMLPATH)/flight/flightSegVols.xml";
 GlastDetSvc.topVolume="LAT"; // the whole schebang
 
-ApplicationMgr.EvtMax = 100000;
+ApplicationMgr.EvtMax = 1000000;
 
 // tell it to automatically start the version of FRED 
 HepRepSvc.startFred = "$Fred_EXE_DIR";
