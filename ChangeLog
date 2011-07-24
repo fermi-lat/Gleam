@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Sun Jul 24 11:19:03 PDT 2011
+Gleam/src
+
+Modified Files:
+	readAndDisplay.txt 
+Log Message:
+Remove ghost processing from "readAndDisplay"... does bad things now
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-04-07-gr03, operation: add
 Package: Gleam
