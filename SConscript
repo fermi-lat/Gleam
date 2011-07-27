@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.20.2.2 2011/06/14 03:08:06 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.34 2011/07/24 20:04:47 lsrea Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
-# Version: Gleam-07-04-07-gr03
+# Version: Gleam-07-04-07-gr04
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
@@ -10,6 +10,16 @@ libEnv = baseEnv.Clone()
 
 progEnv.Tool('GuiSvcLib')
 progEnv.Tool('guiLib')
+progEnv.Tool('xmlUtilLib')
+progEnv.Tool('CalibDataLib')
+progEnv.Tool('calibRootDataLib')
+progEnv.Tool('overlayRootDataLib')
+progEnv.Tool('CalUtilLib')
+progEnv.Tool('ldfReaderLib')
+progEnv.Tool('configDataLib')
+progEnv.Tool('RootConvertLib')
+progEnv.Tool('rootUtilLib')
+progEnv.Tool('GlastClassifyLib')
 
 if baseEnv['PLATFORM'] != 'win32':
 	progEnv.AppendUnique(LINKFLAGS=['-u GuiSvc_loadRef'])
@@ -18,10 +28,28 @@ if baseEnv['PLATFORM'] != 'win32':
 if baseEnv['PLATFORM'] == 'win32':
 	progEnv.AppendUnique(LINKFLAGS = ['/include:_GuiSvc_loadRef'])
 
-#Gleam = progEnv.GaudiProgram('Gleam',[' '],test=0) 
-test_Gleam = progEnv.GaudiProgram('test_Gleam', listFiles(['src/test/*.cxx']), test=1)
-progEnv.Tool('registerObjects', package = 'Gleam', 
-	includes = listFiles(['Gleam/*.h']))
+# Add dependencies for all shareable, non-component libraries
+#progEnv.Tool('addLibrary',
+#	     library= ['facilities','xmlBase', 'xmlUtil', 'CalUtil','astro',
+#		       'CalibData', 'Event','OverlayEvent', 'OnboardFilterTds',
+#		       'rootUtil','rdbModel', 'calibUtil', 'mootCore',
+#		       'commonRootData', 'digiRootData', 'reconRootData',
+#		       'calibRootData', 'mcRootData', 'overlayRootData', 
+#		       'gcrSelectRootData', 'RootConvert', 'eventFile',
+#		       'lsfData', 'ldfReader','TMine','configData'])
+		       
+		     
+
+Gleam = progEnv.GaudiProgram('Gleam',[],test=0, package='Gleam') 
+test_Gleam = progEnv.GaudiProgram('test_Gleam', listFiles(['src/test/*.cxx']),
+				  test=1, package='Gleam')
+progEnv.Tool('registerTargets', package = 'Gleam', 
+	     testAppCxts = [[test_Gleam, progEnv]],
+	     binaryCxts = [[Gleam, progEnv]],
+         data = ['data/dummy.txt'],
+	     jo = listFiles(['src/*.txt', 'src/test/*.txt',
+			     'src/jobOptions/pipeline/*.txt']) )
+
 
 
 
