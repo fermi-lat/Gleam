@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Thu Aug  4 12:54:31 PDT 2011
+Gleam/src/test
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	jobOptions.txt userOptions.txt 
+Log Message:
+patch up JO files for SCons
+    *
+------------------------------------------------------------
+User: heather  Thu Aug  4 12:54:31 PDT 2011
 Gleam/src
 
 Modified Files:
