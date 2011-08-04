@@ -1,19 +1,19 @@
 //##############################################################
 //
 // Job options file for GUI (gui or FRED) Gleam job
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.26 2009/04/22 13:35:24 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.26.44.1 2011/06/13 22:07:40 lsrea Exp $
 
-#include "$GLEAMROOT/src/basicOptions.txt"
+#include "$GLEAMJOBOPTIONSPATH/src/basicOptions.txt"
 
 // choose one or the other below for old integrated Gui or FRED
-//#include "$GLEAMROOT/src/guiOptions.txt" 
-//#include "$GLEAMROOT/src/fredOptions.txt" 
+//#include "$GLEAMJOBOPTIONSPATH/src/guiOptions.txt" 
+//#include "$GLEAMJOBOPTIONSPATH/src/fredOptions.txt" 
 // for FRED, the Fred program is expected to be in the path given by
 // the environment variable Fred_DIR, which is set by default in the
 // interface package IExternal/Fred
 
 // for WIRED!
-//#include "$GLEAMROOT/src/wiredOptions.txt" 
+//#include "$GLEAMJOBOPTIONSPATH/src/wiredOptions.txt" 
 // to start WIRED from a local copy, uncomment and substitute your own path
 //HepRepSvc.startWired = "C:/Extlibs/WIRED/wired4.jnlp";
 

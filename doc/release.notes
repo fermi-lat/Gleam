@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.261.2.3 2011/06/18 04:30:17 heather Exp $
+ * $Id: release.notes,v 1.261.2.4 2011/07/27 15:03:44 heather Exp $
 * EOH
 
+* Gleam-07-04-07-gr05 04-Aug-2011 HMK patch JO files for SCons
 * Gleam-07-04-07-gr04 27-Jul-2011 HMK Update to merge in SCons updates for P7
 * Gleam-07-04-07-gr03 17-Jun-2011 HMK Update to include FT1Alg.EvtClassDefFile
 *        JO paramater
