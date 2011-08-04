@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Aug  4 12:54:30 PDT 2011
+Gleam
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	SConscript 
+Log Message:
+patch up JO files for SCons
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease_Pass7-17-35-23-gr08, operation: add
 Package: Gleam
