@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: heather  Thu Aug  4 12:54:31 PDT 2011
+Gleam/src
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	basicOptions.txt default.txt full_source_simulation.txt 
+	jobOptions.txt readDisplayAndWrite.txt readMcAndDigi.txt 
+	readdigi.txt 
+Log Message:
+patch up JO files for SCons
+    *
+------------------------------------------------------------
 User: heather  Thu Aug  4 12:54:30 PDT 2011
 Gleam/doc
 
