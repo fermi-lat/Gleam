@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Thu Aug 25 14:11:35 PDT 2011
+Gleam/src
+
+Modified Files:
+	basicOptions.txt jobOptions.txt readAndDisplay.txt 
+	readDisplayAndWrite.txt readMcAndDigi.txt readdigi.txt 
+Log Message:
+Point to new location for G4 test_sources, and random SCons-type fixes (mostly cosmetic)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-19-03-05, operation: add
 Package: Gleam
