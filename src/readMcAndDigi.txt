@@ -1,9 +1,9 @@
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // Job options file for Gleam job to read default digi root file
-//$Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/readMcAndDigi.txt,v 1.1 2007/05/09 01:38:45 heather Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/readMcAndDigi.txt,v 1.2 2010/06/12 01:25:58 jrb Exp $
 
 // start with the basic program defined in Gleam
-//#include "$GLEAMROOT/src/basicOptions.txt"
+//old Style: #include "$GLEAMROOT/src/basicOptions.txt"
 #include "$GLEAMJOBOPTIONSPATH/basicOptions.txt"
 
 

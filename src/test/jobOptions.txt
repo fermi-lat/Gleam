@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/test/jobOptions.txt,v 1.42 2009/04/22 13:35:25 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.43 2010/06/12 01:25:59 jrb Exp $
 
 // just run the "default" job with mods below
 #include "$GLEAMJOBOPTIONSPATH/default.txt"
@@ -28,7 +28,7 @@ OnboardFilter.RejectEvents = true;      // enable OBF
 #include "$GLEAMJOBOPTIONSPATH/calibration.txt"
 
 // test saa boundary mechanism
-//#include "$FLUXSVCROOT/src/SAAboundary.txt"
+//#include "$FLUXSVCJOBOPTIONSPATH/SAAboundary.txt"
 
 
 //==============================================================
