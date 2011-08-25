@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for GUI (gui or FRED) Gleam job
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.27 2010/06/12 01:25:57 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.28 2010/08/25 22:02:44 lsrea Exp $
 
 #include "$GLEAMJOBOPTIONSPATH/basicOptions.txt"
 
@@ -16,7 +16,7 @@
 // the environment variable Fred_DIR, which is set by default in the
 // interface package IExternal/Fred
 
-FluxSvc.source_lib += {"$(G4GENERATORROOT)/src/test/test_sources.xml"};
+FluxSvc.source_lib += {"$(G4GENERATORXMLPATH)/test_sources.xml"};
 FluxAlg.source_name="muon_pencil_angle";
 ApplicationMgr.EvtMax  = 1000;
 
