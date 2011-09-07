@@ -2,6 +2,37 @@
 TAG
 Tag name: GlastRelease-19-03-07, operation: add
 Package: Gleam
+User: heather  Wed Sep  7 10:57:02 2011
+Files:
+  Gleam/data/dummy.txt  1.1
+  Gleam/doc/release.notes  1.271
+  Gleam/src/calibration.txt  1.9
+  Gleam/src/readdigi.txt  1.14
+  Gleam/src/wiredOptions.txt  1.1
+  Gleam/src/readAndDisplay.txt  1.13
+  Gleam/src/mainpage.h  1.3
+  Gleam/src/fredOptions.txt  1.6
+  Gleam/src/skymodel.txt  1.3
+  Gleam/src/interleave.txt  1.8
+  Gleam/src/SAAboundary.txt  1.1
+  Gleam/src/basicOptions.txt  1.146
+  Gleam/src/full_source_simulation.txt  1.12
+  Gleam/src/default.txt  1.22
+  Gleam/src/background.txt  1.2
+  Gleam/src/readDisplayAndWrite.txt  1.5
+  Gleam/src/jobOptions.txt  1.28
+  Gleam/src/clocks.xml  1.1
+  Gleam/src/readMcAndDigi.txt  1.2
+  Gleam/src/guiOptions.txt  1.11
+  Gleam/src/jobOptions/pipeline/calibrations.txt  1.12
+  Gleam/src/jobOptions/pipeline/ldf2digi.txt  1.27
+  Gleam/src/jobOptions/pipeline/readigi_runrecon.txt  1.22
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-19-03-07, operation: add
+Package: Gleam
 User: heather  Wed Sep  7 10:56:47 2011
 Files:
   Gleam/.cvsignore  1.4
