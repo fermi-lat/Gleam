@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Mon Oct 24 10:49:46 PDT 2011
+Gleam/cmt
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	requirements 
+Log Message:
+pick up fixes to env vars for SCons in ldf2digi.txt
+    *
+------------------------------------------------------------
+User: heather  Mon Oct 24 10:49:46 PDT 2011
 Gleam
 
 Modified Files:
