@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Mon Oct 24 10:49:46 PDT 2011
+Gleam
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	SConscript 
+Log Message:
+pick up fixes to env vars for SCons in ldf2digi.txt
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr10, operation: add
 Package: Gleam
