@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.261.2.6 2011/08/05 18:22:42 heather Exp $
+ * $Id: release.notes,v 1.261.2.7 2011/08/05 18:26:28 heather Exp $
 * EOH
 
+* Gleam-07-04-07-gr08 24-Oct-2011 HMK patches for ldf2digi.txt
 * Gleam-07-04-07-gr07 05-Aug-2011 HMK patch to use EVTUTILSXMLPATH
 * Gleam-07-04-07-gr06 05-Aug-2011 HMK patch to use EVTUTILSXMLPATH
 * Gleam-07-04-07-gr05 04-Aug-2011 HMK patch JO files for SCons
