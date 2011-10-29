@@ -194,7 +194,7 @@ PtValsAlg.PointingHistory = {"FT2_Gleam.fits", "", ""};
 FT1Alg.CorrectForAberration = true;
 FT1Alg.AlignmentFlavor      = "vanilla";
 
-FT1Alg.EventClassDefinitions = "$(EVTUTILSROOT)/xml/EvtClassDefs_P7V6.xml";
+FT1Alg.EventClassDefinitions = "$(EVTUTILSXMLPATH)/EvtClassDefs_P7V6.xml";
 
 
 //
@@ -238,7 +238,7 @@ TkrFilterFirst.FilterToolName = "TkrCalFilterTool";
 //
 // Calibrations:
 //
-#include "$GLEAMROOT/src/jobOptions/pipeline/calibrations.txt"
+#include "$GLEAMJOBOPTIONSPATH/jobOptions/pipeline/calibrations.txt"
 
 
 //

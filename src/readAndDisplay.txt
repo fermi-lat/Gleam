@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 // Options for Gleam that are specific to reading ROOT files and using the GUI
-// $Id: readAndDisplay.txt,v 1.10 2008/10/08 06:00:34 lsrea Exp $
+// $Id: readAndDisplay.txt,v 1.11 2010/04/14 16:41:44 heather Exp $
 //##############################################################
 //
 // Job options file for Reading in the root output files and displaying events in FRED
@@ -61,6 +61,13 @@ ApplicationMgr.EvtMax = 100000;
 // tell it to automatically start the version of FRED 
 HepRepSvc.startFred = "$Fred_EXE_DIR";
 
+// or WIRED
+// HepRepSvc.startWired =
+// "http://glast-ground.slac.stanford.edu/DataPortalWired/wired4.jnlp";
+
+// to start a local copy of WIRED, substitute your own path
+// HepRepSvc.startWired = "C:/Extlbs/WIRED/wired4.jnlp";
+
 //##############################################################
 // Names of input ROOT files - note that you can supply a list of input files
 // as a comma delimited list
@@ -68,11 +75,11 @@ HepRepSvc.startFred = "$Fred_EXE_DIR";
 // From time to time, the test files below become outdated. If this job doesn't 
 //   run out of the box, please notify Leon or Heather.
 
-mcRootReaderAlg.mcRootFileList             = { "$(ROOTTESTDATAROOT)/data/default/mc.root" };
-digiRootReaderAlg.digiRootFileList         = { "$(ROOTTESTDATAROOT)/data/default/digi.root" };
-reconRootReaderAlg.reconRootFileList       = { "$(ROOTTESTDATAROOT)/data/default/recon.root" };
-relationRootReaderAlg.relationRootFileList = { "$(ROOTTESTDATAROOT)/data/default/relations.root" };
-RootTupleSvc.inFileList                    = { "$(ROOTTESTDATAROOT)/data/default/merit.root" };
+mcRootReaderAlg.mcRootFileList             = { "$(ROOTTESTDATADATAPATH)/default/mc.root" };
+digiRootReaderAlg.digiRootFileList         = { "$(ROOTTESTDATADATAPATH)/default/digi.root" };
+reconRootReaderAlg.reconRootFileList       = { "$(ROOTTESTDATADATAPATH)/default/recon.root" };
+relationRootReaderAlg.relationRootFileList = { "$(ROOTTESTDATADATAPATH)/default/relations.root" };
+RootTupleSvc.inFileList                    = { "$(ROOTTESTDATADATAPATH)/default/merit.root" };
 RootTupleSvc.RejectIfBad = false;
 
 // -------end readAndDisplay-specific-------
