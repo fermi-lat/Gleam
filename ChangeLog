@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Oct 28 20:28:02 PDT 2011
+Gleam/cmt
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	requirements 
+Log Message:
+fix up JO file for env vars
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr11, operation: add
 Package: Gleam
