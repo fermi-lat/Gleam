@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Fri Oct 28 20:28:03 PDT 2011
+Gleam/src
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	full_source_simulation.txt jobOptions.txt readAndDisplay.txt 
+Log Message:
+fix up JO file for env vars
+    *
+------------------------------------------------------------
+User: heather  Fri Oct 28 20:28:03 PDT 2011
 Gleam/doc
 
 Modified Files:
