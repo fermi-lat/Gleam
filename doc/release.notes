@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.271 2011/07/24 20:04:47 lsrea Exp $
+ * $Id: release.notes,v 1.272 2011/08/25 21:14:57 lsrea Exp $
 * EOH
 
+ Gleam-07-07-00 12-Dec-2011  hmk   Merge in Gaudi v21r7 updates
  Gleam-07-06-05 25-Aug-2011  lsrea SCons-ish fixes to the jO files
  Gleam-07-06-04 24-Jul-2011  lsrea removed some toxic code from readAndDisplay.txt
  Gleam-07-06-03 02-Feb-2011    jrb For use of TMineExt external
