@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.40 2012/01/20 18:48:09 lsrea Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/SConscript,v 1.41 2012/01/20 19:27:00 lsrea Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
 # Version: Gleam-07-09-00
 Import('baseEnv')
@@ -20,25 +20,6 @@ progEnv.Tool('configDataLib')
 progEnv.Tool('RootConvertLib')
 progEnv.Tool('rootUtilLib')
 progEnv.Tool('GlastClassifyLib')
-
-if baseEnv['PLATFORM'] != 'win32':
-	progEnv.AppendUnique(LINKFLAGS=['-u GuiSvc_loadRef'])
-	progEnv.Tool('addLibrary', library = ['dl'])
-
-if baseEnv['PLATFORM'] == 'win32':
-	progEnv.AppendUnique(LINKFLAGS = ['/include:_GuiSvc_loadRef'])
-
-# Add dependencies for all shareable, non-component libraries
-#progEnv.Tool('addLibrary',
-#	     library= ['facilities','xmlBase', 'xmlUtil', 'CalUtil','astro',
-#		       'CalibData', 'Event','OverlayEvent', 'OnboardFilterTds',
-#		       'rootUtil','rdbModel', 'calibUtil', 'mootCore',
-#		       'commonRootData', 'digiRootData', 'reconRootData',
-#		       'calibRootData', 'mcRootData', 'overlayRootData', 
-#		       'gcrSelectRootData', 'RootConvert', 'eventFile',
-#		       'lsfData', 'ldfReader','TMine','configData'])
-		       
-		     
 
 Gleam = progEnv.GaudiProgram('Gleam',[],test=0, package='Gleam') 
 test_Gleam = progEnv.GaudiProgram('test_Gleam', listFiles(['src/test/*.cxx']),
