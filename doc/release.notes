@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.275 2012/01/18 15:51:58 heather Exp $
+ * $Id: release.notes,v 1.276 2012/01/18 19:37:26 heather Exp $
 * EOH
 
+ Gleam-07-08-00 20-Jan-2012  lsrea mods for cable truncation
  Gleam-07-07-03 18-Jan-2012 hmk    patch the patch
  Gleam-07-07-02 18-Jan-2012 hmk    patch the patch
  Gleam-07-07-01 12-Jan-2012  hmk   windows patch
