@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Thu Jan 19 18:02:12 PST 2012
+Gleam/src
+
+Modified Files:
+      Tag: GlastReleasev19r4p1
+	basicOptions.txt 
+Log Message:
+mods for cable truncation
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-07-03, operation: add
 Package: Gleam
