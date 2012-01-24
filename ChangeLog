@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Tue Jan 24 15:23:52 PST 2012
+Gleam
+
+Modified Files:
+      Tag: GlastReleasev19r4p1
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-10-00, operation: add
 Package: Gleam
