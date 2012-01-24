@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Tue Jan 24 14:29:36 PST 2012
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+remove the obsolete 'merit' package (not to be confused with AnalysisNtuple, which makes the merit file!)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-09-01, operation: add
 Package: Gleam
