@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.272 2011/08/25 21:14:57 lsrea Exp $
+ * $Id: release.notes,v 1.272.6.1 2012/01/20 17:17:55 lsrea Exp $
 * EOH
 
+ Gleam-07-06-05-gr02 24-Jan-2012  lsrea remove refs to obsolete 'merit' package
  Gleam-07-06-05-gr01 20-Jan-2012  lsrea cc cable truncation code on v19r4p1 branch
  Gleam-07-06-05 25-Aug-2011  lsrea SCons-ish fixes to the jO files
  Gleam-07-06-04 24-Jul-2011  lsrea removed some toxic code from readAndDisplay.txt
