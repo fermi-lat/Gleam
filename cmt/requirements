@@ -5,7 +5,7 @@ version v7r9p1
 author T. Burnett <tburnett@u.washington.edu>
 build_strategy without_installarea
 
-# $Id: requirements,v 1.419 2012/01/20 19:27:00 lsrea Exp $
+# $Id: requirements,v 1.420 2012/01/21 00:31:27 jrb Exp $
 
 use GuiSvc      v*
 
@@ -47,7 +47,7 @@ use RootDisplay v*
 use CalibSvc    v*
 
 #diagnostic and summary of bottom line
-use merit       v*
+#use merit       v*
 use AnalysisNtuple v*
 use GlastClassify v*
 
