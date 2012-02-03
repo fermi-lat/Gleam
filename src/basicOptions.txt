@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.147 2011/08/25 21:11:35 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.147.6.1 2012/01/20 02:02:12 lsrea Exp $
 
 // primary DLLs, including auditor 
 
@@ -246,7 +246,7 @@ TkrIter.Members = {
 //   ACD recon
 
 ApplicationMgr.DLLs += {"AcdUtil", "AcdRecon"};
-Acd.Members = {"AcdReconAlg"};
+Acd.Members = {"AcdReconAlg","AcdReconAlgV2"};
 
 // ----------------------------
 //   GCR
