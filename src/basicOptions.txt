@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.147.6.1 2012/01/20 02:02:12 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.147.6.2 2012/02/03 18:43:52 kadrlica Exp $
 
 // primary DLLs, including auditor 
 
@@ -180,9 +180,10 @@ gcrSelectRootWriterAlg.gcrSelectRootFile = "$(GLEAMDATAPATH)/gcr.root";
 // ----------------------------
 // ntuple generation 
 
-ApplicationMgr.DLLs += {"AnalysisNtuple", "ntupleWriterSvc", "merit"
-              , "GlastClassify" 
-              };
+ApplicationMgr.DLLs += {"AnalysisNtuple"
+       , "ntupleWriterSvc"
+       , "GlastClassify" 
+};
 
 /// ADW: Make development tuple with defaults (i.e. MeritTuple)
 /// Can't duplicate Auditor yet...
@@ -193,7 +194,6 @@ NtupleMaker1.Members = {
     "AnalysisNtupleAlg/AnalysisNtupleAlg1",
     "ClassifyAlg/ClassifyAlg1",       
     "FT1Alg/FT1Alg1",            
-    "meritAlg/meritAlg1",        
     "McCoordsAlg/McCoordsAlg1",  
     "ObfCoordsAlg/ObfCoordsAlg1" 
  };
@@ -228,6 +228,7 @@ Cal1.Members = {
 
 // First pass of Tkr Recon
 Tkr.Members = {
+    "TkrDigiTruncationAlg",
     "TkrReconAlg/TkrCluster",
     "TkrReconAlg/FirstPass"
     };

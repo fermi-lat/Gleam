@@ -114,9 +114,12 @@ ApplicationMgr.ExtSvc += {"GlastPropagatorSvc"};
 //
 // Reconstruction:
 //
-ApplicationMgr.DLLs += {"TkrUtil",
-                        "CalRecon",
-                        "TkrRecon"};
+ApplicationMgr.DLLs += {
+    "TkrUtil",
+    "CalRecon",
+    "TkrRecon",
+    "TkrDigi"       // needed for the truncation analysis
+};
 
 Reconstruction.Members = {"Sequencer/Cal1", 
                           "Sequencer/Tkr",
@@ -135,7 +138,7 @@ Cal1.Members = {"CalXtalRecAlg",
 Cal2.Members = {"CalEventEnergyAlg/second"};
 Cal3.Members = {"GcrReconAlg","GcrSelectAlg"};
 
-Tkr.Members     = {"TkrReconAlg/FirstPass"};
+Tkr.Members     = {"TkrDigiTruncationAlg", "TkrReconAlg/FirstPass"};
 TkrIter.Members = {"TkrReconAlg/Iteration"};
 
 
