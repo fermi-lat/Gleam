@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.272.6.4 2012/02/03 19:45:32 lsrea Exp $
+ * $Id: release.notes,v 1.272.6.5 2012/02/04 05:03:42 lsrea Exp $
 * EOH
 
+ Gleam-07-06-05-gr05 04-Feb-2012  lsrea trying to straighten out a messed-up tag
  Gleam-07-06-05-gr03 03-Feb-2012  lsrea new basicOptions, readigi_runrecon for truncations, remove merit
  Gleam-07-06-05-gr04 03-Feb-2012  lsrea add TkrDigiTruncationAlg to basicOptions
  Gleam-07-06-05-gr03 03-Feb-2012 kadrlica Added AcdReconAlgV2 to defaults in basicOptions.txt
