@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: lsrea  Fri Feb  3 20:44:57 PST 2012
+Gleam/src
+
+Modified Files:
+      Tag: GlastReleasev19r4p1
+	basicOptions.txt 
+Log Message:
+Looks like I never committed the update to basicOptions
+readdig_runrecon.txt is just a guess
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-06-05-gr04, operation: add
 Package: Gleam
