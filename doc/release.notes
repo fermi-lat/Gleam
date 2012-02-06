@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.261.2.8 2011/10/24 17:49:46 heather Exp $
+ * $Id: release.notes,v 1.261.2.9 2011/10/29 03:28:03 heather Exp $
 * EOH
 
+ Gleam-07-04-07-tr01 06-Feb-2012  lsrea mods for truncation on branch
 * Gleam-07-04-07-gr09 28-Oct-2011 HMK patches for rest of JO files for SCons
 * Gleam-07-04-07-gr08 24-Oct-2011 HMK patches for ldf2digi.txt
 * Gleam-07-04-07-gr07 05-Aug-2011 HMK patch to use EVTUTILSXMLPATH
