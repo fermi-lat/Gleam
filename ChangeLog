@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Mon Feb  6 11:07:35 PST 2012
+Gleam/src
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br02
+	basicOptions.txt fredOptions.txt jobOptions.txt 
+Log Message:
+Mods for truncation
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-06-05-gr05, operation: add
 Package: Gleam
