@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for GUI (gui or FRED) Gleam job
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.26.44.2 2011/08/04 19:54:31 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/jobOptions.txt,v 1.26.44.3 2011/10/29 03:28:03 heather Exp $
 
 #include "$GLEAMJOBOPTIONSPATH/basicOptions.txt"
 
@@ -30,6 +30,7 @@ OnboardFilter.useMootConfig = false;
 
 // turn off output, except headers
 Output.Members = {"FhSetAlg","FhSetMeritAlg"};
+
 
 //==============================================================
 //

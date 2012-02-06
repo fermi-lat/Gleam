@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.135.12.3 2011/08/05 18:22:42 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.135.12.4 2011/08/05 18:26:28 heather Exp $
 
 // primary DLLs, including auditor 
 
@@ -62,7 +62,7 @@ CalibrationUpdate.Members={
 // ----------------------------
 //  Digitization
 //
-ApplicationMgr.DLLs +={ "TkrDigi", "CalDigi", "AcdDigi"  };
+ApplicationMgr.DLLs +={ "TkrUtil", "TkrDigi", "CalDigi", "AcdDigi"  };
 Digitization.Members = { 
     "TkrDigiAlg", 
     "AcdDigiAlg"
@@ -122,7 +122,7 @@ ApplicationMgr.ExtSvc += { "GlastPropagatorSvc" };
 
 ApplicationMgr.DLLs +={ 
     "CalRecon", 
-    "TkrRecon", "TkrUtil"
+    "TkrRecon"
     };
 Reconstruction.Members={ 
     "Sequencer/Cal1", 
@@ -209,6 +209,7 @@ Cal1.Members = {
 
 // First pass of Tkr Recon
 Tkr.Members = {
+    "TkrDigiTruncationAlg",
     "TkrReconAlg/FirstPass"
     };
 
