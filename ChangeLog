@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Apr 20 12:02:14 PDT 2012
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	readigi_runrecon.txt 
+Log Message:
+fix up readdigi_runrecon JO for new Gaudi
+    *
+------------------------------------------------------------
 User: heather  Fri Apr 20 12:02:13 PDT 2012
 Gleam/doc
 
