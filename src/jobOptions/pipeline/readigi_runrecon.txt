@@ -22,12 +22,14 @@ AuditorSvc.Auditors = {"ChronoAuditor"};
 //
 // Set up basic event loop: 
 //
-ApplicationMgr.ExtSvc = {"EventSelector/EventSelector" };
+ApplicationMgr.ExtSvc = {"DbEvtSelector/EventSelector" };
 
 EventPersistencySvc.CnvServices = {"EventCnvSvc"};
 
-EventSelector.Input     = "SVC='DbEvtSelector";
-EventSelector.PrintFreq = -1;
+ApplicationMgr.HistogramPersistency = "NONE";
+
+//EventSelector.Input     = "SVC='DbEvtSelector";
+//EventSelector.PrintFreq = -1;
 
 
 //
@@ -299,7 +301,9 @@ ToolSvc.GcrSelectTool.OutputLevel = 4;
 // 
 // Number of events:
 //
-ApplicationMgr.EvtMax = 10000000000;
+//ApplicationMgr.EvtMax = 10000000000;
+// Use -1 to indicate infinite loop in new Gaudi
+ApplicationMgr.EvtMax = -1;
 
 
 //

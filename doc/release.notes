@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.261.2.9 2011/10/29 03:28:03 heather Exp $
+ * $Id: release.notes,v 1.261.2.9.2.1 2012/01/30 21:20:23 heather Exp $
 * EOH
 
+* Gleam-07-04-07-gr11 20-Apr-2012 HMK update pipeline JO for new Gaudi
 * Gleam-07-04-07-gr10 30-Jan-2012 HMK Gaudi v21r7
 * Gleam-07-04-07-gr09 28-Oct-2011 HMK patches for rest of JO files for SCons
 * Gleam-07-04-07-gr08 24-Oct-2011 HMK patches for ldf2digi.txt
