@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Fri Apr 20 12:02:12 PDT 2012
+Gleam/cmt
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	requirements 
+Log Message:
+fix up readdigi_runrecon JO for new Gaudi
+    *
+------------------------------------------------------------
+User: heather  Fri Apr 20 12:02:12 PDT 2012
 Gleam
 
 Modified Files:
