@@ -2,7 +2,7 @@
 //
 // Job options file for Gleam job to run detault source for 10K events
 
-//$Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/default.txt,v 1.21 2010/01/06 23:25:47 lsrea Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/default.txt,v 1.22 2010/06/12 01:25:57 jrb Exp $
 
 // start with the basic program defined in Gleam
 #include "$GLEAMJOBOPTIONSPATH/basicOptions.txt"
@@ -13,8 +13,8 @@
 
 FluxAlg.source_name="default";
 // SC start
-FluxSvc.StartDate = "2008-01-01 00:00:00"; // now the default
-FluxSvc.OrbitInclination = 25.3; // this is really the default
+FluxSvc.StartDate = "2008-01-01 00:00:00" 
+//FluxSvc.OrbitInclination = 25.3; // this is actually the current default
 
 // set root output from merit with following
 MeritAlg.EventTreeName="MeritTuple";
