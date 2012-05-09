@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.280 2012/01/24 22:40:53 lsrea Exp $
+ * $Id: release.notes,v 1.281 2012/02/03 18:58:53 kadrlica Exp $
 * EOH
 
+ Gleam-07-10-02 09-May-2012 hmk     Pick up JO mods
  Gleam-07-10-01 03-Feb-2012 kadrlica Added AcdReconAlgV2 to defaults in basicOptions.txt
  Gleam-07-10-00 24-Jan-2012  lsrea remove refs to obsolete 'merit' package
  Gleam-07-09-01 20-Jan-2012    jrb adjustments for GuiSvc component library
