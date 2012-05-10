@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Wed May  9 18:01:33 PDT 2012
+Gleam/src
+
+Modified Files:
+	fredOptions.txt 
+Log Message:
+Restore Fred_EXE_DIR
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-10-03, operation: add
 Package: Gleam
