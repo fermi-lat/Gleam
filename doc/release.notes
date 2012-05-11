@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.284 2012/05/10 01:02:41 lsrea Exp $
+ * $Id: release.notes,v 1.285 2012/05/11 05:04:02 heather Exp $
 * EOH
 
+ Gleam-07-10-06 11-May-2012  lsrea Adjust OutputLevels
  Gleam-07-10-05 11-May-2012 hmk   Fix missing semi-colon
  Gleam-07-10-04 09-May-2012  lsrea Restore Fred_EXE_DIR
  Gleam-07-10-03 09-May-2012  lsrea Fixes to the jO files
