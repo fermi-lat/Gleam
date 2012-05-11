@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.283 2012/05/09 20:43:04 lsrea Exp $
+ * $Id: release.notes,v 1.284 2012/05/10 01:02:41 lsrea Exp $
 * EOH
 
+ Gleam-07-10-05 11-May-2012 hmk   Fix missing semi-colon
  Gleam-07-10-04 09-May-2012  lsrea Restore Fred_EXE_DIR
  Gleam-07-10-03 09-May-2012  lsrea Fixes to the jO files
  Gleam-07-10-02 09-May-2012 hmk     Pick up JO mods
