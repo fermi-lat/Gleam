@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kadrlica  Fri May 11 12:56:50 PDT 2012
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+Uncommented dual-tuple machinery. Run the new Pass8 worksheet on the PrimeTuple
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-10-06, operation: add
 Package: Gleam
