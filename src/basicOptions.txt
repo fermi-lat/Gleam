@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.151 2012/02/03 18:46:05 kadrlica Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.152 2012/05/11 19:04:08 lsrea Exp $
 
 // primary DLLs, including auditor 
 
@@ -78,7 +78,7 @@ CalDigitization.Members = { "CalDigiAlg" };
 
 // this sequence runs if the event passes the trigger
 
-/// ADW: Only run NtupleMaker once for right now
+/// ADW: Run NtupleMaker twice
 Triggered.Members={
     "Sequencer/Filter", // can also cause rejection
     "Sequencer/ReconCalibrationUpdate",
@@ -87,7 +87,7 @@ Triggered.Members={
     "Sequencer/User",
     "Sequencer/EventDisplay",
     "Sequencer/NtupleMaker1",
-//    "Sequencer/NtupleMaker2",
+    "Sequencer/NtupleMaker2",
     "Sequencer/Output"
  };
 
@@ -200,15 +200,21 @@ NtupleMaker1.Members = {
     "McCoordsAlg/McCoordsAlg1",  
     "ObfCoordsAlg/ObfCoordsAlg1" 
  };
+ClassifyAlg1.UseTMine = true;
+ClassifyAlg1.xmlFileName = "$(GLASTCLASSIFYXMLPATH)/Pass7_Analysis_Protected.xml";
 
 
 /// ADW: Make production tuple named PrimeTuple
-/// Commented out for right now.
-//NtupleMaker2.Members = {
-//    "AnalysisNtupleAlg/AnalysisNtupleAlg2"
-// };
-//AnalysisNtupleAlg2.tupleName = "PrimeTuple";
-//AnalysisNtupleAlg2.proTuple = true;
+NtupleMaker2.Members = {
+    "AnalysisNtupleAlg/AnalysisNtupleAlg2",
+    "ClassifyAlg/ClassifyAlg2"
+ };
+AnalysisNtupleAlg2.tupleName = "PrimeTuple";
+AnalysisNtupleAlg2.proTuple = true;
+
+ClassifyAlg2.TreeName = "PrimeTuple";
+ClassifyAlg2.UseTMine = true;
+ClassifyAlg2.xmlFileName = "$(GLASTCLASSIFYXMLPATH)/Pass8_Analysis_Open.xml";
 
 // default output to GLEAMDATAPATH
 RootTupleSvc.filename            = "${GLEAMDATAPATH}/merit.root";
