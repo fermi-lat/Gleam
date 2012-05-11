@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu May 10 22:04:01 PDT 2012
+Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+add missing semi-colon in default.txt
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-10-04, operation: add
 Package: Gleam
