@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.286 2012/05/11 19:07:30 lsrea Exp $
+ * $Id: release.notes,v 1.287 2012/05/11 19:59:29 kadrlica Exp $
 * EOH
 
+ Gleam-07-10-08 15-May-2012  lsrea Updated to new Gaudi, added Acd2ValsTool
  Gleam-07-10-07 11-May-2012 kadrlica Uncommented dual-tuple production machinery
  Gleam-07-10-06 11-May-2012  lsrea Adjust OutputLevels
  Gleam-07-10-05 11-May-2012 hmk   Fix missing semi-colon
