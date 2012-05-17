@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.152 2012/05/11 19:04:08 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.153 2012/05/11 19:56:50 kadrlica Exp $
 
 // primary DLLs, including auditor 
 
@@ -200,7 +200,10 @@ NtupleMaker1.Members = {
     "McCoordsAlg/McCoordsAlg1",  
     "ObfCoordsAlg/ObfCoordsAlg1" 
  };
-ClassifyAlg1.UseTMine = true;
+
+// Use the following setting until we figure out why 2 instances of TMine
+//     can't run at the same time on Windows.
+ClassifyAlg1.UseTMine = false;
 ClassifyAlg1.xmlFileName = "$(GLASTCLASSIFYXMLPATH)/Pass7_Analysis_Protected.xml";
 
 
