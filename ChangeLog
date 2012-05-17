@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Wed May 16 23:39:36 PDT 2012
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+Turn TMine off for ClassifyAlg1, until we can get it to work properly on Windows
+The problem seems to come when trying to have two instances of TMine running at once
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-10-08, operation: add
 Package: Gleam
