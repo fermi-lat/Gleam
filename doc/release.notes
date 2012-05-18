@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.288 2012/05/16 05:43:26 lsrea Exp $
+ * $Id: release.notes,v 1.289 2012/05/17 06:41:02 lsrea Exp $
 * EOH
 
+ Gleam-07-10-10 18-May-2012  lsrea TMineX2 problem fixed!
  Gleam-07-10-09 16-May-2012  lsrea Temporarily turn off TMine for ClassifyAlg1
  Gleam-07-10-08 15-May-2012  lsrea Updated to new Gaudi, added Acd2ValsTool
  Gleam-07-10-07 11-May-2012 kadrlica Uncommented dual-tuple production machinery
