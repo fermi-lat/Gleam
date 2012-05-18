@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.153 2012/05/11 19:56:50 kadrlica Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.154 2012/05/17 06:39:36 lsrea Exp $
 
 // primary DLLs, including auditor 
 
@@ -200,10 +200,8 @@ NtupleMaker1.Members = {
     "McCoordsAlg/McCoordsAlg1",  
     "ObfCoordsAlg/ObfCoordsAlg1" 
  };
-
-// Use the following setting until we figure out why 2 instances of TMine
-//     can't run at the same time on Windows.
-ClassifyAlg1.UseTMine = false;
+ClassifyAlg1.UseTMine = true;
+ClassifyAlg1.TMineCacheFile = "MeritTuple_cache.root";
 ClassifyAlg1.xmlFileName = "$(GLASTCLASSIFYXMLPATH)/Pass7_Analysis_Protected.xml";
 
 
@@ -217,6 +215,7 @@ AnalysisNtupleAlg2.proTuple = true;
 
 ClassifyAlg2.TreeName = "PrimeTuple";
 ClassifyAlg2.UseTMine = true;
+ClassifyAlg1.TMineCacheFile = "PrimeTuple_cache.root";
 ClassifyAlg2.xmlFileName = "$(GLASTCLASSIFYXMLPATH)/Pass8_Analysis_Open.xml";
 
 // default output to GLEAMDATAPATH
