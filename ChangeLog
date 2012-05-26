@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Fri May 25 18:10:15 PDT 2012
+Gleam/src
+
+Modified Files:
+	basicOptions.txt jobOptions.txt 
+Log Message:
+in Sequencer/Cal2, rename "second" to "CalReconEnergy"
+
+    *
+------------------------------------------------------------
 User: lsrea  Fri May 25 14:40:19 PDT 2012
 Gleam/src/jobOptions/pipeline
 
