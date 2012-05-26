@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.289 2012/05/17 06:41:02 lsrea Exp $
+ * $Id: release.notes,v 1.290 2012/05/18 18:59:54 lsrea Exp $
 * EOH
 
+ Gleam-07-11-00 26-May-2012  lsrea fixes to readigi_runrecon, and p7repro calibrations
  Gleam-07-10-10 18-May-2012  lsrea TMineX2 problem fixed!
  Gleam-07-10-09 16-May-2012  lsrea Temporarily turn off TMine for ClassifyAlg1
  Gleam-07-10-08 15-May-2012  lsrea Updated to new Gaudi, added Acd2ValsTool
