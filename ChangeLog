@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Wed May 30 17:19:01 PDT 2012
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+ Actually turn on the Audits
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-11-00, operation: add
 Package: Gleam
