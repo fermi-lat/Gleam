@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Wed Jun 13 10:05:58 PDT 2012
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br02
+	readigi_runrecon.txt 
+Log Message:
+Missed a DLL
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp30, operation: add
 Package: Gleam
