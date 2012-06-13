@@ -113,8 +113,9 @@ ApplicationMgr.ExtSvc += {"GlastPropagatorSvc"};
 //
 // Reconstruction:
 //
-ApplicationMgr.DLLs += {"TkrUtil",
-                        "CalRecon",
+ApplicationMgr.DLLs += {"CalRecon",
+                        "TkrUtil",
+                        "TkrDigi",
                         "TkrRecon"};
 
 Reconstruction.Members = {"Sequencer/Cal1", 
