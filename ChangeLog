@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: heather  Mon Jul  2 05:51:59 PDT 2012
-Gleam
-
-Modified Files:
-	SConscript 
-Log Message:
-tag patch to basicOptions
-    *
-------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp29, operation: add
 Package: Gleam
