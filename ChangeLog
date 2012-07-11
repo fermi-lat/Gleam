@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Tue Jul 10 18:42:39 PDT 2012
+GlastRelease-scons/Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+need separate construc. envs for Gleam and test_Gleam
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-04-00, operation: add
 Package: Gleam
