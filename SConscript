@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.58 2012/06/19 21:49:37 lsrea Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/SConscript,v 1.59 2012/07/02 12:51:59 heather Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
 # Version: Gleam-07-11-04
 Import('baseEnv')
@@ -20,12 +20,13 @@ progEnv.Tool('configDataLib')
 progEnv.Tool('RootConvertLib')
 progEnv.Tool('rootUtilLib')
 progEnv.Tool('GlastClassifyLib')
+progEnvTest = progEnv.Clone()
 
 Gleam = progEnv.GaudiProgram('Gleam',[],test=0, package='Gleam') 
-test_Gleam = progEnv.GaudiProgram('test_Gleam', listFiles(['src/test/*.cxx']),
+test_Gleam = progEnvTest.GaudiProgram('test_Gleam', listFiles(['src/test/*.cxx']),
 				  test=1, package='Gleam')
 progEnv.Tool('registerTargets', package = 'Gleam', 
-	     testAppCxts = [[test_Gleam, progEnv]],
+	     testAppCxts = [[test_Gleam, progEnvTest]],
 	     binaryCxts = [[Gleam, progEnv]],
          data = ['data/dummy.txt'],
 	     jo = listFiles(['src/*.txt', 'src/test/*.txt',
