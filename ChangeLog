@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Thu Jul 19 07:55:37 PDT 2012
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	calibrations.txt 
+Log Message:
+Implement the dead GTRC in tower 10, plane 0
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-11-06, operation: add
 Package: Gleam
