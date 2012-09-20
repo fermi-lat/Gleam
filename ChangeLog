@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kadrlica  Wed Sep 19 17:17:38 PDT 2012
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+Run Pass8 worksheet in sequence after Pass7; turn off PrimeTuple for time being.
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-05-00, operation: add
 Package: Gleam
