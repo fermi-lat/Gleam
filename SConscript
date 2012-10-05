@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.65 2012/10/01 18:25:11 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.66 2012/10/05 19:03:26 heather Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
-# Version: Gleam-07-11-10
+# Version: Gleam-07-11-11
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
