@@ -2,9 +2,10 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.302 2012/10/05 21:10:33 lsrea Exp $
+ * $Id: release.notes,v 1.303 2012/10/06 03:00:03 lsrea Exp $
 * EOH
 
+ Gleam-07-11-13 05-Oct-2012  lsrea really restore basicOptions
  Gleam-07-11-12 05-Oct-2012  lsrea put basicOptions back the way it was
  Gleam-07-11-11 05-Oct-2012  lsrea removed ClassifyAlg2 from NtupleMaker1
  Gleam 07-11-10 05-Oct-2012 heather patch basicOptions path for P8 xml file
