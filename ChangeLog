@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sat Oct  6 05:58:31 PDT 2012
+Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+provide unique name for ClassifyAlg2 TMine cache file
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-11-13, operation: add
 Package: Gleam
