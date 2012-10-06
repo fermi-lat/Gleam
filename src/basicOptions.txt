@@ -1,9 +1,9 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.163 2012/10/05 19:03:27 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.164 2012/10/05 21:10:01 lsrea Exp $
 
-// primary DLLs, including auditor 
+// primary DLLs, including auditor  
 
 ApplicationMgr.DLLs+= { "GaudiAlg", "GaudiAud"};
 ApplicationMgr.ExtSvc += {"ChronoStatSvc"};
@@ -196,7 +196,8 @@ ApplicationMgr.AuditAlgorithms = true;
 NtupleMaker1.Members = {
     "PtValsAlg/PtValsAlg1",   
     "AnalysisNtupleAlg/AnalysisNtupleAlg1",
-    "ClassifyAlg/ClassifyAlg1",              
+    "ClassifyAlg/ClassifyAlg1",
+    "ClassifyAlg/ClassifyAlg2", // just for now, note that NtupleMaker2 is disabled              
     "FT1Alg/FT1Alg1",                  
     "McCoordsAlg/McCoordsAlg1",  
     "ObfCoordsAlg/ObfCoordsAlg1" 
