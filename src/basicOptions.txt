@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.164 2012/10/05 21:10:01 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.165 2012/10/06 03:02:58 lsrea Exp $
 
 // primary DLLs, including auditor  
 
@@ -207,7 +207,7 @@ ClassifyAlg1.TMineCacheFile = "MeritTuple_cache.root";
 ClassifyAlg1.xmlFileName = "$(GLASTCLASSIFYXMLPATH)/Pass7_Analysis_Protected.xml";
 //ClassifyAlg1.xmlFileName = "$(EXTFILESSYS)/pass8Analysis/xml/Pass8_Analysis_Open.xml";
 ClassifyAlg2.UseTMine = true;
-ClassifyAlg2.TMineCacheFile = "MeritTuple_cache.root";
+ClassifyAlg2.TMineCacheFile = "MeritTuple2_cache.root";
 ClassifyAlg2.xmlFileName = "$(EXTFILESSYS)/pass8Analysis/xml/Pass8_Analysis_Open.xml";
 
 // /// ADW: Make production tuple named PrimeTuple
