@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kadrlica  Tue Oct 16 10:51:17 PDT 2012
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+Turned off Pass8 worksheet due to memory issues
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-06-02, operation: add
 Package: Gleam
