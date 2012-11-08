@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Thu Nov  8 14:19:47 PST 2012
+GlastRelease-scons/Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+point basicOptions to new geometry
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-06-04, operation: add
 Package: Gleam
