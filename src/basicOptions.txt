@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/Gleam/src/basicOptions.txt,v 1.167 2012/10/16 17:51:17 kadrlica Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.168 2012/11/08 22:19:47 lsrea Exp $
 
 // primary DLLs, including auditor  
 
@@ -302,10 +302,6 @@ FluxSvc.source_lib += {
 //
 ApplicationMgr.ExtSvc   += { "TkrGeometrySvc"};
 ApplicationMgr.ExtSvc   += { "TkrInitSvc"};
-
-// this fixes a HE track pattern recognition problem
-// *** it should be done in TkrRecon ***
-TkrFilterFirst.FilterToolName="TkrCalFilterTool";
 
 // -------------------------------------------
 //  Calibration sevices
