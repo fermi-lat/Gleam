@@ -2,6 +2,17 @@
 TAG
 Tag name: GlastRelease-20-08-00, operation: add
 Package: Gleam
+User: heather  Fri Dec 14 13:02:44 2012
+Files:
+  Gleam/src/test/.cvsignore  1.1
+  Gleam/src/test/jobOptions.txt  1.44
+  Gleam/src/test/userOptions.txt  1.2
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-00, operation: add
+Package: Gleam
 User: heather  Fri Dec 14 13:02:32 2012
 Files:
   Gleam/.cvsignore  1.4
