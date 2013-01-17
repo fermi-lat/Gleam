@@ -1,5 +1,47 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-08-03, operation: add
+Package: Gleam
+User: heather  Thu Jan 17 11:48:12 2013
+Files:
+  Gleam/.cvsignore  1.4
+  Gleam/ChangeLog  1.1873
+  Gleam/GleamLib.py  1.3
+  Gleam/SConscript  1.73
+  Gleam/cmt/.cvsignore  1.2
+  Gleam/cmt/NMake  1.1.1.1
+  Gleam/cmt/requirements  1.450
+  Gleam/cmt/Makefile  1.1
+  Gleam/data/dummy.txt  1.1
+  Gleam/doc/release.notes  1.308
+  Gleam/src/calibration.txt  1.9
+  Gleam/src/readdigi.txt  1.15
+  Gleam/src/wiredOptions.txt  1.2
+  Gleam/src/readAndDisplay.txt  1.15
+  Gleam/src/mainpage.h  1.3
+  Gleam/src/fredOptions.txt  1.9
+  Gleam/src/skymodel.txt  1.3
+  Gleam/src/interleave.txt  1.8
+  Gleam/src/SAAboundary.txt  1.1
+  Gleam/src/basicOptions.txt  1.169
+  Gleam/src/full_source_simulation.txt  1.12
+  Gleam/src/default.txt  1.24
+  Gleam/src/background.txt  1.2
+  Gleam/src/readDisplayAndWrite.txt  1.7
+  Gleam/src/jobOptions.txt  1.30
+  Gleam/src/clocks.xml  1.1
+  Gleam/src/readMcAndDigi.txt  1.4
+  Gleam/src/guiOptions.txt  1.11
+  Gleam/src/jobOptions/pipeline/calibrations.txt  1.16
+  Gleam/src/jobOptions/pipeline/ldf2digi.txt  1.27
+  Gleam/src/jobOptions/pipeline/readigi_runrecon.txt  1.25
+  Gleam/src/test/.cvsignore  1.1
+  Gleam/src/test/jobOptions.txt  1.44
+  Gleam/src/test/userOptions.txt  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-20-08-02, operation: add
 Package: Gleam
 User: heather  Fri Jan 11 17:26:16 2013
