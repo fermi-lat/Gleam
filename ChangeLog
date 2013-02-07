@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kadrlica  Thu Feb  7 12:50:51 PST 2013
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+Turn off the Pass7 worksheet and turn on the Pass8 worksheet
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-08-06, operation: add
 Package: Gleam
