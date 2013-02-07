@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.168 2012/11/08 22:19:47 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.169 2012/12/09 20:37:09 usher Exp $
 
 // primary DLLs, including auditor  
 
@@ -189,7 +189,6 @@ ApplicationMgr.DLLs += {
       , "GlastClassify" 
 };
 
-/// ADW: Make development tuple with defaults (i.e. MeritTuple)
 /// Can't duplicate Auditor yet...
 AuditorSvc.Auditors += {"EventAuditor"}; // For event-by-event timing
 ApplicationMgr.AuditAlgorithms = true;
@@ -197,20 +196,17 @@ NtupleMaker1.Members = {
     "PtValsAlg/PtValsAlg1",   
     "AnalysisNtupleAlg/AnalysisNtupleAlg1",
     "ClassifyAlg/ClassifyAlg1",
-    //"ClassifyAlg/ClassifyAlg2", // For running Pass8 on the MeritTuple
     "FT1Alg/FT1Alg1",                  
     "McCoordsAlg/McCoordsAlg1",  
     "ObfCoordsAlg/ObfCoordsAlg1" 
  };
 ClassifyAlg1.UseTMine = true;
 ClassifyAlg1.TMineCacheFile = "MeritTuple_cache.root";
-ClassifyAlg1.xmlFileName = "$(GLASTCLASSIFYXMLPATH)/Pass7_Analysis_Protected.xml";
-//ClassifyAlg1.xmlFileName = "$(EXTFILESSYS)/pass8Analysis/xml/Pass8_Analysis_Open.xml";
-//ClassifyAlg2.UseTMine = true;
-//ClassifyAlg2.TMineCacheFile = "MeritTuple2_cache.root";
-//ClassifyAlg2.xmlFileName = "$(EXTFILESSYS)/pass8Analysis/xml/Pass8_Analysis_Open.xml";
+//ClassifyAlg1.xmlFileName = "$(GLASTCLASSIFYXMLPATH)/Pass7_Analysis_Protected.xml";
+ClassifyAlg1.xmlFileName = "$(EXTFILESSYS)/pass8Analysis/xml/Pass8_Analysis_Open.xml";
 
 // /// ADW: Make production tuple named PrimeTuple
+// /// This requires the promotion of PrimeTuple variables.
 // NtupleMaker2.Members = {
 //     "AnalysisNtupleAlg/AnalysisNtupleAlg2",
 //     "ClassifyAlg/ClassifyAlg2"
