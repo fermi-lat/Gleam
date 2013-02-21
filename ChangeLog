@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bregeon  Thu Feb 21 10:12:04 PST 2013
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	readigi_runrecon.txt 
+Log Message:
+up to date for 20-08-08, no primeTuple yet
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp40, operation: add
 Package: Gleam
