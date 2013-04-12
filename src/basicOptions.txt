@@ -1,13 +1,17 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.169 2012/12/09 20:37:09 usher Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.170 2013/02/07 20:50:51 kadrlica Exp $
 
 // primary DLLs, including auditor  
 
 ApplicationMgr.DLLs+= { "GaudiAlg", "GaudiAud"};
 ApplicationMgr.ExtSvc += {"ChronoStatSvc"};
 AuditorSvc.Auditors = {"ChronoAuditor"};
+
+ChronoStatSvc.PrintSystemTime = true;
+ChronoStatSvc.PrintEllapsedTime = true;
+
 
 // ----------------------------
 // setup basic event loop stuff
