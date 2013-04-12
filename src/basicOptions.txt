@@ -1,13 +1,17 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.135.12.3 2011/08/05 18:22:42 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.135.12.4 2011/08/05 18:26:28 heather Exp $
 
 // primary DLLs, including auditor 
 
 ApplicationMgr.DLLs+= { "GaudiAlg", "GaudiAud"};
 ApplicationMgr.ExtSvc += {"ChronoStatSvc"};
 AuditorSvc.Auditors = {"ChronoAuditor"};
+
+// These parameters are needed to get the full ChronoStat table output
+ChronoStatSvc.PrintSystemTime = true;
+ChronoStatSvc.PrintEllapsedTime = true;
 
 // ----------------------------
 // setup basic event loop stuff

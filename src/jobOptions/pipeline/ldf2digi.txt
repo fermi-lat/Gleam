@@ -21,6 +21,10 @@ ApplicationMgr.ExtSvc += {"MootSvc"};
 
 AuditorSvc.Auditors    = {"ChronoAuditor"};
 
+ChronoStatSvc.PrintSystemTime = true;
+ChronoStatSvc.PrintEllapsedTime = true;
+
+
 
 //
 // A structure for the topalg, using sequencer steps:
