@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Apr 12 11:55:53 PDT 2013
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	ldf2digi.txt readigi_runrecon.txt 
+Log Message:
+fix up Chrono output
+    *
+------------------------------------------------------------
 User: heather  Fri Apr 12 11:55:52 PDT 2013
 Gleam/src
 
