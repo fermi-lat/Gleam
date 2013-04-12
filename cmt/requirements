@@ -1,11 +1,11 @@
 package Gleam
 
-version v7r4p7gr10
+version v7r4p7gr12
 
 author T. Burnett <tburnett@u.washington.edu>
 build_strategy without_installarea
 
-# $Id: requirements,v 1.401.2.9 2011/10/29 03:28:02 heather Exp $
+# $Id: requirements,v 1.401.2.10 2013/04/12 18:55:51 heather Exp $
 
 use GuiSvc      v*
 
