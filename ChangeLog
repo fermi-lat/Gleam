@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Apr 12 11:55:50 PDT 2013
+Gleam
+
+Modified Files:
+      Tag: GlastReleasev18r3p1
+	SConscript 
+Log Message:
+fix up Chrono output
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp43, operation: add
 Package: Gleam
