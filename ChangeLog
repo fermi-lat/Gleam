@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Apr 12 12:06:10 PDT 2013
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	ldf2digi.txt readigi_runrecon.txt 
+Log Message:
+fix full chrono output
+    *
+------------------------------------------------------------
 User: heather  Fri Apr 12 12:06:09 PDT 2013
 Gleam/src
 
