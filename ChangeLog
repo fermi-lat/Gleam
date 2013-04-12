@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: heather  Fri Apr 12 12:06:09 PDT 2013
-Gleam/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-fix full chrono output
-    *
-------------------------------------------------------------
-User: heather  Fri Apr 12 12:06:08 PDT 2013
-Gleam/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-fix full chrono output
-    *
-------------------------------------------------------------
-User: heather  Fri Apr 12 12:06:07 PDT 2013
-Gleam
-
-Modified Files:
-	SConscript 
-Log Message:
-fix full chrono output
-    *
-------------------------------------------------------------
 TAG
 Tag name: Gleam-07-04-07-gr12, operation: add
 Package: Gleam
