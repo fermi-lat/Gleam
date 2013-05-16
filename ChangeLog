@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Thu May 16 15:36:40 PDT 2013
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	calibrations.txt 
+Log Message:
+add entries for FT1Alg1 and FT1Alg2
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: Gleam-07-11-20, operation: add
 Package: Gleam
