@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Fri Jun 21 13:10:02 PDT 2013
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	readigi_runrecon.txt 
+Log Message:
+Add TkrCRValsTool to the default list in readigi_runrecon.txt
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp44, operation: add
 Package: Gleam
