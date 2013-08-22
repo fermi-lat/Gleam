@@ -2,9 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.261.2.9.2.1 2012/01/30 21:20:23 heather Exp $
+ * $Id: release.notes,v 1.261.2.9.2.2 2012/04/20 19:02:13 heather Exp $
 * EOH
 
+* Gleam-07-04-07-gr13 22-Aug-2013 HMK get back to L1 branch and add chrono
+     update here too
 * Gleam-07-04-07-gr11 20-Apr-2012 HMK update pipeline JO for new Gaudi
 * Gleam-07-04-07-gr10 30-Jan-2012 HMK Gaudi v21r7
 * Gleam-07-04-07-gr09 28-Oct-2011 HMK patches for rest of JO files for SCons
