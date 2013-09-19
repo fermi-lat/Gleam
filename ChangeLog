@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Thu Sep 19 11:40:16 PDT 2013
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	calibrations.txt 
+Log Message:
+moving to use L1current flavor in L1
+    *
+------------------------------------------------------------
+User: heather  Thu Sep 19 11:40:16 PDT 2013
 Gleam/doc
 
 Modified Files:
