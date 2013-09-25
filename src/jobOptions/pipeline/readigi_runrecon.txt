@@ -194,9 +194,9 @@ PtValsAlg.PointingHistory = {"FT2_Gleam.fits", "", ""};
 // S/C alignment:
 //
 FT1Alg.CorrectForAberration = true;
-FT1Alg.AlignmentFlavor      = "vanilla";
+FT1Alg.AlignmentFlavor      = "L1current";
 
-FT1Alg.EventClassDefinitions = "$(EVTUTILSXMLPATH)/EvtClassDefs_P7V6.xml";
+FT1Alg.EventClassDefinitions = "$(EVTUTILSXMLPATH)/EvtClassDefs_P7REP.xml";
 
 
 //
@@ -309,7 +309,7 @@ ApplicationMgr.EvtMax = -1;
 //
 // Geometry: Use flight geometry!
 //
-GlastDetSvc.xmlfile = "$(XMLGEODBSXMLPATH)/flight/flightSegVols.xml";
+GlastDetSvc.xmlfile = "$(XMLGEODBSXMLPATH)/flight01/flightSegVols.xml";
 
 
 //
