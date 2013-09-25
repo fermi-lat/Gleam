@@ -2,9 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.261.2.9.2.3 2013/08/22 10:08:47 heather Exp $
+ * $Id: release.notes,v 1.261.2.9.2.4 2013/09/19 18:40:16 heather Exp $
 * EOH
 
+* Gleam-07-04-07-gr15 25-Sep-2013 HMK JIRA LONE-198 to update pipline's
+   readigi_runrecon.txt JO
 * Gleam-07-04-07-gr14 19-Sep-2013 HMK Insert updated calibrations under
   pipeline that Leon created to use the L1current flavor
 * Gleam-07-04-07-gr13 22-Aug-2013 HMK get back to L1 branch and add chrono
