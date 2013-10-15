@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Tue Oct 15 12:09:20 PDT 2013
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	calibrations.txt readigi_runrecon.txt 
+Log Message:
+preparing to tag a fresh Gleam for a new GR HEAD in prep for JIRA LPATE-167
+    *
+------------------------------------------------------------
+User: heather  Tue Oct 15 12:09:20 PDT 2013
 Gleam/doc
 
 Modified Files:
