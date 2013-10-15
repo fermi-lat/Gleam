@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Oct 15 12:09:20 PDT 2013
+Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+preparing to tag a fresh Gleam for a new GR HEAD in prep for JIRA LPATE-167
+    *
+------------------------------------------------------------
 User: heather  Wed Sep 25 10:31:58 PDT 2013
 Gleam/src/jobOptions/pipeline
 
