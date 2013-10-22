@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Tue Oct 22 09:56:19 PDT 2013
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	ldf2digi.txt 
+Log Message:
+move to use flight01 rather than flight subdir in xmlGeoDbs
+    *
+------------------------------------------------------------
+User: heather  Tue Oct 22 09:56:19 PDT 2013
 Gleam/doc
 
 Modified Files:
