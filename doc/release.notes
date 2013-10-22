@@ -2,9 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.261.2.9.2.4 2013/09/19 18:40:16 heather Exp $
+ * $Id: release.notes,v 1.261.2.9.2.5 2013/09/25 17:31:58 heather Exp $
 * EOH
 
+* Gleam-07-04-07-gr16 22-Oct-2013 HMK JIRA LONE-199 move to use 
+   flight01/flightSegVols.xml rather than flight/flightSegVols.txt
 * Gleam-07-04-07-gr15 25-Sep-2013 HMK JIRA LONE-198 to update pipline's
    readigi_runrecon.txt JO
 * Gleam-07-04-07-gr14 19-Sep-2013 HMK Insert updated calibrations under
