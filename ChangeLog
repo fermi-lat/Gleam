@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Tue Oct 22 09:56:19 PDT 2013
+Gleam
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	SConscript 
+Log Message:
+move to use flight01 rather than flight subdir in xmlGeoDbs
+    *
+------------------------------------------------------------
 User: heather  Tue Oct 15 12:09:20 PDT 2013
 Gleam/src/jobOptions/pipeline
 
