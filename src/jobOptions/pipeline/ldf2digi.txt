@@ -154,8 +154,7 @@ ApplicationMgr.EvtMax = 0;
 //
 // Geometry: Use flight geometry!
 //
-GlastDetSvc.xmlfile = "$(XMLGEODBSXMLPATH)/flight/flightSegVols.xml";
-
+GlastDetSvc.xmlfile = "$(XMLGEODBSXMLPATH)/flight01/flightSegVols.xml";
 
 // Evt file as input:
 EventSelector.StorageType = "CCSDSFILE";
