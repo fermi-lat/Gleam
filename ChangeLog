@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Tue Nov  5 09:22:58 PST 2013
+Gleam/src/jobOptions/simulations
+
+Added Files:
+	allElectron.txt allMuon.txt background.txt 
+Log Message:
+Checking in the base versions of JO files for AllElectron, allMuon and background
+    *
+------------------------------------------------------------
 User: heather  Thu Oct 31 09:34:42 PDT 2013
 Gleam/src/jobOptions/simulations
 
