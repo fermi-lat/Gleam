@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bregeon  Tue Nov  5 10:08:12 PST 2013
+Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+add new simulations sub dir
+    *
+------------------------------------------------------------
 User: bregeon  Tue Nov  5 09:44:51 PST 2013
 Gleam/src/jobOptions/simulations
 
