@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: bregeon  Tue Nov  5 10:14:50 PST 2013
+Gleam/src/jobOptions/simulations
+
+Modified Files:
+	allGammaWithOverlay.txt 
+Added Files:
+	allGamma.txt 
+Log Message:
+create allGamma with no overlay, move everything into it but what is needed for overlays
+    *
+------------------------------------------------------------
 User: bregeon  Tue Nov  5 10:08:12 PST 2013
 Gleam
 
