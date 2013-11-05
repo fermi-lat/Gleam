@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.78 2013/06/21 20:10:46 lsrea Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/Gleam/SConscript,v 1.79 2013/10/15 19:09:20 heather Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
 # Version: Gleam-08-00-00
 Import('baseEnv')
@@ -30,6 +30,7 @@ progEnv.Tool('registerTargets', package = 'Gleam',
 	     binaryCxts = [[Gleam, progEnv]],
          data = ['data/dummy.txt'],
 	     jo = listFiles(['src/*.txt', 'src/test/*.txt',
+                             'src/jobOptions/simulations/*.txt',
 			     'src/jobOptions/pipeline/*.txt']) )
 
 
