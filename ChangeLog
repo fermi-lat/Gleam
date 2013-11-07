@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: carmelo  Thu Nov  7 06:55:05 PST 2013
+Gleam/src/jobOptions/simulations
+
+Modified Files:
+	allElectron.txt allMuon.txt 
+Log Message:
+removing OnboardFilter lines since they correspond to defaults
+    *
+------------------------------------------------------------
 User: carmelo  Thu Nov  7 05:39:23 PST 2013
 Gleam/src/jobOptions/simulations
 
