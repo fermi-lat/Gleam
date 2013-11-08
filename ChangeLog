@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: carmelo  Fri Nov  8 02:17:44 PST 2013
+Gleam/src/jobOptions/simulations
+
+Modified Files:
+	allElectron.txt allMuon.txt background.txt 
+Added Files:
+	allProton.txt 
+Log Message:
+added allProton, fixed output path
+    *
+------------------------------------------------------------
 User: carmelo  Thu Nov  7 06:55:05 PST 2013
 Gleam/src/jobOptions/simulations
 
