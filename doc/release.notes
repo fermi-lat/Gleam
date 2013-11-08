@@ -2,9 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.313 2013/06/21 20:10:46 lsrea Exp $
+ * $Id: release.notes,v 1.314 2013/10/15 19:09:20 heather Exp $
 * EOH
 
+ Gleam-08-00-01 08-Nov-2013 heather Continuing to update JO for sims as
+  outlined in JIRA LPATE-167
  Gleam-08-00-00 15-Oct-2013 heather Cleaning up JO files and moving to 
   updated src/jobOptions/pipeline/calibrations.txt and introducing
   src/jobOptions/simulations area to store MC related JO files
