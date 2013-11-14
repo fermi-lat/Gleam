@@ -2,9 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.314 2013/10/15 19:09:20 heather Exp $
+ * $Id: release.notes,v 1.315 2013/11/08 14:32:24 heather Exp $
 * EOH
 
+ Gleam-08-00-02 14-Nov-2013 heather tagging bruel's update to basicOptions
+  to include Leon's updates to be sure 20-09-05 matches 20-09-02
  Gleam-08-00-01 08-Nov-2013 heather Continuing to update JO for sims as
   outlined in JIRA LPATE-167
  Gleam-08-00-00 15-Oct-2013 heather Cleaning up JO files and moving to 
