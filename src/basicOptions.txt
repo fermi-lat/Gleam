@@ -1,7 +1,7 @@
 //##############################################################
 //
 // basic Job options file for a Gleam execution
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.171 2013/04/12 19:06:09 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/basicOptions.txt,v 1.172 2013/11/05 17:29:00 bregeon Exp $
 
 // primary DLLs, including auditor  
 
@@ -335,6 +335,15 @@ ApplicationMgr.Dlls += {"CalXtalResponse"};
 // add this service last since it may pick up  
 // details from other services
 ApplicationMgr.ExtSvc += {"RootTupleSvc"};
+
+//
+// Add the following so that we match the bahavior of 20-09-02 
+TkrFindFirst.DoCRTrackDeghosting = true; // no deghosting in -04, because we may not do CR tracking
+TkrFindIter.DoCRTrackDeghosting = true;
+TkrFindFirst.DoStandardTrackDeghosting = true;
+TkrFindIter.DoStandardTrackDeghosting = true;
+ToolSvc.TkrGhostTool.ClearGhostBits = true; // this was a bug in -02, is false in -04
+ToolSvc.TkrGhostTool.MinimumHitsForGhostTrack = 1; // this is 2 for -04
 
 // output levels, including suppression to allow debug, info
 mcRootWriterAlg.OutputLevel=3;
