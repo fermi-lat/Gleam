@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bregeon  Tue Nov 19 11:25:48 PST 2013
+Gleam/src/jobOptions/simulations
+
+Added Files:
+	GCRCalib.txt 
+Log Message:
+new job option file to run GCRCalib, needs basicOptions.txt
+    *
+------------------------------------------------------------
 User: bregeon  Tue Nov 19 11:25:06 PST 2013
 Gleam/src/jobOptions/simulations
 
