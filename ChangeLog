@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bregeon  Tue Nov 19 11:24:25 PST 2013
+Gleam/src/jobOptions/simulations
+
+Modified Files:
+	allGamma.txt 
+Log Message:
+remove useless gcr - LPATE-171
+    *
+------------------------------------------------------------
 User: bregeon  Tue Nov 19 11:23:43 PST 2013
 Gleam/src
 
