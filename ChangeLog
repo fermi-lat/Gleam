@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bregeon  Tue Nov 19 11:25:06 PST 2013
+Gleam/src/jobOptions/simulations
+
+Modified Files:
+	background.txt 
+Log Message:
+move GCRCalib to separate job option file - LPATE-171
+    *
+------------------------------------------------------------
 User: bregeon  Tue Nov 19 11:24:25 PST 2013
 Gleam/src/jobOptions/simulations
 
