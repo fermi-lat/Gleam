@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bregeon  Tue Nov 19 11:23:43 PST 2013
+Gleam/src
+
+Modified Files:
+	basicOptions.txt 
+Log Message:
+remove gcr and AcdReconAlg(v1) - LPATE-171
+    *
+------------------------------------------------------------
 User: heather  Thu Nov 14 10:34:43 PST 2013
 Gleam/doc
 
