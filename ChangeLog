@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bregeon  Wed Nov 20 06:46:02 PST 2013
+Gleam/src/jobOptions/simulations
+
+Modified Files:
+	allElectron.txt allMuon.txt allProton.txt 
+Log Message:
+remove useless gcr lines - LPATE-171
+    *
+------------------------------------------------------------
 User: bregeon  Tue Nov 19 11:25:48 PST 2013
 Gleam/src/jobOptions/simulations
 
