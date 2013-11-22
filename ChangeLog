@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: bregeon  Fri Nov 22 01:35:25 PST 2013
+Gleam/src/jobOptions/simulations
+
+Modified Files:
+	allElectron.txt allGamma.txt allMuon.txt allProton.txt 
+	background.txt 
+Log Message:
+use the new mc_calibrations.txt jo
+    *
+------------------------------------------------------------
 User: bregeon  Fri Nov 22 01:28:05 PST 2013
 Gleam/src/jobOptions/simulations
 
