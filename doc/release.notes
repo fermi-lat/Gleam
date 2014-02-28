@@ -2,9 +2,11 @@
  * @brief package Gleam
  * @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.317 2013/11/22 09:48:07 bregeon Exp $
+ * $Id: release.notes,v 1.318 2013/12/18 17:50:28 carmelo Exp $
 * EOH
 
+ Gleam-08-00-05 28-Feb-2014 heather Setting AcdDigiAlg.applyCoherentNoise =
+false in unit test since we do not use overlays
  Gleam-08-00-04 18-Dec-2013 carmelo calibration default update
  Gleam-08-00-03 22-Nov-2013 bregeon Updated job options for simulations - LPATE-168 and LPATE-171
  Gleam-08-00-02 14-Nov-2013 heather tagging bruel's update to basicOptions
