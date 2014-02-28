@@ -1,7 +1,7 @@
 //##############################################################
 //
 // Job options file for Gleam test
-// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.43 2010/06/12 01:25:59 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/Gleam/src/test/jobOptions.txt,v 1.44 2011/08/25 21:11:35 lsrea Exp $
 
 // just run the "default" job with mods below
 #include "$GLEAMJOBOPTIONSPATH/default.txt"
@@ -24,6 +24,9 @@ MeritAlg.generated = 1000;
 // test using the trigger engine
 
 OnboardFilter.RejectEvents = true;      // enable OBF
+
+// HMK Feb 20, 2014 Avoiding overlay use in Unit Test 
+AcdDigiAlg.applyCoherentNoise = false;
 
 #include "$GLEAMJOBOPTIONSPATH/calibration.txt"
 
