@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Feb 27 22:00:26 PST 2014
+Gleam
+
+Modified Files:
+	SConscript 
+Log Message:
+trying Eric's suggestion of setting AcdDigiAlg.applyCoherentNoise to false to avoid unit test failue since we are not using overlays
+    *
+------------------------------------------------------------
 User: carmelo  Wed Dec 18 09:50:28 PST 2013
 Gleam/cmt
 
