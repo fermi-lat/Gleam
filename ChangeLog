@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bregeon  Fri Jan 30 02:44:58 PST 2015
+Gleam/src/jobOptions/pipeline
+
+Modified Files:
+	readigi_runrecon.txt 
+Log Message:
+add default job options to mimic ghost handling of P300 repro, GR 20-09-02
+    *
+------------------------------------------------------------
 User: glastrm  Tue Apr  8 15:30:36 PDT 2014
 Gleam
 
